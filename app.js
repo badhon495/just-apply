@@ -3,7 +3,7 @@ const companies = [
     name: "Brain Station 23 PLC",
     location: "1 Mohakhali C/A (12th Floor), Dhaka",
     website: "brainstation-23.com",
-    career: "brainstation-23.com/career/",
+    career: "brainstation-23.easy.jobs/",
     email: "sales@brainstation-23.com; raisul@brainstation-23.com",
     linkedin: "linkedin.com/company/brainstation-23",
     contact: "Raisul Kabir (CEO)"
