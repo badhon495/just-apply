@@ -960,6 +960,9 @@ const countEl     = document.getElementById('count');
 const noResults   = document.getElementById('no-results');
 const searchInput = document.getElementById('search');
 
+// Tracks companies opened this page session (resets on reload)
+const viewedCompanies = new Set();
+
 function linkVal(v) {
   if (!v) return `<span class="na">N/A</span>`;
   const url = v.includes('@') ? `mailto:${v}` : `https://${v}`;
@@ -1020,6 +1023,10 @@ function buildItem(c) {
   function toggle() {
     const isOpen = el.classList.toggle('open');
     header.setAttribute('aria-expanded', isOpen);
+    if (isOpen && !viewedCompanies.has(c.name)) {
+      viewedCompanies.add(c.name);
+      el.classList.add('viewed');
+    }
   }
   header.addEventListener('click', toggle);
   header.addEventListener('keydown', e => {

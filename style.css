@@ -301,6 +301,22 @@ main {
   transform: rotate(180deg);
 }
 
+.company-item.viewed .company-header {
+  background: #f0fdf4;
+}
+
+.company-item.viewed .company-header:hover {
+  background: #dcfce7;
+}
+
+.company-item.viewed .company-name {
+  color: #16a34a;
+}
+
+.company-item.viewed {
+  border-color: #bbf7d0;
+}
+
 .company-body {
   display: none;
   border-top: 1px solid var(--border);
