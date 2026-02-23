@@ -1,11 +1,11 @@
 const companies = [
   {
     name: "Brain Station 23 PLC",
-    location: "1 Mohakhali C/A (12th Floor), Dhaka",
+    location: "8th Floor, 2 Bir Uttam AK Khandakar Road, Mohakhali C/A, Dhaka",
     website: "brainstation-23.com",
-    career: "brainstation-23.easy.jobs/",
-    email: "sales@brainstation-23.com; raisul@brainstation-23.com",
-    linkedin: "linkedin.com/company/brainstation-23",
+    career: "brainstation-23.easy.jobs",
+    email: "career@brainstation-23.com",
+    linkedin: "linkedin.com/company/brainstation-23; linkedin.com/showcase/brain-station-23-careers-and-culture",
     contact: "Raisul Kabir (CEO)"
   },
   {
@@ -13,7 +13,7 @@ const companies = [
     location: "H-2275, Satarkul, Badda, Dhaka",
     website: "bjitgroup.com",
     career: "bjitgroup.com/career",
-    email: "career@bjitgroup.com; hasan.abdullah@bjitgroup.com",
+    email: "career@bjitgroup.com",
     linkedin: "linkedin.com/company/bjit",
     contact: "Hasan Abdullah (HR Recruitment Lead); Mehedi Masud (COO)"
   },
@@ -21,7 +21,7 @@ const companies = [
     name: "Vivasoft Limited",
     location: "Ahmed Tower (Levels 11, 16, 19), Banani, Dhaka",
     website: "vivasoftltd.com",
-    career: "vivasoftltd.com/career/",
+    career: "vivasoftltd.com/career",
     email: "contact@vivasoftltd.com",
     linkedin: "linkedin.com/company/vivasoftltd",
     contact: null
@@ -39,17 +39,17 @@ const companies = [
     name: "Kaz Software Limited",
     location: "35/5 Shantinagar, Dhaka",
     website: "kaz.com.bd",
-    career: "kaz.com.bd/career",
+    career: "kaz.com.bd/company/career",
     email: "info@kaz.com.bd",
     linkedin: "linkedin.com/company/kaz-software-limited",
     contact: null
   },
   {
     name: "TigerIT Bangladesh Ltd.",
-    location: "House 21, Road 28, Banani, Dhaka",
+    location: "Mirpur DOHS Cultural Center (Level 2), Road 9, Mirpur DOHS, Dhaka",
     website: "tigerit.com",
-    career: "tigerit.com/careers",
-    email: "careers@tigerit.com; info@tigerit.com",
+    career: null,
+    email: "careers@tigerit.com",
     linkedin: "linkedin.com/company/tigerit-bangladesh-limited",
     contact: "Ziaur Rahman (CEO)"
   },
@@ -58,17 +58,17 @@ const companies = [
     location: "Rupayan Shelford (Level 20), Mirpur Road, Dhaka",
     website: "datasoft-bd.com",
     career: "datasoft-bd.com/career/",
-    email: "info@datasoft-bd.com",
+    email: "career@datasoft-bd.com",
     linkedin: "linkedin.com/company/datasoft-systems-bangladesh-limited",
     contact: "Mohammad Manjur Mahmud (COO)"
   },
   {
     name: "Cefalo Bangladesh Ltd.",
     location: "House 26, Road 5, Dhanmondi, Dhaka",
-    website: "cefalo.com",
+    website: "cefalo.com/en/",
     career: "cefalo.com/en/career",
     email: "mail@cefalo.com",
-    linkedin: "linkedin.com/company/cefalo-as",
+    linkedin: "linkedin.com/company/cefalo-as; linkedin.com/showcase/cefalobangladesh",
     contact: null
   },
   {
@@ -1009,7 +1009,7 @@ function buildItem(c) {
         <hr class="info-divider" />
 
         <span class="info-label">LinkedIn</span>
-        <span class="info-value">${linkVal(c.linkedin)}</span>
+        <span class="info-value">${c.linkedin ? c.linkedin.split(';').map(l => linkVal(l.trim())).join('<br/>') : '<span class="na">N/A</span>'}</span>
 
         <hr class="info-divider" />
 
