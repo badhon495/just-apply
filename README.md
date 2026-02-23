@@ -4,7 +4,7 @@ A minimal, single-page website listing contact information of Bangladesh IT comp
 
 ## Features
 
-- Searchable list of 55+ Bangladesh IT companies
+- Searchable list of 50+ Bangladesh IT companies
 - Click any company name to expand its details
 - Shows location, website, career page, email, LinkedIn, and contact person
 - No dependencies — open `index.html` directly in any browser
