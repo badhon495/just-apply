@@ -1057,3 +1057,52 @@ searchInput.addEventListener('input', () => {
   noResults.style.display = visible === 0 ? '' : 'none';
   updateCount(visible, companies.length);
 });
+
+document.getElementById('exportXmlBtn').addEventListener('click', (e) => {
+  e.preventDefault();
+
+  function escXml(v) {
+    if (!v) return '';
+    return String(v)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&apos;');
+  }
+
+  const exportDate = new Date().toISOString().split('T')[0];
+  const lines = [
+    '<?xml version="1.0" encoding="UTF-8"?>',
+    '',
+    `<!-- Just Apply — Bangladesh IT Companies Directory -->`,
+    `<!-- Exported: ${exportDate} | Total companies: ${companies.length} -->`,
+    '',
+    `<companies total="${companies.length}">`,
+  ];
+
+  companies.forEach((c, i) => {
+    lines.push('');
+    lines.push(`  <!-- ${i + 1}. ${escXml(c.name)} -->`);
+    lines.push('  <company>');
+    lines.push(`    <name>${escXml(c.name)}</name>`);
+    lines.push(`    <location>${escXml(c.location)}</location>`);
+    lines.push(`    <website>${escXml(c.website)}</website>`);
+    lines.push(`    <career>${escXml(c.career)}</career>`);
+    lines.push(`    <email>${escXml(c.email)}</email>`);
+    lines.push(`    <linkedin>${escXml(c.linkedin)}</linkedin>`);
+    lines.push(`    <contact>${escXml(c.contact)}</contact>`);
+    lines.push('  </company>');
+  });
+
+  lines.push('');
+  lines.push('</companies>');
+
+  const blob = new Blob([lines.join('\n')], { type: 'application/xml' });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href     = url;
+  a.download = 'just-apply-companies.xml';
+  a.click();
+  URL.revokeObjectURL(url);
+});
