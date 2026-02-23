@@ -1,0 +1,21 @@
+{
+  "name": "Just Apply",
+  "short_name": "Just Apply",
+  "description": "Find contact information of Bangladesh IT companies for your job search. 55+ companies with HR emails, career pages, LinkedIn and more.",
+  "start_url": "/just-apply/",
+  "scope": "/just-apply/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "lang": "en",
+  "categories": ["business", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -3,238 +3,94 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Just Apply</title>
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-    :root {
-      --bg: #f9f9f9;
-      --surface: #ffffff;
-      --border: #e0e0e0;
-      --text-primary: #1a1a1a;
-      --text-secondary: #555555;
-      --text-muted: #999999;
-      --accent: #2563eb;
-      --accent-hover: #1d4ed8;
-      --tag-bg: #f0f0f0;
-      --na-color: #bbb;
-      --header-bg: #ffffff;
-      --row-hover: #f5f5f5;
-    }
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-V8XF8E885L"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-V8XF8E885L');
+  </script>
 
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      background: var(--bg);
-      color: var(--text-primary);
-      min-height: 100vh;
-      font-size: 14px;
-      line-height: 1.5;
-    }
+  <!-- Primary Meta Tags -->
+  <title>Just Apply — Bangladesh IT Companies Contact Directory for Job Seekers</title>
+  <meta name="title" content="Just Apply — Bangladesh IT Companies Contact Directory for Job Seekers" />
+  <meta name="description" content="Find HR emails, career pages, LinkedIn profiles and contact info for 55+ Bangladesh IT companies. The easiest way to apply for tech jobs in Bangladesh." />
+  <meta name="keywords" content="Bangladesh IT companies, tech jobs Bangladesh, IT job Bangladesh, HR email Bangladesh, software company Bangladesh, job seekers Bangladesh, apply IT job, Dhaka tech companies, career Bangladesh" />
+  <meta name="author" content="Badhon" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="language" content="English" />
+  <meta name="revisit-after" content="7 days" />
+  <link rel="canonical" href="https://badhon495.github.io/just-apply/" />
 
-    header {
-      background: var(--header-bg);
-      border-bottom: 1px solid var(--border);
-      padding: 28px 0 20px;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://badhon495.github.io/just-apply/" />
+  <meta property="og:title" content="Just Apply — Bangladesh IT Companies Contact Directory" />
+  <meta property="og:description" content="Find HR emails, career pages, LinkedIn profiles and contact info for 55+ Bangladesh IT companies. The easiest way to apply for tech jobs in Bangladesh." />
+  <meta property="og:site_name" content="Just Apply" />
+  <meta property="og:locale" content="en_US" />
 
-    .container {
-      max-width: 860px;
-      margin: 0 auto;
-      padding: 0 20px;
-    }
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:url" content="https://badhon495.github.io/just-apply/" />
+  <meta name="twitter:title" content="Just Apply — Bangladesh IT Companies Contact Directory" />
+  <meta name="twitter:description" content="Find HR emails, career pages, LinkedIn profiles and contact info for 55+ Bangladesh IT companies. The easiest way to apply for tech jobs in Bangladesh." />
 
-    header .container {
-      max-width: 100%;
-      display: flex;
-      align-items: center;
-      gap: 24px;
-      flex-wrap: wrap;
-    }
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="shortcut icon" href="favicon.svg" />
+  <link rel="apple-touch-icon" href="favicon.svg" />
 
-    .header-title {
-      flex: 1;
-    }
+  <!-- Web Manifest -->
+  <link rel="manifest" href="site.webmanifest" />
+  <meta name="theme-color" content="#2563eb" />
+  <meta name="msapplication-TileColor" content="#2563eb" />
+  <meta name="application-name" content="Just Apply" />
+  <meta name="apple-mobile-web-app-title" content="Just Apply" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="mobile-web-app-capable" content="yes" />
 
-    header h1 {
-      font-size: 20px;
-      font-weight: 700;
-      color: var(--text-primary);
-      letter-spacing: -0.3px;
+  <!-- Structured Data: WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Just Apply",
+    "url": "https://badhon495.github.io/just-apply/",
+    "description": "Contact information of Bangladesh IT companies for job seekers",
+    "inLanguage": "en",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://badhon495.github.io/just-apply/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
     }
+  }
+  </script>
 
-    header p {
-      font-size: 13px;
-      color: var(--text-muted);
-      margin-top: 3px;
+  <!-- Structured Data: WebPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Just Apply — Bangladesh IT Companies Contact Directory for Job Seekers",
+    "url": "https://badhon495.github.io/just-apply/",
+    "description": "Find HR emails, career pages, LinkedIn profiles and contact info for 55+ Bangladesh IT companies.",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "creator": {
+      "@type": "Person",
+      "name": "Badhon"
     }
+  }
+  </script>
 
-    .search-wrap {
-      flex-shrink: 0;
-    }
-
-    #search {
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      padding: 8px 14px;
-      font-size: 13px;
-      width: 220px;
-      background: var(--bg);
-      color: var(--text-primary);
-      outline: none;
-      transition: border-color 0.15s;
-    }
-
-    #search:focus {
-      border-color: var(--accent);
-    }
-
-    #search::placeholder {
-      color: var(--text-muted);
-    }
-
-    main {
-      padding: 24px 0 60px;
-    }
-
-    .count-bar {
-      margin-bottom: 14px;
-      font-size: 12px;
-      color: var(--text-muted);
-    }
-
-    .company-list {
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-    }
-
-    .company-item {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      overflow: hidden;
-      transition: box-shadow 0.15s;
-    }
-
-    .company-item:hover {
-      box-shadow: 0 1px 6px rgba(0,0,0,0.07);
-    }
-
-    .company-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 14px 18px;
-      cursor: pointer;
-      user-select: none;
-      gap: 12px;
-    }
-
-    .company-header:hover {
-      background: var(--row-hover);
-    }
-
-    .company-name {
-      font-size: 14px;
-      font-weight: 600;
-      color: var(--text-primary);
-      flex: 1;
-    }
-
-    .company-location-inline {
-      font-size: 12px;
-      color: var(--text-muted);
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      max-width: 280px;
-    }
-
-    .chevron {
-      width: 16px;
-      height: 16px;
-      flex-shrink: 0;
-      color: var(--text-muted);
-      transition: transform 0.2s ease;
-    }
-
-    .company-item.open .chevron {
-      transform: rotate(180deg);
-    }
-
-    .company-body {
-      display: none;
-      border-top: 1px solid var(--border);
-      padding: 18px 18px 20px;
-    }
-
-    .company-item.open .company-body {
-      display: block;
-    }
-
-    .info-grid {
-      display: grid;
-      grid-template-columns: 140px 1fr;
-      gap: 10px 16px;
-    }
-
-    .info-label {
-      font-size: 11px;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.6px;
-      color: var(--text-muted);
-      padding-top: 1px;
-    }
-
-    .info-value {
-      font-size: 13px;
-      color: var(--text-secondary);
-      word-break: break-word;
-    }
-
-    .info-value.na {
-      color: var(--na-color);
-      font-style: italic;
-    }
-
-    .info-value a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-
-    .info-value a:hover {
-      color: var(--accent-hover);
-      text-decoration: underline;
-    }
-
-    .info-divider {
-      grid-column: 1 / -1;
-      border: none;
-      border-top: 1px solid var(--border);
-      margin: 4px 0;
-    }
-
-    .no-results {
-      text-align: center;
-      color: var(--text-muted);
-      padding: 60px 20px;
-      font-size: 14px;
-    }
-
-    @media (max-width: 600px) {
-      header .container { flex-direction: column; align-items: stretch; gap: 12px; }
-      #search { width: 100%; }
-      .company-location-inline { display: none; }
-      .info-grid { grid-template-columns: 1fr; gap: 8px 0; }
-      .info-label { border-top: 1px solid var(--border); padding-top: 8px; margin-top: 4px; }
-      .info-label:first-child { border: none; padding-top: 0; margin-top: 0; }
-      .info-divider { display: none; }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
@@ -246,6 +102,7 @@
     </div>
     <div class="search-wrap">
       <input type="text" id="search" placeholder="Search companies..." autocomplete="off" />
+      <button id="requestCompanyBtn" class="request-btn" title="Request a new company to be added">+ Request Company</button>
     </div>
   </div>
 </header>
@@ -258,605 +115,41 @@
   </div>
 </main>
 
-<script>
-const companies = [
-  {
-    name: "Brain Station 23 PLC",
-    location: "1 Mohakhali C/A (12th Floor), Dhaka",
-    website: "brainstation-23.com",
-    career: "brainstation-23.com/career/",
-    email: "sales@brainstation-23.com; raisul@brainstation-23.com",
-    linkedin: "linkedin.com/company/brainstation-23",
-    contact: "Raisul Kabir (CEO)"
-  },
-  {
-    name: "BJIT Limited",
-    location: "H-2275, Satarkul, Badda, Dhaka",
-    website: "bjitgroup.com",
-    career: "bjitgroup.com/career",
-    email: "career@bjitgroup.com; hasan.abdullah@bjitgroup.com",
-    linkedin: "linkedin.com/company/bjit",
-    contact: "Hasan Abdullah (HR Recruitment Lead); Mehedi Masud (COO)"
-  },
-  {
-    name: "Vivasoft Limited",
-    location: "Ahmed Tower (Levels 11, 16, 19), Banani, Dhaka",
-    website: "vivasoftltd.com",
-    career: "vivasoftltd.com/career/",
-    email: "contact@vivasoftltd.com",
-    linkedin: "linkedin.com/company/vivasoftltd",
-    contact: null
-  },
-  {
-    name: "Enosis Solutions",
-    location: "House 27, Road 8, Gulshan, Dhaka",
-    website: "enosisbd.com",
-    career: "enosisbd.pinpointhq.com",
-    email: "info@enosisbd.com",
-    linkedin: "linkedin.com/company/enosis-solutions",
-    contact: null
-  },
-  {
-    name: "Kaz Software Limited",
-    location: "35/5 Shantinagar, Dhaka",
-    website: "kaz.com.bd",
-    career: "kaz.com.bd/career",
-    email: "info@kaz.com.bd",
-    linkedin: "linkedin.com/company/kaz-software-limited",
-    contact: null
-  },
-  {
-    name: "TigerIT Bangladesh Ltd.",
-    location: "House 21, Road 28, Banani, Dhaka",
-    website: "tigerit.com",
-    career: "tigerit.com/careers",
-    email: "careers@tigerit.com; info@tigerit.com",
-    linkedin: "linkedin.com/company/tigerit-bangladesh-limited",
-    contact: "Ziaur Rahman (CEO)"
-  },
-  {
-    name: "DataSoft Systems (BD)",
-    location: "Rupayan Shelford (Level 20), Mirpur Road, Dhaka",
-    website: "datasoft-bd.com",
-    career: "datasoft-bd.com/career/",
-    email: "info@datasoft-bd.com",
-    linkedin: "linkedin.com/company/datasoft-systems-bangladesh-limited",
-    contact: "Mohammad Manjur Mahmud (COO)"
-  },
-  {
-    name: "Cefalo Bangladesh Ltd.",
-    location: "House 26, Road 5, Dhanmondi, Dhaka",
-    website: "cefalo.com",
-    career: "cefalo.com/en/career",
-    email: "mail@cefalo.com",
-    linkedin: "linkedin.com/company/cefalo-as",
-    contact: null
-  },
-  {
-    name: "Therap (BD) Ltd.",
-    location: "House 47, Road 4, Block C, Banani, Dhaka",
-    website: "therapbd.com",
-    career: "therap.hire.trakstar.com",
-    email: "information@therapservices.net",
-    linkedin: "linkedin.com/company/therapbd",
-    contact: null
-  },
-  {
-    name: "REVE Systems",
-    location: "Plot 2, Kawran Bazar / Khilkhet, Dhaka",
-    website: "revesoft.com",
-    career: "revesoft.com/careers",
-    email: "sales@revesoft.com; info@revesoft.com",
-    linkedin: "linkedin.com/company/reve-systems",
-    contact: null
-  },
-  {
-    name: "LeadSoft Bangladesh",
-    location: "LEADS Tower, Mirpur, Dhaka",
-    website: "leads.com.bd",
-    career: "leadsoft.com.bd",
-    email: "info@leadsoft.com.bd",
-    linkedin: "linkedin.com/company/leads-corporation-limited",
-    contact: "Shakila Tripty (Head of HR)"
-  },
-  {
-    name: "Southtech Group",
-    location: "Plot 22, Road 13, Sector 4, Uttara, Dhaka",
-    website: "southtechgroup.com",
-    career: "career.southtechgroup.com",
-    email: "info@southtechgroup.com",
-    linkedin: "linkedin.com/company/southtech-limited",
-    contact: null
-  },
-  {
-    name: "Riseup Labs",
-    location: "Uttara, Dhaka",
-    website: "riseuplabs.com",
-    career: "riseuplabs.com/career",
-    email: "contact@riseuplabs.com",
-    linkedin: "linkedin.com/company/riseuplabs",
-    contact: "Rahat Hayder Chawdhary Emraan (HR Manager)"
-  },
-  {
-    name: "Bdtask Limited",
-    location: "B-25, Mannan Plaza, Khilkhet, Dhaka",
-    website: "bdtask.com",
-    career: "bdtask.com/career",
-    email: "info@bdtask.com; business@bdtask.com",
-    linkedin: "linkedin.com/company/bdtask",
-    contact: null
-  },
-  {
-    name: "Dynamic Solution Innovators",
-    location: "House 177, Mohakhali, Dhaka",
-    website: "dsinnovators.com",
-    career: "apply.workable.com/dsinnovators",
-    email: "info@dsinnovators.com",
-    linkedin: "linkedin.com/company/dsinnovators",
-    contact: null
-  },
-  {
-    name: "Kona Software Lab",
-    location: "Gulshan-1, Dhaka",
-    website: "konasl.com",
-    career: "konasl.com/career-journey",
-    email: null,
-    linkedin: "linkedin.com/company/kona-software-lab",
-    contact: null
-  },
-  {
-    name: "ShopUp (SILQ Group)",
-    location: "Dhaka",
-    website: "shopup.com.bd",
-    career: "careers.smartrecruiters.com/ShopUp",
-    email: null,
-    linkedin: "linkedin.com/company/shopup-bd",
-    contact: "Junaid Ahmed (VP People & Culture)"
-  },
-  {
-    name: "Pathao Ltd.",
-    location: "Dhaka",
-    website: "pathao.com",
-    career: "facebook.com/PathaoCareers",
-    email: null,
-    linkedin: "linkedin.com/company/pathao",
-    contact: "Fariha Ahmed (HR Manager)"
-  },
-  {
-    name: "bKash Limited",
-    location: "Dhaka",
-    website: "bkash.com",
-    career: null,
-    email: null,
-    linkedin: "linkedin.com/company/bkash",
-    contact: null
-  },
-  {
-    name: "Chaldal",
-    location: "Dhaka",
-    website: "chaldal.com",
-    career: "chaldal.tech/freshgrad.html",
-    email: null,
-    linkedin: "linkedin.com/company/chaldal",
-    contact: null
-  },
-  {
-    name: "Samsung R&D (SRBD)",
-    location: "WestR Tower, Dhaka",
-    website: "research.samsung.com/srbd",
-    career: null,
-    email: "recruitment.srbd@samsung.com",
-    linkedin: "linkedin.com/company/samsung-r-d-institute-bangladesh",
-    contact: null
-  },
-  {
-    name: "AppsCode Ltd.",
-    location: "House 4, Rd No. 10, Dhaka 1230",
-    website: "appscode.com",
-    career: "appscode.com/careers",
-    email: "support@appscode.com",
-    linkedin: "linkedin.com/company/appscode",
-    contact: null
-  },
-  {
-    name: "Selise Digital Platform",
-    location: "Dhaka",
-    website: "selisegroup.com",
-    career: "selisegroup.com/join-the-team/",
-    email: null,
-    linkedin: "linkedin.com/company/selise",
-    contact: null
-  },
-  {
-    name: "Nagorik Technologies",
-    location: "Dhaka",
-    website: "nagorik.tech",
-    career: null,
-    email: null,
-    linkedin: "linkedin.com/company/nagorik-technologies",
-    contact: null
-  },
-  {
-    name: "Craftsmen Ltd",
-    location: "DOHS Baridhara, Dhaka 1206",
-    website: "craftsmenltd.com",
-    career: null,
-    email: "sales@craftsmenltd.com",
-    linkedin: "linkedin.com/company/craftsmenltd",
-    contact: null
-  },
-  {
-    name: "iFarmer",
-    location: "Dhaka",
-    website: "ifarmer.asia",
-    career: null,
-    email: null,
-    linkedin: "linkedin.com/company/ifarmer-asia",
-    contact: null
-  },
-  {
-    name: "Shikho",
-    location: "Dhaka",
-    website: "shikho.com",
-    career: null,
-    email: null,
-    linkedin: "linkedin.com/company/shikho",
-    contact: null
-  },
-  {
-    name: "Arogga",
-    location: "Dhaka",
-    website: "arogga.com",
-    career: null,
-    email: null,
-    linkedin: "linkedin.com/company/arogga",
-    contact: null
-  },
-  {
-    name: "Sheba.xyz",
-    location: "Dhaka",
-    website: "sheba.xyz",
-    career: null,
-    email: null,
-    linkedin: "linkedin.com/company/sheba-xyz",
-    contact: null
-  },
-  {
-    name: "SOLshare",
-    location: "Dhaka",
-    website: "me-solshare.com",
-    career: null,
-    email: null,
-    linkedin: "linkedin.com/company/solshare",
-    contact: null
-  },
-  {
-    name: "Astha IT",
-    location: "Kazi Nazrul Islam Ave, Dhaka",
-    website: "asthait.com",
-    career: null,
-    email: null,
-    linkedin: "linkedin.com/company/asthait",
-    contact: null
-  },
-  {
-    name: "aamra technologies",
-    location: "Safura Tower, Banani, Dhaka",
-    website: "aamra.com.bd",
-    career: null,
-    email: null,
-    linkedin: "linkedin.com/company/aamra-technologies-limited",
-    contact: null
-  },
-  {
-    name: "Thakral Info Systems",
-    location: "Kawran Bazar, Dhaka",
-    website: "thakral-bd.com",
-    career: null,
-    email: "omar.chowdhury_hr@thakral-bd.com",
-    linkedin: "linkedin.com/company/thakral-bd",
-    contact: "Md. Omar Faruq Chowdhury (Deputy Manager HR)"
-  },
-  {
-    name: "Millennium Info Solution",
-    location: "Janata Tower, Kawran Bazar, Dhaka",
-    website: "mislbd.com",
-    career: null,
-    email: "info@mislbd.com",
-    linkedin: "linkedin.com/company/mislbd",
-    contact: null
-  },
-  {
-    name: "Grameen Communications",
-    location: "Mirpur, Dhaka",
-    website: "grameen.org",
-    career: null,
-    email: "gc@grameen.org",
-    linkedin: null,
-    contact: null
-  },
-  {
-    name: "Orange IT",
-    location: "Dhaka",
-    website: "orangebd.net",
-    career: null,
-    email: "info@orangebd.net",
-    linkedin: null,
-    contact: null
-  },
-  {
-    name: "Flyte Solutions",
-    location: "Dhaka",
-    website: "flyte.pro",
-    career: null,
-    email: null,
-    linkedin: null,
-    contact: null
-  },
-  {
-    name: "HRSOFTBD",
-    location: "Dhaka",
-    website: "hrsoftbd.com",
-    career: null,
-    email: "rony@basis.org.bd",
-    linkedin: null,
-    contact: "A H M Rokmunur Zaman Rony (CEO)"
-  },
-  {
-    name: "Mysoftheaven (BD) Ltd",
-    location: "North Pirerbag, Mirpur, Dhaka",
-    website: "mysoftheaven.com",
-    career: null,
-    email: "info@mysoftheaven.com",
-    linkedin: null,
-    contact: null
-  },
-  {
-    name: "Pridesys IT",
-    location: "Kawran Bazar, Dhaka",
-    website: "pridesys.com",
-    career: null,
-    email: null,
-    linkedin: "linkedin.com/company/pridesys-it",
-    contact: null
-  },
-  {
-    name: "Ollyo",
-    location: "Dhaka",
-    website: "ollyo.com",
-    career: null,
-    email: null,
-    linkedin: null,
-    contact: null
-  },
-  {
-    name: "Inument Solution",
-    location: "House 88, Lane 10, Dhaka 1206",
-    website: "inument.com",
-    career: null,
-    email: "hello@inument.com",
-    linkedin: "linkedin.com/company/inument",
-    contact: null
-  },
-  {
-    name: "Gaze Technology",
-    location: "Dhaka",
-    website: "gaze.ai",
-    career: null,
-    email: "careers@gaze.ai",
-    linkedin: "linkedin.com/company/gazeai",
-    contact: null
-  },
-  {
-    name: "Adventure Dhaka",
-    location: "Autograph Tower, Banani, Dhaka",
-    website: "adventurekk.com",
-    career: null,
-    email: null,
-    linkedin: null,
-    contact: null
-  },
-  {
-    name: "Apurba Technologies",
-    location: "Mohakhali New DOHS, Dhaka",
-    website: "apurba.com.bd",
-    career: null,
-    email: null,
-    linkedin: "linkedin.com/company/apurba-technologies-ltd",
-    contact: null
-  },
-  {
-    name: "Bondstein Tech",
-    location: "Tejgaon I/A, Dhaka",
-    website: "bondstein.com",
-    career: null,
-    email: "info@bondstein.com",
-    linkedin: "linkedin.com/company/bondstein",
-    contact: null
-  },
-  {
-    name: "Ananda Computers",
-    location: "BCS Computer City, IDB Bhaban",
-    website: null,
-    career: null,
-    email: "mustafajabbar@gmail.com",
-    linkedin: null,
-    contact: "Mustafa Jabbar (President)"
-  },
-  {
-    name: "CSL Software Resources",
-    location: "Head Office, Dhaka",
-    website: null,
-    career: null,
-    email: "rafiqul.islam@cslsoft.com",
-    linkedin: null,
-    contact: null
-  },
-  {
-    name: "Axiom Technologies",
-    location: "Satmasjid Road, Dhanmondi, Dhaka",
-    website: null,
-    career: null,
-    email: "rizwan@axiom-bd.com",
-    linkedin: null,
-    contact: null
-  },
-  {
-    name: "NGen IT Limited",
-    location: "Mahfuza Tower, Dhaka",
-    website: null,
-    career: null,
-    email: "sales@ngenitltd.com",
-    linkedin: null,
-    contact: null
-  },
-  {
-    name: "Sysnest Limited",
-    location: "Level 11, Dhaka",
-    website: null,
-    career: null,
-    email: "omar@sysnest.com.bd",
-    linkedin: null,
-    contact: null
-  },
-  {
-    name: "Creative IT Soft",
-    location: "Parliament Area, Dhaka",
-    website: null,
-    career: null,
-    email: "creativeitsoft@gmail.com",
-    linkedin: null,
-    contact: null
-  },
-  {
-    name: "Elitbuzz Technologies",
-    location: "Irving Rishon, Dhaka",
-    website: null,
-    career: null,
-    email: "info@elitbuzz-bd.com",
-    linkedin: null,
-    contact: null
-  },
-  {
-    name: "Shohoz",
-    location: "Dhaka",
-    website: "shohoz.com",
-    career: null,
-    email: null,
-    linkedin: null,
-    contact: "Aflatun Kaisar (Head of HR)"
-  },
-  {
-    name: "Nascenia",
-    location: "Banani, Dhaka",
-    website: "nascenia.com",
-    career: null,
-    email: "info@nascenia.com",
-    linkedin: "linkedin.com/company/nascenia-it",
-    contact: "Shaer Hassan (CEO)"
-  }
-];
-
-const list = document.getElementById('list');
-const countEl = document.getElementById('count');
-const noResults = document.getElementById('no-results');
-const searchInput = document.getElementById('search');
-
-function val(v) {
-  if (!v || v === '(N/A)' || v.trim() === '') return null;
-  return v.trim();
-}
-
-function linkVal(v, href) {
-  if (!v) return `<span class="na">N/A</span>`;
-  const url = href || (v.includes('@') ? `mailto:${v}` : `https://${v}`);
-  return `<a href="${url}" target="_blank" rel="noopener">${v}</a>`;
-}
-
-function textVal(v) {
-  if (!v) return `<span class="na">N/A</span>`;
-  return v;
-}
-
-function buildItem(c) {
-  const el = document.createElement('div');
-  el.className = 'company-item';
-  el.dataset.name = c.name.toLowerCase();
-  el.innerHTML = `
-    <div class="company-header" role="button" tabindex="0" aria-expanded="false">
-      <span class="company-name">${c.name}</span>
-      <span class="company-location-inline">${c.location || ''}</span>
-      <svg class="chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <polyline points="4 6 8 10 12 6"/>
-      </svg>
-    </div>
-    <div class="company-body">
-      <div class="info-grid">
-        <span class="info-label">Location</span>
-        <span class="info-value">${textVal(c.location)}</span>
-
-        <hr class="info-divider" />
-
-        <span class="info-label">Website</span>
-        <span class="info-value">${linkVal(c.website)}</span>
-
-        <hr class="info-divider" />
-
-        <span class="info-label">Careers</span>
-        <span class="info-value">${linkVal(c.career)}</span>
-
-        <hr class="info-divider" />
-
-        <span class="info-label">Email</span>
-        <span class="info-value">${c.email ? c.email.split(';').map(e => linkVal(e.trim())).join('<br/>') : '<span class="na">N/A</span>'}</span>
-
-        <hr class="info-divider" />
-
-        <span class="info-label">LinkedIn</span>
-        <span class="info-value">${linkVal(c.linkedin)}</span>
-
-        <hr class="info-divider" />
-
-        <span class="info-label">Contact</span>
-        <span class="info-value">${textVal(c.contact)}</span>
+<!-- Request Company Popup -->
+<div class="request-overlay" id="requestOverlay">
+  <div class="request-popup">
+    <button class="request-popup-close" id="requestPopupClose">&times;</button>
+    <h2>Request a Company</h2>
+    <p class="request-popup-sub">Know a Bangladesh IT company that's missing? Submit its details and we'll add it.</p>
+    <form action="https://formsubmit.co/ajax/badhon495@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="New Company Request - Just Apply" />
+      <input type="hidden" name="_template" value="table" />
+      <div class="form-group">
+        <label for="rc-name">Company Name <span class="required">*</span></label>
+        <input type="text" id="rc-name" name="Company Name" placeholder="e.g. Acme Technologies Ltd." required />
       </div>
-    </div>
-  `;
+      <div class="form-group">
+        <label for="rc-website">Website</label>
+        <input type="url" id="rc-website" name="Website" placeholder="https://example.com" />
+      </div>
+      <div class="form-group">
+        <label for="rc-email">HR / Careers Email</label>
+        <input type="email" id="rc-email" name="HR Email" placeholder="hr@example.com" />
+      </div>
+      <div class="form-group">
+        <label for="rc-location">Location</label>
+        <input type="text" id="rc-location" name="Location" placeholder="e.g. Dhaka, Chittagong" />
+      </div>
+      <div class="form-group">
+        <label for="rc-notes">Additional Notes</label>
+        <textarea id="rc-notes" name="Notes" rows="3" placeholder="Any extra info (LinkedIn page, contact person, etc.)"></textarea>
+      </div>
+      <input type="submit" id="rcSubmitBtn" value="Submit Request" />
+    </form>
+  </div>
+</div>
 
-  const header = el.querySelector('.company-header');
-  function toggle() {
-    const isOpen = el.classList.toggle('open');
-    header.setAttribute('aria-expanded', isOpen);
-  }
-
-  header.addEventListener('click', toggle);
-  header.addEventListener('keydown', e => {
-    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }
-  });
-
-  return el;
-}
-
-let items = companies.map(buildItem);
-items.forEach(el => list.appendChild(el));
-
-function updateCount(n, total) {
-  countEl.textContent = n === total ? `${total} companies` : `${n} of ${total} companies`;
-}
-
-updateCount(companies.length, companies.length);
-
-searchInput.addEventListener('input', () => {
-  const q = searchInput.value.trim().toLowerCase();
-  let visible = 0;
-  items.forEach(el => {
-    const match = !q || el.dataset.name.includes(q);
-    el.style.display = match ? '' : 'none';
-    if (match) visible++;
-  });
-  noResults.style.display = visible === 0 ? '' : 'none';
-  updateCount(visible, companies.length);
-});
-</script>
+<script src="app.js"></script>
+<script src="request-company.js"></script>
 </body>
 </html>
