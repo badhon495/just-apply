@@ -6,7 +6,7 @@ const companies = [
     career: "brainstation-23.easy.jobs",
     email: "career@brainstation-23.com",
     linkedin: "linkedin.com/company/brainstation-23; linkedin.com/showcase/brain-station-23-careers-and-culture",
-    contact: "Raisul Kabir (CEO)"
+    contact: null
   },
   {
     name: "BJIT Limited",
@@ -15,7 +15,7 @@ const companies = [
     career: "bjitgroup.com/career",
     email: "career@bjitgroup.com",
     linkedin: "linkedin.com/company/bjit",
-    contact: "Hasan Abdullah (HR Recruitment Lead); Mehedi Masud (COO)"
+    contact: null
   },
   {
     name: "Vivasoft Limited",
@@ -51,7 +51,7 @@ const companies = [
     career: null,
     email: "careers@tigerit.com",
     linkedin: "linkedin.com/company/tigerit-bangladesh-limited",
-    contact: "Ziaur Rahman (CEO)"
+    contact: null
   },
   {
     name: "DataSoft Systems (BD)",
@@ -60,7 +60,7 @@ const companies = [
     career: "datasoft-bd.com/career/",
     email: "career@datasoft-bd.com",
     linkedin: "linkedin.com/company/datasoft-systems-bangladesh-limited",
-    contact: "Mohammad Manjur Mahmud (COO)"
+    contact: null
   },
   {
     name: "Cefalo Bangladesh Ltd.",
@@ -96,7 +96,7 @@ const companies = [
     career: "leads.com.bd/current-vacancies",
     email: "info@leads-bd.com",
     linkedin: "linkedin.com/company/leads-corporation-limited",
-    contact: "Shakila Tripty (Head of HR)"
+    contact: null
   },
     {
     name: "Mediasoft Data Systems Limited",
@@ -123,7 +123,7 @@ const companies = [
     career: "riseuplabs.com/career",
     email: "contact@riseuplabs.com",
     linkedin: "linkedin.com/company/riseuplabs",
-    contact: "Rahat Hayder Chawdhary Emraan (HR Manager)"
+    contact: null
   },
   {
     name: "Bdtask Limited",
@@ -159,7 +159,7 @@ const companies = [
     career: "shopup.org/career",
     email: "hello@shopup.org",
     linkedin: "linkedin.com/company/shopfront-limited",
-    contact: "Junaid Ahmed (VP People & Culture)"
+    contact: null
   },
   {
     name: "Pathao",
@@ -168,7 +168,7 @@ const companies = [
     career: "careers.pathao.com",
     email: "support@pathao.com",
     linkedin: "linkedin.com/company/pathao",
-    contact: "Fariha Ahmed (HR Manager)"
+    contact: null
   },
   {
     name: "bKash Limited",
@@ -303,7 +303,7 @@ const companies = [
     career: null,
     email: "omar.chowdhury_hr@thakral-bd.com",
     linkedin: "linkedin.com/company/thakral-bd",
-    contact: "Md. Omar Faruq Chowdhury (Deputy Manager HR)"
+    contact: null
   },
   {
     name: "Millennium Info Solution",
@@ -348,7 +348,7 @@ const companies = [
     career: null,
     email: "rony@basis.org.bd",
     linkedin: null,
-    contact: "A H M Rokmunur Zaman Rony (CEO)"
+    contact: null
   },
   {
     name: "Mysoftheaven (BD) Ltd",
@@ -429,7 +429,7 @@ const companies = [
     career: null,
     email: "mustafajabbar@gmail.com",
     linkedin: null,
-    contact: "Mustafa Jabbar (President)"
+    contact: null
   },
   {
     name: "CSL Software Resources",
@@ -492,7 +492,7 @@ const companies = [
     career: null,
     email: null,
     linkedin: null,
-    contact: "Aflatun Kaisar (Head of HR)"
+    contact: null
   },
   {
     name: "Nascenia",
@@ -501,7 +501,7 @@ const companies = [
     career: null,
     email: "info@nascenia.com",
     linkedin: "linkedin.com/company/nascenia-it",
-    contact: "Shaer Hassan (CEO)"
+    contact: null
   },
   {
     name: "All Generation Tech",
