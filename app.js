@@ -262,7 +262,7 @@ const companies = [
   },
   {
     name: "Sheba.xyz",
-    location: "Dhaka",
+    location: "Plot: 2, Road: 11, Block: H, M&S Tower, Dhaka",
     website: "sheba.xyz",
     career: "careers.smartrecruiters.com/Shebaxyz3; facebook.com/shebacareer/",
     email: "info@sheba.xyz",
