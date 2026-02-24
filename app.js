@@ -199,29 +199,29 @@ const companies = [
   },
   {
     name: "AppsCode Ltd.",
-    location: "House 4, Rd No. 10, Dhaka 1230",
+    location: "House 4, Rd No. 10, Sec 10, Uttara Dhaka 1230",
     website: "appscode.com",
-    career: "appscode.com/careers",
+    career: null,
     email: "support@appscode.com",
     linkedin: "linkedin.com/company/appscode",
     contact: null
   },
   {
     name: "Selise Digital Platform",
-    location: "Dhaka",
+    location: "Secure Link Services BD Ltd. Midas Center, H-05, R-16 (New) Dhanmondi,",
     website: "selisegroup.com",
-    career: "selisegroup.com/join-the-team/",
-    email: null,
+    career: "selisegroup.com/about-us/#selise-career",
+    email: "support@selisegroup.com",
     linkedin: "linkedin.com/company/selise",
     contact: null
   },
   {
     name: "Nagorik Technologies",
-    location: "Dhaka",
+    location: "House 1263, Road 10, Avenue 2, Mirpur DOHS, Dhaka",
     website: "nagorik.tech",
-    career: null,
+    career: "nagorik.tech/career",
     email: null,
-    linkedin: "linkedin.com/company/nagorik-technologies",
+    linkedin: "linkedin.com/company/nagorik-technologies-ltd/",
     contact: null
   },
   {
