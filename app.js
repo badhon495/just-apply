@@ -130,71 +130,71 @@ const companies = [
     location: "B-25, Mannan Plaza, Khilkhet, Dhaka",
     website: "bdtask.com",
     career: "bdtask.com/career",
-    email: "info@bdtask.com; business@bdtask.com",
+    email: "hr@bdtask.com",
     linkedin: "linkedin.com/company/bdtask",
     contact: null
   },
   {
     name: "Dynamic Solution Innovators",
-    location: "House 177, Mohakhali, Dhaka",
+    location: "House 177, Lane 2, New DOHS, Mohakhali, Dhaka",
     website: "dsinnovators.com",
-    career: "apply.workable.com/dsinnovators",
+    career: "app.hrythmic.com/recruit/openings/company/dsinnovators/",
     email: "info@dsinnovators.com",
     linkedin: "linkedin.com/company/dsinnovators",
     contact: null
   },
   {
     name: "Kona Software Lab",
-    location: "Gulshan-1, Dhaka",
+    location: "Police Plaza Concord (Tower: A), Level: 8, Road: 144, Gulshan-1, Dhaka",
     website: "konasl.com",
-    career: "konasl.com/career-journey",
+    career: "konasl.com/careers",
     email: null,
-    linkedin: "linkedin.com/company/kona-software-lab",
+    linkedin: "linkedin.com/company/konasl",
     contact: null
   },
   {
-    name: "ShopUp (SILQ Group)",
-    location: "Dhaka",
-    website: "shopup.com.bd",
-    career: "careers.smartrecruiters.com/ShopUp",
-    email: null,
-    linkedin: "linkedin.com/company/shopup-bd",
+    name: "ShopUp",
+    location: "429–432, Tejgaon I/A, Dhaka",
+    website: "shopup.org",
+    career: "shopup.org/career",
+    email: "hello@shopup.org",
+    linkedin: "linkedin.com/company/shopfront-limited",
     contact: "Junaid Ahmed (VP People & Culture)"
   },
   {
-    name: "Pathao Ltd.",
-    location: "Dhaka",
+    name: "Pathao",
+    location: "Baro Bhuiyan Genetic Plaza, House# CWN (A) 3A, Lift- 7, Road# 49, Kemal Ataturk Avenue, Gulshan Model Town, Dhaka",
     website: "pathao.com",
-    career: "facebook.com/PathaoCareers",
-    email: null,
+    career: "careers.pathao.com",
+    email: "support@pathao.com",
     linkedin: "linkedin.com/company/pathao",
     contact: "Fariha Ahmed (HR Manager)"
   },
   {
     name: "bKash Limited",
-    location: "Dhaka",
+    location: "Shadhinata Tower, 1,Bir Sreshtha Shaheed Jahangir Gate,Dhaka",
     website: "bkash.com",
-    career: null,
-    email: null,
-    linkedin: "linkedin.com/company/bkash",
+    career: "bkash.com/career; facebook.com/bkashcareer",
+    email: "support@bkash.com",
+    linkedin: "linkedin.com/company/bkash-limited/",
     contact: null
   },
   {
     name: "Chaldal",
     location: "Dhaka",
     website: "chaldal.com",
-    career: "chaldal.tech/freshgrad.html",
-    email: null,
-    linkedin: "linkedin.com/company/chaldal",
+    career: "chaldal.tech",
+    email: 'support@chaldal.com',
+    linkedin: "linkedin.com/company/chaldalcom",
     contact: null
   },
   {
     name: "Samsung R&D (SRBD)",
-    location: "WestR Tower, Dhaka",
+    location: "111 Bir Uttam CR Dutta Rd, Dhaka",
     website: "research.samsung.com/srbd",
-    career: null,
+    career: "research.samsung.com/careers",
     email: "recruitment.srbd@samsung.com",
-    linkedin: "linkedin.com/company/samsung-r-d-institute-bangladesh",
+    linkedin: "linkedin.com/company/samsungsrbd",
     contact: null
   },
   {
@@ -1008,7 +1008,7 @@ function buildItem(c) {
         <hr class="info-divider" />
 
         <span class="info-label">Careers</span>
-        <span class="info-value">${linkVal(c.career)}</span>
+        <span class="info-value">${c.career ? c.career.split(';').map(u => linkVal(u.trim())).join('<br/>') : '<span class="na">N/A</span>'}</span>
 
         <hr class="info-divider" />
 
