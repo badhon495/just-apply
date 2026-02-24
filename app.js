@@ -225,38 +225,38 @@ const companies = [
     contact: null
   },
   {
-    name: "Craftsmen Ltd",
-    location: "DOHS Baridhara, Dhaka 1206",
-    website: "craftsmenltd.com",
-    career: null,
-    email: "sales@craftsmenltd.com",
-    linkedin: "linkedin.com/company/craftsmenltd",
+    name: "Craftsmen Software",
+    location: "1st Floor, House 272, Lane 3 Eastern Rd, Dhaka",
+    website: "craftsmensoftware.com",
+    career: "careers.craftsmensoftware.com",
+    email: "info@craftsmensoftware.com",
+    linkedin: "linkedin.com/company/craftsmensoftware",
     contact: null
   },
   {
     name: "iFarmer",
-    location: "Dhaka",
+    location: "House NE (B) 3B, Road - 74 Gulshan-2, Dhaka",
     website: "ifarmer.asia",
-    career: null,
-    email: null,
-    linkedin: "linkedin.com/company/ifarmer-asia",
+    career: "ifarmer.asia/careers",
+    email: 'info@ifarmer.asia',
+    linkedin: "linkedin.com/company/ifarmerasia/",
     contact: null
   },
   {
     name: "Shikho",
-    location: "Dhaka",
+    location: "Rangs Paramount, Level 11 Block-K, Plot-11 Rd No 17, Dhaka",
     website: "shikho.com",
-    career: null,
-    email: null,
+    career: 'shikho.freshteam.com/jobs',
+    email: "team@shikho.com",
     linkedin: "linkedin.com/company/shikho",
     contact: null
   },
   {
     name: "Arogga",
-    location: "Dhaka",
+    location: "D/15-1, Road-36, Block-D, Section-10, Mirpur, Dhaka",
     website: "arogga.com",
-    career: null,
-    email: null,
+    career: "arogga.com/jobs",
+    email: "info@arogga.com",
     linkedin: "linkedin.com/company/arogga",
     contact: null
   },
@@ -264,9 +264,9 @@ const companies = [
     name: "Sheba.xyz",
     location: "Dhaka",
     website: "sheba.xyz",
-    career: null,
-    email: null,
-    linkedin: "linkedin.com/company/sheba-xyz",
+    career: "careers.smartrecruiters.com/Shebaxyz3; facebook.com/shebacareer/",
+    email: "info@sheba.xyz",
+    linkedin: "linkedin.com/company/sheba/",
     contact: null
   },
   {
