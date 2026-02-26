@@ -486,89 +486,35 @@ const companies = [
     contact: null
   },
   {
-    name: "Furqan Software",
-    location: "Banani, Dhaka",
-    website: "furqansoftware.com",
-    career: "furqansoftware.com/careers",
-    email: "hr@furqansoftware.com",
-    linkedin: "linkedin.com/company/furqan-software",
-    contact: null
-  },
-  {
     name: "GeeksSSort",
-    location: "Dhaka",
+    location: "Mirpur DOHS, Pallabi, Dhaka",
     website: "geekssort.com",
     career: "geekssort.com/career",
-    email: "hr@geekssort.com",
+    email: "careers@geekssort.com",
     linkedin: "linkedin.com/company/geekssort",
     contact: null
   },
   {
     name: "Genex Infosys Limited",
-    location: "Dhaka",
+    location: "Nitol Niloy Tower (Level 6-12), Nikunja C/A, Airport Road, Dhaka",
     website: "genexinfosys.com",
-    career: "genexinfosys.com/career",
-    email: "hr@genexinfosys.com",
+    career: "genexinfosys.com/career.php",
+    email: "info@genexinfosys.com",
     linkedin: "linkedin.com/company/genex-infosys-limited",
     contact: null
   },
   {
-    name: "Giga Tech Limited",
-    location: "Gulshan, Dhaka",
-    website: "gigatechltd.com",
-    career: "gigatechltd.com/career",
-    email: "hr@gigatechltd.com",
-    linkedin: "linkedin.com/company/giga-tech-limited",
-    contact: null
-  },
-  {
-    name: "Grit Technologies Limited",
-    location: "Kawran Bazar, Dhaka",
-    website: "grit0.com",
-    career: "grit0.com/careers",
-    email: "hr@grit0.com",
-    linkedin: "linkedin.com/company/grit-technologies",
-    contact: null
-  },
-  {
-    name: "Hogarth Dhaka",
-    location: "Banani, Dhaka",
-    website: "hogarth.com",
-    career: "hogarth.com/careers",
-    email: "careers@hogarth.com",
-    linkedin: "linkedin.com/company/hogarth-worldwide",
-    contact: null
-  },
-  {
-    name: "IBCS-Primax",
-    location: "Dhanmondi, Dhaka",
-    website: "ibcs-primax.com",
-    career: "ibcs-primax.com/career",
-    email: "hr@ibcs-primax.com",
-    linkedin: "linkedin.com/company/ibcs-primax-software-bangladesh-ltd.",
-    contact: null
-  },
-  {
     name: "IBOS Limited",
-    location: "Lalmatia, Dhaka",
+    location: "6/2 Kazi Nazrul Islam Rd, Dhaka",
     website: "ibos.io",
     career: "ibos.io/career",
     email: "hr@ibos.io",
-    linkedin: "linkedin.com/company/ibos",
+    linkedin: "linkedin.com/company/iboslimited",
     contact: null
   },
   {
-    name: "iPay",
-    location: "Gulshan, Dhaka",
-    website: "ipay.com.bd",
-    career: "ipay.com.bd/career",
-    email: "hr@ipay.com.bd",
-    linkedin: "linkedin.com/company/ipay-systems-ltd.",
-    contact: null
-  },
-  {
-    name: "IQVIA (Dhaka)",
-    location: "Dhaka",
+    name: "IQVIA",
+    location: "Remote",
     website: "iqvia.com",
     career: "jobs.iqvia.com",
     email: "careers@iqvia.com",
@@ -577,70 +523,34 @@ const companies = [
   },
   {
     name: "Jatri Services Limited",
-    location: "Gulshan, Dhaka",
+    location: "Road 24, House 15, Gulshan-02, Dhaka",
     website: "jatri.co",
-    career: "jatri.co/careers",
-    email: "hr@jatri.co",
-    linkedin: "linkedin.com/company/jatri",
+    career: "jatri.co/career",
+    email: "career@jatri.co",
+    linkedin: "linkedin.com/company/jatri-app",
     contact: null
   },
   {
-    name: "Joomshaper",
-    location: "Dhaka",
-    website: "joomshaper.com",
-    career: "joomshaper.com/career",
-    email: "hr@joomshaper.com",
-    linkedin: "linkedin.com/company/joomshaper",
-    contact: null
-  },
-  {
-    name: "Kompass Technologies Limited",
-    location: "Gulshan, Dhaka",
-    website: "hellokompass.com",
-    career: "hellokompass.com/careers",
-    email: "hr@hellokompass.com",
-    linkedin: "linkedin.com/company/kompass-technologies-limited",
-    contact: null
-  },
-  {
-    name: "Magneto Digital",
-    location: "Gulshan, Dhaka",
-    website: "magnitodigital.com",
-    career: "magnitodigital.com/career",
-    email: "hr@magnitodigital.com",
-    linkedin: "linkedin.com/company/magnito-digital",
-    contact: null
-  },
-  {
-    name: "Mazegeek Technologies",
-    location: "Banani, Dhaka",
-    website: "mazegeek.com",
-    career: "mazegeek.com/career",
-    email: "hr@mazegeek.com",
-    linkedin: "linkedin.com/company/mazegeek",
-    contact: null
-  },
-  {
-    name: "Medina Tech Ltd.",
-    location: "Dhaka",
-    website: "medinatech.co",
-    career: "medinatech.co/career",
-    email: "hr@medinatech.co",
-    linkedin: "linkedin.com/company/medina-tech",
+    name: "Magnito",
+    location: "House 7, Road 137, Gulshan 1, Dhaka",
+    website: "magnito.agency",
+    career: "magnito.agency/join-the-cult",
+    email: "career@magnito.agency",
+    linkedin: "linkedin.com/company/magnito",
     contact: null
   },
   {
     name: "MonstarLab Bangladesh",
-    location: "Dhaka",
+    location: "Plot No. 5, Paragon House, Dhaka",
     website: "monstar-lab.com/bd",
     career: "monstar-lab.com/bd/career",
-    email: "hr@monstar-lab.com",
-    linkedin: "linkedin.com/company/monstar-lab-bangladesh",
+    email: "contract@monstar-lab.com",
+    linkedin: "linkedin.com/company/monstarlab",
     contact: null
   },
   {
     name: "Optimizely",
-    location: "Dhaka",
+    location: "Gulshan Centre Point, Plot 23-26, Rd 90, Dhaka",
     website: "optimizely.com",
     career: "optimizely.com/careers",
     email: "careers@optimizely.com",
@@ -649,11 +559,11 @@ const companies = [
   },
   {
     name: "Orange Toolz",
-    location: "Uttara, Dhaka",
+    location: "360 Degree house 77, Road 13, Sector 10, Uttara, DHAKA",
     website: "orangetoolz.com",
-    career: "orangetoolz.com/career",
-    email: "hr@orangetoolz.com",
-    linkedin: "linkedin.com/company/orange-toolz",
+    career: "career.orangetoolz.com",
+    email: "career@orangetoolz.com",
+    linkedin: "linkedin.com/company/orangetoolz.com",
     contact: null
   },
   {
