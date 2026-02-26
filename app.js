@@ -469,7 +469,7 @@ const companies = [
   },
   {
     name: "Divine IT Limited",
-    location: "Uttara, Dhaka",
+    location: "House 29, Road 12, Sector 10, Uttara, Dhaka",
     website: "divineit.net",
     career: "divineit.net/about/careers",
     email: "jobs@divineit.net",
@@ -478,29 +478,11 @@ const companies = [
   },
   {
     name: "Dream71",
-    location: "Bashundhara, Dhaka",
+    location: "House No 16, Block - A, Basundhara R/A, Main Road, Dhaka",
     website: "dream71.com",
     career: "dream71.com/career",
-    email: "hr@dream71.com",
+    email: "career@dream71.com",
     linkedin: "linkedin.com/company/dream71-bangladesh-ltd-",
-    contact: null
-  },
-  {
-    name: "Evaly Limited",
-    location: "Dhanmondi, Dhaka",
-    website: "evaly.com.bd",
-    career: "evaly.com.bd/career",
-    email: "hr@evaly.com.bd",
-    linkedin: "linkedin.com/company/evaly",
-    contact: null
-  },
-  {
-    name: "Fieldbuzz",
-    location: "Badda, Dhaka",
-    website: "field.buzz",
-    career: "field.buzz/careers",
-    email: "hr@field.buzz",
-    linkedin: "linkedin.com/company/fieldbuzz",
     contact: null
   },
   {
