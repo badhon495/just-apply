@@ -343,43 +343,16 @@ const companies = [
   },
   {
     name: "Inument Solution",
-    location: "House 88, Lane 10, Dhaka 1206",
+    location: "House# 527 (3rd floor), Road# 10 (East), Baridhara DOHS, Dhaka",
     website: "inument.com",
-    career: null,
-    email: "hello@inument.com",
+    career: "inument.com/careers/",
+    email: "jobs@inument.com",
     linkedin: "linkedin.com/company/inument",
     contact: null
   },
   {
-    name: "Gaze Technology",
-    location: "Dhaka",
-    website: "gaze.ai",
-    career: null,
-    email: "careers@gaze.ai",
-    linkedin: "linkedin.com/company/gazeai",
-    contact: null
-  },
-  {
-    name: "Adventure Dhaka",
-    location: "Autograph Tower, Banani, Dhaka",
-    website: "adventurekk.com",
-    career: null,
-    email: null,
-    linkedin: null,
-    contact: null
-  },
-  {
-    name: "Apurba Technologies",
-    location: "Mohakhali New DOHS, Dhaka",
-    website: "apurba.com.bd",
-    career: null,
-    email: null,
-    linkedin: "linkedin.com/company/apurba-technologies-ltd",
-    contact: null
-  },
-  {
     name: "Bondstein Tech",
-    location: "Tejgaon I/A, Dhaka",
+    location: "138/1 Tejgaon Industrial Area, Tejgaon, Dhaka",
     website: "bondstein.com",
     career: null,
     email: "info@bondstein.com",
@@ -387,57 +360,21 @@ const companies = [
     contact: null
   },
   {
-    name: "Ananda Computers",
-    location: "BCS Computer City, IDB Bhaban",
-    website: null,
-    career: null,
-    email: "mustafajabbar@gmail.com",
-    linkedin: null,
-    contact: null
-  },
-  {
-    name: "CSL Software Resources",
-    location: "Head Office, Dhaka",
-    website: null,
-    career: null,
-    email: "rafiqul.islam@cslsoft.com",
-    linkedin: null,
-    contact: null
-  },
-  {
-    name: "Axiom Technologies",
-    location: "Satmasjid Road, Dhanmondi, Dhaka",
-    website: null,
-    career: null,
-    email: "rizwan@axiom-bd.com",
-    linkedin: null,
-    contact: null
-  },
-  {
     name: "NGen IT Limited",
-    location: "Mahfuza Tower, Dhaka",
-    website: null,
-    career: null,
+    location: "36-37, Probal Housing, Ring Road, Mohammadpur, Dhaka",
+    website: "ngenitltd.com",
+    career: "ngenitltd.com/jobs",
     email: "sales@ngenitltd.com",
-    linkedin: null,
-    contact: null
-  },
-  {
-    name: "Sysnest Limited",
-    location: "Level 11, Dhaka",
-    website: null,
-    career: null,
-    email: "omar@sysnest.com.bd",
-    linkedin: null,
+    linkedin: "linkedin.com/company/ngenitltd/",
     contact: null
   },
   {
     name: "Creative IT Soft",
-    location: "Parliament Area, Dhaka",
-    website: null,
-    career: null,
+    location: "Parliament View, Plot-5/9, Block-A, Lalmatia, Dhaka",
+    website: "creativeitsoft.net",
+    career: "creativeitsoft.net/gb/company-career",
     email: "creativeitsoft@gmail.com",
-    linkedin: null,
+    linkedin: "linkedin.com/company/creative-it-soft",
     contact: null
   },
   {
