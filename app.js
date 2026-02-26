@@ -378,53 +378,35 @@ const companies = [
     contact: null
   },
   {
-    name: "Elitbuzz Technologies",
-    location: "Irving Rishon, Dhaka",
-    website: null,
-    career: null,
-    email: "info@elitbuzz-bd.com",
-    linkedin: null,
+    name: "Shohoz Software",
+    location: "4th Floor, 5A, House: 202/D, Haji SolimUddin Ln, Middle Badda, Dhaka",
+    website: "shohozsoftware.com",
+    career: "shohozsoftware.com/career",
+    email: "hr@shohozsoftware.com",
+    linkedin: "linkedin.com/company/shohozsoftware",
     contact: null
   },
-  {
+    {
     name: "Shohoz",
-    location: "Dhaka",
+    location: "Banani 21, House 55/b, block b, Dhaka",
     website: "shohoz.com",
     career: null,
-    email: null,
-    linkedin: null,
+    email: "career@shohoz.com",
+    linkedin: "linkedin.com/company/shohoz",
     contact: null
   },
   {
     name: "Nascenia",
-    location: "Banani, Dhaka",
+    location: "House 6/14, Block A, Lalmatia, Dhaka",
     website: "nascenia.com",
-    career: null,
-    email: "info@nascenia.com",
+    career: "nascenia.com/careers",
+    email: "career@nascenia.com",
     linkedin: "linkedin.com/company/nascenia-it",
     contact: null
   },
   {
-    name: "All Generation Tech",
-    location: "Dhaka",
-    website: "allgentech.bamboohr.com",
-    career: "allgentech.bamboohr.com/careers",
-    email: "careers@allgentech.com",
-    linkedin: "linkedin.com/company/allgentech",
-    contact: null
-  },
-  {
-    name: "Anchorblock Technology",
-    location: "Dhaka",
-    website: "anchorblock.ai",
-    career: "anchorblock.ai/career",
-    email: "hr@anchorblock.ai",
-    linkedin: "linkedin.com/company/anchorblock",
-    contact: null
-  },
-  {
     name: "Appifydevs",
-    location: "Mirpur, Dhaka",
+    location: "B, Block- B, House:- 28 Road:-1, Dhaka",
     website: "appifydevs.com",
     career: "appifydevs.com/career",
     email: "hr@appifydevs.com",
@@ -433,7 +415,7 @@ const companies = [
   },
   {
     name: "Appifylab",
-    location: "Sylhet",
+    location: "Akhter shoping city, 4th floor, Modina Market, Sylhet",
     website: "appifylab.com",
     career: "appifylab.com/career",
     email: "hr@appifylab.com",
@@ -442,7 +424,7 @@ const companies = [
   },
   {
     name: "ATI Limited",
-    location: "Uttara, Dhaka",
+    location: "ATI Centre, House-07, Gareeb-E-Nawaz Avenue, Sector-11, Uttara",
     website: "atilimited.net",
     career: "atilimited.net/career",
     email: "hr@atilimited.net",
@@ -451,47 +433,29 @@ const companies = [
   },
   {
     name: "Augmedix Inc.",
-    location: "Dhaka",
-    website: "augmedix.com",
-    career: "augmedix.com/careers",
-    email: "careers@augmedix.com",
-    linkedin: "linkedin.com/company/augmedix",
+    location: "Rahman’s Regnum Centre (level 15), 191/1, Bir Uttam Mir Shawkat Road, Tejgaon I/A, Dhaka",
+    website: "augmedix.com.bd",
+    career: "https://jobs.ashbyhq.com/Commure",
+    email: "ax-talent-acquisition@commure.com",
+    linkedin: "linkedin.com/company/augmedixinc",
     contact: null
   },
   {
     name: "BRAC IT Services",
-    location: "Gulshan, Dhaka",
+    location: "Nafi Tower (Level-13), 53 Gulshan Ave, Dhaka",
     website: "bracits.com",
     career: "bracits.com/career",
-    email: "career@bracits.com",
+    email: "info@bracits.com",
     linkedin: "linkedin.com/company/bracits",
     contact: null
   },
   {
-    name: "Circle Fintech",
-    location: "Dhaka",
-    website: "circlefintech.com",
-    career: "circlefintech.com/career",
-    email: "hr@circlefintech.com",
-    linkedin: "linkedin.com/company/circlefintech",
-    contact: null
-  },
-  {
     name: "CodersTrust",
-    location: "Banani, Dhaka",
+    location: "House# 82, Road# 19/A, Block# E, Banani, Dhaka",
     website: "coderstrust.global",
-    career: "coderstrust.global/careers",
-    email: "hr@coderstrust.global",
-    linkedin: "linkedin.com/company/coderstrust",
-    contact: null
-  },
-  {
-    name: "Danpite.Tech",
-    location: "Mirpur, Dhaka",
-    website: "danpite.tech",
-    career: "danpite.tech/career",
-    email: "hr@danpite.tech",
-    linkedin: "linkedin.com/company/danpitetech",
+    career: "coderstrust.global/join-us",
+    email: "hello@coderstrustbd.com",
+    linkedin: "linkedin.com/company/coderstrust-bangladesh",
     contact: null
   },
   {
