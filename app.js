@@ -334,11 +334,11 @@ const companies = [
   },
   {
     name: "Ollyo",
-    location: "Dhaka",
+    location: "House 1, Patira, Khilkhet, Dhaka",
     website: "ollyo.com",
-    career: null,
-    email: null,
-    linkedin: null,
+    career: "ollyo.com/careers",
+    email: "hello@ollyo.com",
+    linkedin: "linkedin.com/company/ollyo",
     contact: null
   },
   {
