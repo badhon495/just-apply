@@ -460,7 +460,7 @@ const companies = [
   },
   {
     name: "Dhrubok Infotech Services",
-    location: "Shyamoli, Dhaka",
+    location: "Sara Aftab Tower, 29 Ring Rd, Dhaka",
     website: "dhrubokinfotech.com",
     career: "dhrubokinfotech.com/career",
     email: "hr@dhrubokinfotech.com",
@@ -471,8 +471,8 @@ const companies = [
     name: "Divine IT Limited",
     location: "Uttara, Dhaka",
     website: "divineit.net",
-    career: "divineit.net/career",
-    email: "career@divineit.net",
+    career: "divineit.net/about/careers",
+    email: "jobs@divineit.net",
     linkedin: "linkedin.com/company/divineitlimited",
     contact: null
   },
