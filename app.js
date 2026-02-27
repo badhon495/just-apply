@@ -630,68 +630,50 @@ const companies = [
     contact: null
   },
   {
-    name: "SSD-Tech (Systems Solutions & Development Technologies)",
-    location: "Gulshan, Dhaka",
-    website: "ssd-tech.io",
-    career: "ssd-tech.io/career",
-    email: "hr@ssd-tech.io",
-    linkedin: "linkedin.com/company/ssd-tech",
-    contact: null
-  },
-  {
     name: "TechnoVista Limited",
     location: "Khilkhet, Dhaka",
     website: "technovista.com.bd",
     career: "technovista.com.bd/career",
     email: "hr@technovista.com.bd",
-    linkedin: "linkedin.com/company/technovista.bd",
+    linkedin: "linkedin.com/company/technovista.bd/",
     contact: null
   },
   {
     name: "Vantage Labs",
-    location: "Mirpur, Dhaka",
+    location: "House: 4, Road: 9/B, Nikunja – 1, Dhaka",
     website: "vantage.com",
     career: "vantage.com/careers",
-    email: "hr@vantage.com",
+    email: "info@technovista.com.bd",
     linkedin: "linkedin.com/company/vantage-labs-dhaka",
     contact: null
   },
   {
     name: "WellDev",
-    location: "Baridhara, Dhaka",
+    location: "25th Floor, Ahmed Tower, Kemal Ataturk Ave, Dhaka",
     website: "welldev.io",
     career: "welldev.io/careers",
-    email: "career@welldev.io",
+    email: "recruitment@welldev.io",
     linkedin: "linkedin.com/company/welldevintl",
     contact: null
   },
   {
     name: "weDevs Ltd",
-    location: "Mirpur, Dhaka",
+    location: "House:1005,1007, Avenue:11, Road:09, Dhaka",
     website: "wedevs.com",
-    career: "wedevs.com/careers",
-    email: "hr@wedevs.com",
+    career: "wedevs.com/career",
+    email: "hello@wedevs.com",
     linkedin: "linkedin.com/company/wedevs",
     contact: null
   },
   {
     name: "Workspace InfoTech Limited",
-    location: "Khilkhet, Dhaka",
+    location: "House-16, Road-12, (4th floor), Nikunja-2, Khilkhet, Dhaka",
     website: "workspaceit.com",
     career: "workspaceit.com/career",
     email: "hr@workspaceit.com",
-    linkedin: "linkedin.com/company/workspace-infotech",
+    linkedin: "linkedin.com/company/workspace-infotech-limited",
     contact: null
   },
-  {
-    name: "Zaynax Limited",
-    location: "Gulshan, Dhaka",
-    website: "zaynax.com",
-    career: "zaynax.com/career",
-    email: "hr@zaynax.com",
-    linkedin: "linkedin.com/company/zaynax",
-    contact: null
-  }
 ];
 
 const list        = document.getElementById('list');
