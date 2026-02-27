@@ -567,93 +567,66 @@ const companies = [
     contact: null
   },
   {
-    name: "Orbitax Bangladesh",
-    location: "Dhaka",
-    website: "orbitax.com",
-    career: "orbitax.com/careers",
-    email: "hr@orbitax.com",
-    linkedin: "linkedin.com/company/orbitaxbd",
-    contact: null
-  },
-  {
-    name: "Penta Global Ltd",
-    location: "Gulshan, Dhaka",
-    website: "pentabd.com",
-    career: "pentabd.com/careers",
-    email: "hr@pentabd.com",
-    linkedin: "linkedin.com/company/penta-global",
-    contact: null
-  },
-  {
     name: "Portonics Limited",
-    location: "Gulshan, Dhaka",
+    location: "Navana HR Tower 1, Level 8, Plot - 410, Bir Uttam Mir Showkat Sarak, Tejgaon I/A, Dhaka",
     website: "portonics.com",
-    career: "portonics.com/careers",
+    career: "portonics.com/career",
     email: "hr@portonics.com",
     linkedin: "linkedin.com/company/portonics",
     contact: null
   },
   {
     name: "ReliSource",
-    location: "Gulshan, Dhaka",
+    location: "Building# 4A1, Road 139, Gulshan 1, Dhaka 1212",
     website: "relisource.com",
-    career: "relisource.com/careers",
+    career: "relisource.com/careers; new.relisource.com/careers/",
     email: "career@relisource.com",
     linkedin: "linkedin.com/company/relisource",
     contact: null
   },
   {
-    name: "Sheba Technologies Limited",
-    location: "Mohakhali, Dhaka",
-    website: "shebatech.com.bd",
-    career: "shebatech.com.bd/career",
-    email: "hr@shebatech.com.bd",
-    linkedin: "linkedin.com/company/sheba-technologies",
-    contact: null
-  },
-  {
     name: "ShellBeeHaken",
-    location: "Mirpur, Dhaka",
+    location: "Level 3, 6 & 7, House 1077, Road 6A, Avenue 8, Mirpur DOHS, Dhaka",
     website: "shellbeehaken.com",
-    career: "shellbeehaken.com/career",
-    email: "hr@shellbeehaken.com",
+    career: "shellbeehaken.com/join-us",
+    email: null,
     linkedin: "linkedin.com/company/shellbeehaken",
     contact: null
   },
   {
     name: "Silicon Orchard Limited",
-    location: "Mirpur, Dhaka",
+    location: "House 01, Avenue 01, Block D, Section 11, Mirpur, Dhaka",
     website: "siliconorchard.com",
     career: "siliconorchard.com/career",
-    email: "hr@siliconorchard.com",
-    linkedin: "linkedin.com/company/silicon-orchard",
+    email: "careers@siliconorchard.com",
+    linkedin: "linkedin.com/company/silicon-orchard-ltd",
     contact: null
   },
   {
     name: "Spring Rain IT",
-    location: "Dhaka",
-    website: "springrainit.com",
-    career: "springrainit.com/career",
-    email: "hr@springrainit.com",
-    linkedin: "linkedin.com/company/spring-rain",
+    location: "Section # 2, Block - C, Avenue # 1, House # 18, Mirpur, Dhaka",
+    website: "springrain.io",
+    career: "springrain.io/careers",
+    email: "career@springrain.io",
+    linkedin: "linkedin.com/company/spring-rain/",
     contact: null
   },
   {
     name: "SSL Wireless",
-    location: "Dhaka",
+    location: "93 B, New Eskaton Road, Dhaka",
     website: "sslwireless.com",
     career: "sslwireless.com/career",
-    email: "hr@sslwireless.com",
+    email: "query@sslwireless.com",
     linkedin: "linkedin.com/company/ssl-wireless",
     contact: null
   },
   {
     name: "Strativ BD Ltd.",
-    location: "Dhaka",
+    location: "Tower, 14, Nakir, 4 Pallabi Rd, Dhaka",
     website: "strativ.se/en",
-    career: "strativ.se/en/jobs",
-    email: "hr@strativ.se",
-    linkedin: "linkedin.com/company/strativ",
+    career: "strativ.se/en/karriar",
+    email: null,
+    linkedin: "linkedin.com/company/strativ-ab",
     contact: null
   },
   {
