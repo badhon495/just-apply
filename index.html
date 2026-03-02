@@ -97,12 +97,35 @@
 
   <link rel="stylesheet" id="mainstyles" href="style.css" />
   <script>document.getElementById('mainstyles').href = 'style.css?v=' + Date.now();</script>
+  <style>
+    #page-loader {
+      position: fixed;
+      inset: 0;
+      background: var(--bg, #f9f9f9);
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 0.25s ease;
+    }
+    #page-loader.hidden {
+      opacity: 0;
+      pointer-events: none;
+    }
+    .loader-spinner {
+      width: 36px;
+      height: 36px;
+      border: 3px solid #e0e0e0;
+      border-top-color: #2563eb;
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
 </head>
 <body>
 
-<div style="background-color: #cc0000; color: #ffffff; text-align: center; padding: 10px 16px; font-size: 14px; font-weight: 600; letter-spacing: 0.3px;">
-  ⚠️ This website is under construction. Information is updated up to <a href="https://www.sheba.xyz" target="_blank" rel="noopener noreferrer" style="color: #ffffff; text-decoration: underline;">Orange Toolz</a>.
-</div>
+<div id="page-loader"><div class="loader-spinner"></div></div>
 
 <header>
   <div class="container">
@@ -112,7 +135,7 @@
     </div>
     <div class="search-wrap">
       <input type="text" id="search" placeholder="Search companies..." autocomplete="off" />
-      <button id="requestCompanyBtn" class="request-btn" title="Request a new company to be added">+ Request Company</button>
+      <a href="https://forms.gle/1mGLwk5WQWMheGYz9" target="_blank" rel="noopener noreferrer" class="request-btn">Add/Update Companies</a>
     </div>
   </div>
 </header>
@@ -125,40 +148,6 @@
   </div>
 </main>
 
-<!-- Request Company Popup -->
-<div class="request-overlay" id="requestOverlay">
-  <div class="request-popup">
-    <button class="request-popup-close" id="requestPopupClose">&times;</button>
-    <h2>Request a Company</h2>
-    <p class="request-popup-sub">Know a Bangladesh IT company that's missing? Submit its details and we'll add it.</p>
-    <form action="https://formsubmit.co/ajax/badhon495@gmail.com" method="POST">
-      <input type="hidden" name="_subject" value="New Company Request - Just Apply" />
-      <input type="hidden" name="_template" value="table" />
-      <div class="form-group">
-        <label for="rc-name">Company Name <span class="required">*</span></label>
-        <input type="text" id="rc-name" name="Company Name" placeholder="e.g. Acme Technologies Ltd." required />
-      </div>
-      <div class="form-group">
-        <label for="rc-website">Website</label>
-        <input type="url" id="rc-website" name="Website" placeholder="https://example.com" />
-      </div>
-      <div class="form-group">
-        <label for="rc-email">HR / Careers Email</label>
-        <input type="email" id="rc-email" name="HR Email" placeholder="hr@example.com" />
-      </div>
-      <div class="form-group">
-        <label for="rc-location">Location</label>
-        <input type="text" id="rc-location" name="Location" placeholder="e.g. Dhaka, Chittagong" />
-      </div>
-      <div class="form-group">
-        <label for="rc-notes">Additional Notes</label>
-        <textarea id="rc-notes" name="Notes" rows="3" placeholder="Any extra info (LinkedIn page, contact person, etc.)"></textarea>
-      </div>
-      <input type="submit" id="rcSubmitBtn" value="Submit Request" />
-    </form>
-  </div>
-</div>
-
 <div class="bottom-bar">
   <div class="container">
     <span id="lastModified"></span><span> &mdash; <a id="exportXmlBtn" class="export-inline-link" href="#">Export data as XML</a></span>
@@ -168,10 +157,17 @@
 <script>
 (function () {
   var v = '?v=' + Date.now();
-  var scripts = ['app.js', 'request-company.js'];
+  var scripts = ['app.js'];
   var idx = 0;
   function loadNext() {
-    if (idx >= scripts.length) return;
+    if (idx >= scripts.length) {
+      var loader = document.getElementById('page-loader');
+      if (loader) {
+        loader.classList.add('hidden');
+        loader.addEventListener('transitionend', function () { loader.remove(); }, { once: true });
+      }
+      return;
+    }
     var s = document.createElement('script');
     s.src = scripts[idx++] + v;
     s.onload = loadNext;
