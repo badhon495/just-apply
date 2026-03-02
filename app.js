@@ -734,7 +734,7 @@ function buildItem(c) {
 
         <hr class="info-divider" />
 
-        <span class="info-label">Contact</span>
+        <span class="info-label">HR</span>
         <span class="info-value">${textVal(c.contact)}</span>
       </div>
     </div>
