@@ -122,7 +122,7 @@ const companies = [
     website: "riseuplabs.com",
     career: "riseuplabs.com/career",
     email: "contact@riseuplabs.com",
-    linkedin: "linkedin.com/company/riseuplabs",
+    linkedin: "linkedin.com/company/riseuplabs; linkedin.com/showcase/career-at-riseuplabs/",
     contact: null
   },
   {
@@ -631,7 +631,7 @@ const companies = [
   },
   {
     name: "TechnoVista Limited",
-    location: "Khilkhet, Dhaka",
+    location: "House: 4, Road: 9/B, Nikunja 1, Dhaka",
     website: "technovista.com.bd",
     career: "technovista.com.bd/career",
     email: "hr@technovista.com.bd",
@@ -672,6 +672,60 @@ const companies = [
     career: "workspaceit.com/career",
     email: "hr@workspaceit.com",
     linkedin: "linkedin.com/company/workspace-infotech-limited",
+    contact: null
+  },
+  {
+    name: "ERA-InfoTech Limited",
+    location: "Fareast Tower, 35 Topkhana Road, (Level-3), Dhaka",
+    website: "erainfotechbd.com",
+    career: "https://talent.talent-troop.com/job-list/companies/era",
+    email: "marketing@erainfotechbd.com",
+    linkedin: "linkedin.com/company/era-infotech-ltd",
+    contact: null
+  },
+  {
+    name: "Gain Solutions",
+    location: "Haji Kujrat Ali Mollah Super Market, 6th floor , Mirpur-12, Dhaka",
+    website: "gainhq.com",
+    career: "career.gainhq.com",
+    email: "hello@gainhq.com",
+    linkedin: "linkedin.com/company/gainhq-com",
+    contact: null
+  },
+  {
+    name: "Fiber@Home Ltd",
+    location: "House #7/B, Road #13, Gulshan-1, Dhaka",
+    website: "fiberathome.net",
+    career: "fiberathome.net/career",
+    email: "jobs@fiberathome.net",
+    linkedin: "linkedin.com/company/FiberAtHomeLimited",
+    contact: null
+  },
+  {
+    name: "Nagad",
+    location: "Delta Dahlia Tower (Level 13 and 14), 36 Kemal Ataturk Avenue, Banani, Dhaka",
+    website: "nagad.com.bd",
+    career: "nagad.com.bd/career",
+    email: "recruitment@nagad.com.bd",
+    linkedin: "linkedin.com/company/mynagad",
+    contact: null
+  },
+  {
+    name: "upay",
+    location: "Plot CWS (A) -1, Road 34, Gulshan Avenue, Dhaka",
+    website: "upaybd.com",
+    career: null,
+    email: "info@upaybd.com",
+    linkedin: "linkedin.com/company/upay-ucbfintech",
+    contact: null
+  },
+    {
+    name: "Cloudly Infotech Limited",
+    location: "House #429 (2nd Floor), Road#30, Mohakhali DOHS, Dhaka",
+    website: "cloudly.com.bd",
+    career: "cloudly.com.bd/careers",
+    email: "career@cloudly.io",
+    linkedin: "linkedin.com/company/cloudlybd",
     contact: null
   },
 ];
