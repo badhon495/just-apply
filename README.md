@@ -2,6 +2,8 @@
 
 A minimal, single-page website listing contact information of Bangladesh IT companies for job seekers.
 
+Visit the website: [https://badhon495.github.io/just-apply/](https://badhon495.github.io/just-apply/)
+
 ## Features
 
 - Searchable list of 50+ Bangladesh IT companies
