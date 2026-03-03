@@ -1,4 +1,14 @@
+<div align="center">
+
 # Just Apply
+
+
+<h2 style="color: red; font-size: 24px;">
+🚨 THIS IS THE DEPLOYED VERSION OF Just Apply Website 🚨
+</h2>
+<h3 style="color: red;"> DO NOT COPY IT AS IT CONTAINS GOOGLE ANALYTICS AND OTHER PERSONAL CONFIGURATIONS THAT ARE NOT MEANT TO BE COPIED!
+</h3>
+</div>
 
 A minimal, single-page website listing contact information of Bangladesh IT companies for job seekers.
 
