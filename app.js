@@ -761,19 +761,44 @@ function updateCount(n, total) {
   countEl.textContent = n === total ? `${total} companies` : `${n} of ${total} companies`;
 }
 
-const items = companies.map(buildItem);
+const sorted = [...companies].sort((a, b) => a.name.localeCompare(b.name));
+const items = sorted.map(buildItem);
+
+// Build list with alphabetical section headers
+const letterDividers = {};
 const frag = document.createDocumentFragment();
-items.forEach(el => frag.appendChild(el));
+let currentLetter = '';
+sorted.forEach((c, i) => {
+  const letter = c.name[0].toUpperCase();
+  if (letter !== currentLetter) {
+    currentLetter = letter;
+    const div = document.createElement('div');
+    div.className = 'alpha-divider';
+    div.textContent = letter;
+    letterDividers[letter] = div;
+    frag.appendChild(div);
+  }
+  items[i].dataset.letter = currentLetter;
+  frag.appendChild(items[i]);
+});
 list.appendChild(frag);
 updateCount(companies.length, companies.length);
 
 searchInput.addEventListener('input', () => {
   const q = searchInput.value.trim().toLowerCase();
   let visible = 0;
+
+  // Hide all dividers first; re-show only those with visible companies
+  Object.values(letterDividers).forEach(d => d.style.display = 'none');
+
   items.forEach(el => {
     const match = !q || el.dataset.name.includes(q) || el.dataset.location.includes(q);
     el.style.display = match ? '' : 'none';
-    if (match) visible++;
+    if (match) {
+      visible++;
+      const div = letterDividers[el.dataset.letter];
+      if (div) div.style.display = '';
+    }
   });
   noResults.style.display = visible === 0 ? '' : 'none';
   updateCount(visible, companies.length);
@@ -802,7 +827,8 @@ document.getElementById('exportXmlBtn').addEventListener('click', (e) => {
     `<companies total="${companies.length}">`,
   ];
 
-  companies.forEach((c, i) => {
+  const sortedCompanies = [...companies].sort((a, b) => a.name.localeCompare(b.name));
+  sortedCompanies.forEach((c, i) => {
     lines.push('');
     lines.push(`  <!-- ${i + 1}. ${escXml(c.name)} -->`);
     lines.push('  <company>');
