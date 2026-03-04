@@ -1288,6 +1288,108 @@ const companies = [
     linkedin: "linkedin.com/company/right-tracks-it-limited",
     contact: null
   },
+  {
+    name: "JustGo Technologies",
+    location: "Rupayan Trade Center (8th floor) 114, Kazi Nazrul Islam Avenue, Bangla Motor, Dhaka",
+    website: "justgo.com",
+    career: "justgo.com/careers",
+    email: "support@justgo.com",
+    linkedin: "linkedin.com/company/JustGoTechnologies",
+    contact: null
+  },
+  {
+    name: "AdPlay Technology",
+    location: "Plot-114, Level-4, Block-E, Road- 12, Banani, Dhaka",
+    website: "adplaytechnology.com",
+    career: "linkedin.com/company/adplay-mobile/jobs",
+    email: "hello@adplay-mobile.com",
+    linkedin: "linkedin.com/company/adplay-mobile",
+    contact: null
+  },
+  {
+    name: "SM Technology",
+    location: "House #11/13, Road #5, Block C, Banasree, Rampura, Dhaka",
+    website: "smtech24.com",
+    career: "smtech24.com/career",
+    email: "hello@smtech24.com",
+    linkedin: "linkedin.com/company/smtechnology",
+    contact: null
+  },
+  {
+    name: "NEXT Ventures",
+    location: "6th & 8th Floor, Cha-90, The Pearl Trade Center, 3 Pragati Sarani, Dhaka",
+    website: "nextventures.io",
+    career: "nextventures.io/career",
+    email: "hello@nextventures.io",
+    linkedin: "linkedin.com/company/nextventuresofficial",
+    contact: null
+  },
+  {
+    name: "FringeCore",
+    location: "2nd Floor, House 2, Road 96, Gulshan 2, Dhaka",
+    website: "fringecore.sh",
+    career: "fringecore.sh/careers",
+    email: "team@fringecore.sh",
+    linkedin: "linkedin.com/company/fringecore/",
+    contact: null
+  },
+
+  // done
+  // {
+  //   name: "RedDot Digital IT Ltd",
+  //   location: "Plot-1, Block-6, Bangabandhu Hi-Tech City, Kaliakair, Gazipur, Dhaka",
+  //   website: "reddotdigitalit.com",
+  //   career: null,
+  //   email: "info@reddotdigitalit.com",
+  //   linkedin: "linkedin.com/company/reddot-digital-it-limited",
+  //   contact: null
+  // },
+  // {
+  //   name: "TiCON System Ltd",
+  //   location: "Seoul, South Korea; Uttara, Dhaka, Bangladesh; USA",
+  //   website: "ticonsys.com",
+  //   career: "ticonsys.com/contact-us",
+  //   email: "info@ticonsys.com",
+  //   linkedin: "linkedin.com/company/ticonsys",
+  //   contact: null
+  // },
+  // {
+  //   name: "UnidevGo",
+  //   location: null,
+  //   website: "unidevgo.com",
+  //   career: null,
+  //   email: null,
+  //   linkedin: null,
+  //   contact: null
+  // },
+  // {
+  //   name: "Augmex.io",
+  //   location: null,
+  //   website: "augmex.io",
+  //   career: null,
+  //   email: null,
+  //   linkedin: null,
+  //   contact: null
+  // },
+  // {
+  //   name: "Golden InfoSystems",
+  //   location: "Dhaka, Bangladesh",
+  //   website: "goldeninfosystems.com",
+  //   career: null,
+  //   email: "hr@goldeninfotech.com.bd",
+  //   linkedin: null,
+  //   contact: null
+  // },
+  // {
+  //   name: "RocketPhone.ai",
+  //   location: "London, UK",
+  //   website: "rocketphone.ai",
+  //   career: "rocketphone.ai/careers",
+  //   email: "info@rocketphone.ai",
+  //   linkedin: "linkedin.com/company/rocketphone-ai",
+  //   contact: null
+  // },
+
 ];
 
 const list = document.getElementById('list');
