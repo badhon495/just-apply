@@ -1225,6 +1225,42 @@ const companies = [
     linkedin: "linkedin.com/company/figlab",
     contact: null
   },
+  {
+    name: "6sense HQ",
+    location: "House 15, Road 4, Block G, Banasree, Dhaka",
+    website: "6sensehq.com",
+    career: "6sensehq.com/career",
+    email: "hello@6sensehq.com",
+    linkedin: "linkedin.com/company/6sensehq",
+    contact: null
+  },
+  {
+    name: "Digi Jadoo Broadband Ltd.",
+    location: "Lotus Kamal Tower-One, Level-11, 57 Joar Sahara C/A, Nikunja 2, Dhaka",
+    website: "jadoodigital.com",
+    career: "jadoodigital.com/index.php/career/",
+    email: " career@digijadoo.com",
+    linkedin: "linkedin.com/company/digi-jadoo-broadband-limited",
+    contact: null
+  },
+  {
+    name: "Field Nation",
+    location: "House:23, Shah Makdum Avenue, Sector 12, Uttara, Dhaka",
+    website: "fieldnation.com",
+    career: "fieldnation.com/careers",
+    email: "support@fieldnation.com; info@fieldnation.com",
+    linkedin: "linkedin.com/company/field-nation-bd",
+    contact: null
+  },
+    {
+    name: "TechBrigades LTD",
+    location: "House B/14 & B/30, (Sawpno Building) 4th Floor, Block# B, Banasree Main Rd, Dhaka",
+    website: "thetechbrigades.com",
+    career: "thetechbrigades.com/careers",
+    email: "info@thetechbrigade.com",
+    linkedin: "linkedin.com/company/techbrigades",
+    contact: null
+  },
 
 ];
 
