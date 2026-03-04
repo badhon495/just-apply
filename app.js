@@ -1063,7 +1063,168 @@ const companies = [
     linkedin: "linkedin.com/company/sazim",
     contact: null
   },
-
+  {
+    name: "Truck Lagbe",
+    location: "House 221 (2nd Floor), Road 15, Mohakhali DOHS, Dhaka",
+    website: "trucklagbe.com",
+    career: "trucklagbe.com/career",
+    email: "career@trucklagbe.com",
+    linkedin: "linkedin.com/company/trucklagbe",
+    contact: null
+  },
+  {
+    name: "CONNEKT Studio",
+    location: "Joleswaritola, Bogra",
+    website: "connekt.studio",
+    career: "connekt.studio/career/",
+    email: "hello@connekt.studio",
+    linkedin: "linkedin.com/company/connektstudio",
+    contact: null
+  },
+  {
+    name: "All Generation Tech",
+    location: "House 56/B, Level 4, Road No. 132, Gulshan 1, Dhaka",
+    website: "allgentech.io",
+    career: "allgentech.io/careers",
+    email: "info@allgentech.io",
+    linkedin: "linkedin.com/company/all-generation-tech",
+    contact: null
+  },
+  {
+    name: "MiraiLit Ltd.",
+    location: "Dhaka",
+    website: "mirailit.com",
+    career: "mirailit.aplicaro.com/com/careers",
+    email: "contact@mirailit.com",
+    linkedin: "linkedin.com/company/mirailit",
+    contact: null
+  },
+  {
+    name: "Efoli",
+    location: "Mirpur DOHS, Dhaka",
+    website: "efoli.com",
+    career: "efoli.com/career",
+    email: "info@efoli.com",
+    linkedin: "linkedin.com/company/efoli",
+    contact: null
+  },
+  {
+    name: "Luminar Technology",
+    location: "Ka-56, Kuratioli, Kuril, Khilkhet, Dhaka",
+    website: "luminartechnology.com",
+    career: "luminartechnology.com/career",
+    email: "hello@luminartechnology.com",
+    linkedin: "linkedin.com/company/luminartechnology",
+    contact: null
+  },
+  {
+    name: "Radiant Digital Solutions",
+    location: "BDBL (11th Floor) 12, Kawran Bazar, Dhaka",
+    website: "radiantds.com",
+    career: "radiantds.com/careers",
+    email: "info@radiantds.com",
+    linkedin: "linkedin.com/company/radiant-data-systems-ltd",
+    contact: null
+  },
+  {
+    name: "Ontik Technology",
+    location: "3rd Floor, House 11B, Road 30 Gulshan Ave, Dhaka",
+    website: "ontiktechnology.com",
+    career: "ontiktechnology.com/career",
+    email: "info@ontiktechnology.com",
+    linkedin: "linkedin.com/company/ontiktechnology",
+    contact: null
+  },
+  {
+    name: "Coderex",
+    location: "Level 12B, 69/1 Chandrashila Suvastu Tower, Panthapath, Dhaka",
+    website: "coderex.co",
+    career: "inside.coderex.co/jobs",
+    email: "enquiry@coderex.co",
+    linkedin: "linkedin.com/company/coderex-ltd",
+    contact: null
+  },
+  {
+    name: "WPXPO",
+    location: "House No. 1/C, Road No. 1, Shyamoli, Dhaka",
+    website: "wpxpo.com",
+    career: "www.wpxpo.com/career",
+    email: "career@wpxpo.com",
+    linkedin: "linkedin.com/company/wpxpohq",
+    contact: null
+  },
+  {
+    name: "Startise",
+    location: "House 592, Avenue 05, Road 08, Mirpur DOHS, Pallabi, Dhaka",
+    website: "startise.com",
+    career: "startise.com/careers",
+    email: "info@startise.com",
+    linkedin: "linkedin.com/company/startise",
+    contact: null
+  },
+  {
+    name: "Bizzntek",
+    location: "House 19, Road 01, Sector 13, Uttara, Dhaka",
+    website: "bizzntek.com",
+    career: "linkedin.com/company/bizzntek/jobs",
+    email: "info@bizzntek.com",
+    linkedin: "linkedin.com/company/bizzntek",
+    contact: null
+  },
+  {
+    name: "SecureTest Partners",
+    location: "322/1, South Goran, Khilgaon, Dhaka",
+    website: "securetestpartners.com",
+    career: "securetestpartners.com/job",
+    email: "info@securetestpartners.com",
+    linkedin: "linkedin.com/company/securetest-partners",
+    contact: null
+  },
+  {
+    name: "Avian BPO & IT",
+    location: "House 1188, Avenue 11, Mirpur DOHS, Dhaka",
+    website: "avianbpo.com",
+    career: "career.avianbpo.com",
+    email: "info@avianbpo.com",
+    linkedin: "linkedin.com/company/avianbpo",
+    contact: null
+  },
+  {
+    name: "Intertek Bangladesh",
+    location: "Intertek House, Phoenix Tower, 3rd Floor, Tejgaon Industrial Area, Dhaka",
+    website: "intertek.com/bangladesh",
+    career: "intertek.com/bangladesh/careers/",
+    email: null,
+    linkedin: "linkedin.com/company/bangladesh-intertek",
+    contact: null
+  },
+  {
+    name: "Link3 Technologies Ltd.",
+    location: "Police Plaza Concord, 13th Floor, Plot-02, Road-144, Gulshan-1, Dhaka",
+    website: "link3.net",
+    career: "link3.net/career",
+    email: "jobs@link3.net; info@link3.net",
+    linkedin: "linkedin.com/company/link3-technologies",
+    contact: null
+  },
+  {
+    name: "W3 Engineers Ltd.",
+    location: "World Business Centrum, 4th Floor, 76/A, Banani-11, Dhaka",
+    website: "w3engineers.com",
+    career: "w3engineers.com/career",
+    email: "jobs@w3engineers.com",
+    linkedin: "linkedin.com/company/w3engineers",
+    contact: null
+  },
+  {
+    name: "FigLab",
+    location: "Suite #3B, Haque Chamber, 89/2 West Panthapath, Dhaka",
+    website: "figlab.io",
+    career: "figlab.io/career",
+    email: "hello@figlab.io",
+    linkedin: "linkedin.com/company/figlab",
+    contact: null
+  },
 
 ];
 
