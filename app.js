@@ -1252,7 +1252,7 @@ const companies = [
     linkedin: "linkedin.com/company/field-nation-bd",
     contact: null
   },
-    {
+  {
     name: "TechBrigades LTD",
     location: "House B/14 & B/30, (Sawpno Building) 4th Floor, Block# B, Banasree Main Rd, Dhaka",
     website: "thetechbrigades.com",
@@ -1261,7 +1261,33 @@ const companies = [
     linkedin: "linkedin.com/company/techbrigades",
     contact: null
   },
-
+  {
+    name: "Inovace Technologies Ltd",
+    location: "H-18 (Level 4), Kazi Nazrul Islam Avenue, Shahbag, Dhaka",
+    website: "inovacetech.com",
+    career: "linkedin.com/company/inovace-technologies/jobs",
+    email: "hr@inovacetech.com",
+    linkedin: "linkedin.com/company/inovace-technologies",
+    contact: null
+  },
+  {
+    name: "Spectrum Software & Consulting Ltd (SSCL)",
+    location: "7th Floor, West Side, BDBL Bhaban, 12 Kazi Nazrul Islam Avenue, Kawran Bazar, Dhaka",
+    website: "sscl.tech",
+    career: "career.sscl.tech",
+    email: "sscl@spectrum-bd.com",
+    linkedin: "linkedin.com/company/spectrum-software-and-consulting",
+    contact: null
+  },
+  {
+    name: "Right Tracks IT. Limited",
+    location: "Road 29, Mohakhali DOHS, Dhaka",
+    website: "righttracksit.com",
+    career: null,
+    email: "hr@righttracksit.com",
+    linkedin: "linkedin.com/company/right-tracks-it-limited",
+    contact: null
+  },
 ];
 
 const list = document.getElementById('list');
