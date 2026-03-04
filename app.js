@@ -791,7 +791,7 @@ const companies = [
     linkedin: "linkedin.com/company/robi-axiata-limited",
     contact: null
   },
-    {
+  {
     name: "Grameenphone",
     location: "TGPHOUSE, Bashundhara, Baridhara, Dhaka",
     website: "grameenphone.com",
@@ -809,7 +809,7 @@ const companies = [
     linkedin: "linkedin.com/company/banglalink",
     contact: null
   },
-    {
+  {
     name: "Nymph Solutions Ltd",
     location: "Level 3, House No. 470, Road No. 31, Mohakhali DOHS, Dhaka",
     website: "nymphsolutions.com",
@@ -818,7 +818,7 @@ const companies = [
     linkedin: "linkedin.com/company/nymphsolutions",
     contact: null
   },
-      {
+  {
     name: "Reckitt Benckiser PLC",
     location: "The Glass House, 9th & 10th Floors, Plot-2, Block-SE (B), 38 Gulshan Avenue, Dhaka",
     website: "reckitt.com",
@@ -828,7 +828,15 @@ const companies = [
     contact: null
   },
 
-
+  {
+    name: "ADN DigiNet",
+    location: "House: 11, Navana Shefali, Road: 14, Gulshan-1, Dhaka",
+    website: "adndiginet.com",
+    career: "adndiginet.com/career",
+    email: "career@adndiginet.com",
+    linkedin: "linkedin.com/company/adndiginet",
+    contact: null
+  },
 
 ];
 
