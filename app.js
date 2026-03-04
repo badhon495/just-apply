@@ -711,7 +711,7 @@ const companies = [
     contact: null
   },
   {
-    name: "upay",
+    name: "Upay",
     location: "Plot CWS (A) -1, Road 34, Gulshan Avenue, Dhaka",
     website: "upaybd.com",
     career: null,
@@ -783,7 +783,7 @@ const companies = [
     contact: null
   },
   {
-    name: "robi",
+    name: "Robi",
     location: "The Forum, 187, 188/B, Bir Uttam Mir Shawkat Sarak, Tejgaon, Dhaka",
     website: "robi.com",
     career: "robicareer.com",
@@ -835,6 +835,124 @@ const companies = [
     career: "adndiginet.com/career",
     email: "career@adndiginet.com",
     linkedin: "linkedin.com/company/adndiginet",
+    contact: null
+  },
+
+  {
+    name: "OnnoRokom Projukti Limited",
+    location: "Tropical Noor Tower (Level-3), 40 Kazi Nazrul Islam Avenue, Karwan Bazar, Dhaka",
+    website: "onnorokomprojukti.com",
+    career: "onnorokomprojukti.com/Career",
+    email: "info@onnorokomprojukti.com",
+    linkedin: "linkedin.com/company/onnorokom-projukti-limited",
+    contact: null
+  },
+  {
+    name: "WPP Production",
+    location: "Road 11, House 76/A, 3rd Floor, Banani, Dhaka",
+    website: "wppproduction.com",
+    career: "wpp.com/careers",
+    email: "careers@wppproduction.com",
+    linkedin: "linkedin.com/company/wppproductiondhaka",
+    contact: null
+  },
+  {
+    name: "Qtec Solution Limited",
+    location: "House 23, Road 04, Nikunja-2, Dhaka",
+    website: "qtecsolution.com",
+    career: "hrm.qtecsolution.net",
+    email: "info@qtecsolution.com",
+    linkedin: "linkedin.com/company/qtec-solution",
+    contact: null
+  },
+  {
+    name: "ZMC Technologies Ltd.",
+    location: "House 147, Road 13/B, Block E, Banani, Dhaka",
+    website: "zmctechnologies.com",
+    career: "zmctechnologies.com/careers",
+    email: "contact@zmctechnologies.com",
+    linkedin: "linkedin.com/company/zmctech",
+    contact: null
+  },
+  {
+    name: "CodeCrafters International Ltd.",
+    location: "Suite 801, 17/C Panthapath, Dhaka",
+    website: "codecraftersintl.com",
+    career: "codecraftersintl.com/join-our-data-examiner-team/",
+    email: "solutions@codecraftersintl.com",
+    linkedin: "linkedin.com/company/codecrafters-international-ltd-",
+    contact: null
+  },
+  {
+    name: "Shanta Holdings Ltd.",
+    location: "Shanta Forum, East Tower, Level 20-22, 187-188/B Bir Uttam Mir Shawkat Sarak, Tejgaon, Dhaka",
+    website: "shantaholdings.com",
+    career: "shantaholdings.com/career",
+    email: "hr@shantaholdings.com",
+    linkedin: "linkedin.com/company/shantaholdings",
+    contact: null
+  },
+  {
+    name: "Bangladesh Software Solution",
+    location: "House No: 95, Floor: 1st(A1), Road 9/A, Dhanmondi, Dhaka",
+    website: "bssoln.com",
+    career: "bssoln.com/careers/",
+    email: "info@bssoln.com; bssolnjobs@gmail.com",
+    linkedin: "linkedin.com/company/bangladesh-software-solution",
+    contact: null
+  },
+  {
+    name: "Searchlite Communications Ltd.",
+    location: "House # 42 Road # 3/A , Nikunja-01, Khilkhet, Dhaka",
+    website: "searchlitebd.net",
+    career: "searchlitebd.net/jobs",
+    email: "info@searchlitebd.net",
+    linkedin: "linkedin.com/company/searchlite-communications-ltd",
+    contact: null
+  },
+  {
+    name: "Nybsys (Pvt) Ltd.",
+    location: "Block-A, Road-Ave-1, House-7, Section-11, Mirpur, Dhaka",
+    website: "nybsys.com",
+    career: "nybsys.com/career",
+    email: "hrd@nybsys.com",
+    linkedin: "linkedin.com/company/nybsys",
+    contact: null
+  },
+  {
+    name: "Synesis IT",
+    location: "Level 2 & 3, BDBL Bhaban, 12 Kawran Bazar, Dhaka",
+    website: "synesisit.com.bd",
+    career: null,
+    email: "info@synesisit.com.bd",
+    linkedin: "linkedin.com/company/synesis-it-limited",
+    contact: null
+  },
+  {
+    name: "Caretutors Technologies Ltd.",
+    location: "Level 2, Rangs Naharz, House 14, Road Shahjalal Avenue, Sector 4, Uttara, Dhaka",
+    website: "caretutors.com",
+    career: null,
+    email: "career@caretutors.com",
+    linkedin: "linkedin.com/company/care-tutors",
+    contact: null
+  },
+  {
+    name: "Be Data Solutions",
+    location: "18/3 (3rd Floor), Ring Road, Block F, Mohammadpur, Dhaka",
+    website: "bedatasolutions.com",
+    career: null,
+    email: "recruitment@bedatasolutions.com",
+    linkedin: "linkedin.com/company/be-data-solutions",
+    contact: null
+  },
+  {
+    name: "NerdDevs",
+    location: "House 40, Block A, Main Road, Aftabnagar, Badda, Dhaka",
+    website: "nerddevs.com",
+    career: null,
+    email: "jobs@nerddevs.com",
+    linkedin: "linkedin.com/company/nerddevs",
     contact: null
   },
 
