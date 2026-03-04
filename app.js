@@ -1036,6 +1036,34 @@ const companies = [
     linkedin: "linkedin.com/company/olynexagency",
     contact: null
   },
+  {
+    name: "MetLife Bangladesh",
+    location: "MetLife Building, 18-20 Motijheel C.A., Dhaka",
+    website: "metlife.com.bd",
+    career: "metlifecareers.com/en_US/ml; linkedin.com/company/metlife/jobs/",
+    email: null,
+    linkedin: "linkedin.com/company/metlife",
+    contact: null
+  },
+  {
+    name: "FinSource Limited",
+    location: "Paragon House (3rd Floor), 5 Mohakhali Commercial Area, Mohakhali, Dhaka",
+    website: "finsource.net",
+    career: "finsource.net/currentvacancies",
+    email: "contact@finsource.net",
+    linkedin: "linkedin.com/company/finsource.limited ",
+    contact: null
+  },
+  {
+    name: "Sazim",
+    location: "J.R. Casero Tower, Road No. 1, Dhaka",
+    website: "sazim.io",
+    career: "sazim.io/careers",
+    email: "talent@sazim.io",
+    linkedin: "linkedin.com/company/sazim",
+    contact: null
+  },
+
 
 ];
 
