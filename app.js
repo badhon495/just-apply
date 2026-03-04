@@ -98,7 +98,7 @@ const companies = [
     linkedin: "linkedin.com/company/leads-corporation-limited",
     contact: null
   },
-    {
+  {
     name: "Mediasoft Data Systems Limited",
     location: "BDBL Bhaban, Level-5, 12, Kazi Nazrul Islam Avenue, Karwan Bazar, Dhaka",
     website: "mediasoftbd.com",
@@ -386,7 +386,7 @@ const companies = [
     linkedin: "linkedin.com/company/shohozsoftware",
     contact: null
   },
-    {
+  {
     name: "Shohoz",
     location: "Banani 21, House 55/b, block b, Dhaka",
     website: "shohoz.com",
@@ -719,7 +719,7 @@ const companies = [
     linkedin: "linkedin.com/company/upay-ucbfintech",
     contact: null
   },
-    {
+  {
     name: "Cloudly Infotech Limited",
     location: "House #429 (2nd Floor), Road#30, Mohakhali DOHS, Dhaka",
     website: "cloudly.com.bd",
@@ -728,11 +728,113 @@ const companies = [
     linkedin: "linkedin.com/company/cloudlybd",
     contact: null
   },
+  {
+    name: "ZeuZ",
+    location: "Remote",
+    website: "zeuz.ai",
+    career: "zeuz.ai/career",
+    email: "info@zeuz.ai",
+    linkedin: "linkedin.com/company/zeuzai/",
+    contact: null
+  },
+  {
+    name: "Mediusware",
+    location: "24/1, Taj Mahal Road, Shiya Masjid mor, Floor - 8th & 9th, Ring Road, Dhaka",
+    website: "mediusware.com",
+    career: "mediusware.com/career",
+    email: "hr@mediusware.com",
+    linkedin: "linkedin.com/company/mediusware",
+    contact: null
+  },
+  {
+    name: "TallyKhata",
+    location: "Banani, Dhaka",
+    website: "tallykhata.com",
+    career: null,
+    email: "careers@tallykhata.com",
+    linkedin: "linkedin.com/company/tallykhata",
+    contact: null
+  },
+  {
+    name: "Shadhin Lab",
+    location: "Riajbag, Road-6, Rampura, Dhaka",
+    website: "shadhinlab.com",
+    career: "shadhinlab.com/career",
+    email: "career@shadhinlab.com",
+    linkedin: "linkedin.com/company/shadhin-lab-llc",
+    contact: null
+  },
+  {
+    name: "DevotrixInc",
+    location: "Noor Nagar, Khalishpur, Khulna",
+    website: "devotrixinc.com",
+    career: "devotrixinc.com/careers",
+    email: "career@devotrixinc.com",
+    linkedin: "linkedin.com/company/devotrixinc",
+    contact: null
+  },
+  {
+    name: "VitalGap",
+    location: "Remote",
+    website: "vitalgap.com",
+    career: null,
+    email: "info@vitalgap.com",
+    linkedin: "linkedin.com/company/vitalgap",
+    contact: null
+  },
+  {
+    name: "robi",
+    location: "The Forum, 187, 188/B, Bir Uttam Mir Shawkat Sarak, Tejgaon, Dhaka",
+    website: "robi.com",
+    career: "robicareer.com",
+    email: "robicareers@robi.com.bd",
+    linkedin: "linkedin.com/company/robi-axiata-limited",
+    contact: null
+  },
+    {
+    name: "Grameenphone",
+    location: "TGPHOUSE, Bashundhara, Baridhara, Dhaka",
+    website: "grameenphone.com",
+    career: "career.grameenphone.com/job",
+    email: "info@grameenphone.com",
+    linkedin: "linkedin.com/company/grameenphone-ltd",
+    contact: null
+  },
+  {
+    name: "Banglalink",
+    location: "Tigers' Den, House 4 (SW), Bir Uttam Mir Shawkat Sharak Gulshan 1, Dhaka",
+    website: "banglalink.net",
+    career: "banglalink.net/en/careers",
+    email: "info@banglalink.net",
+    linkedin: "linkedin.com/company/banglalink",
+    contact: null
+  },
+    {
+    name: "Nymph Solutions Ltd",
+    location: "Level 3, House No. 470, Road No. 31, Mohakhali DOHS, Dhaka",
+    website: "nymphsolutions.com",
+    career: "career.nymphsolutions.com",
+    email: "hr@nymphsolutions.com",
+    linkedin: "linkedin.com/company/nymphsolutions",
+    contact: null
+  },
+      {
+    name: "Reckitt Benckiser PLC",
+    location: "The Glass House, 9th & 10th Floors, Plot-2, Block-SE (B), 38 Gulshan Avenue, Dhaka",
+    website: "reckitt.com",
+    career: "reckitt.com/careers; linkedin.com/company/reckitt/jobs; careers.reckitt.com/job",
+    email: null,
+    linkedin: "linkedin.com/company/reckitt",
+    contact: null
+  },
+
+
+
 ];
 
-const list        = document.getElementById('list');
-const countEl     = document.getElementById('count');
-const noResults   = document.getElementById('no-results');
+const list = document.getElementById('list');
+const countEl = document.getElementById('count');
+const noResults = document.getElementById('no-results');
 const searchInput = document.getElementById('search');
 
 // Tracks companies opened this page session (resets on reload)
@@ -900,9 +1002,9 @@ document.getElementById('exportXmlBtn').addEventListener('click', (e) => {
   lines.push('</companies>');
 
   const blob = new Blob([lines.join('\n')], { type: 'application/xml' });
-  const url  = URL.createObjectURL(blob);
-  const a    = document.createElement('a');
-  a.href     = url;
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
   a.download = 'just-apply-companies.xml';
   a.click();
   URL.revokeObjectURL(url);
