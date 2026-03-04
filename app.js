@@ -955,6 +955,87 @@ const companies = [
     linkedin: "linkedin.com/company/nerddevs",
     contact: null
   },
+  {
+    name: "Pimjo LLC",
+    location: "Level 2, House 03, Road 05, Baridhara J Block, Dhaka",
+    website: "pimjo.com",
+    career: "pimjo.com/careers",
+    email: "hello@pimjo.com",
+    linkedin: "linkedin.com/company/pimjo",
+    contact: null
+  },
+  {
+    name: "Doin Tech Ltd.",
+    location: "Facilities Tower (12th Floor), Kha-199/2 Pragati Sarani, Dhaka",
+    website: "doin.tech",
+    career: "doin.tech/career",
+    email: "hello@doin.tech",
+    linkedin: "linkedin.com/company/dointechltd",
+    contact: null
+  },
+  {
+    name: "DoTech",
+    location: "Romask Tower, 22/3, Level 12, Karwan Bazar, Tejgaon, Dhaka",
+    website: "dotech.biz",
+    career: null,
+    email: "info@dotech.com",
+    linkedin: "linkedin.com/company/dotech-limited1",
+    contact: null
+  },
+  {
+    name: "Rokomari.com",
+    location: "2/1/E & 2/2/E Eden Center / Eden Complex, Arambagh, Motijheel, Dhaka",
+    website: "rokomari.com",
+    career: "rokomari.com/career/job",
+    email: "careers@rokomari.com",
+    linkedin: "linkedin.com/company/rokomari.com",
+    contact: null
+  },
+  {
+    name: "Design Monks",
+    location: "Ventura Iconia, Plot 37, Road No. 11, Banani, Dhaka",
+    website: "designmonks.co",
+    career: "designmonks.co/career/",
+    email: "career@designmonks.co; hello@designmonks.co",
+    linkedin: "linkedin.com/company/designmonks",
+    contact: null
+  },
+  {
+    name: "TygrLabs",
+    location: "Level 5, Plot No 11, Rd No 113/A, Gulshan-2, Dhaka",
+    website: "tygrlabs.co",
+    career: "tygrlabs.co/career",
+    email: "career@tygrlabs.co",
+    linkedin: "linkedin.com/company/tygrlabs",
+    contact: null
+  },
+  {
+    name: "EchoaSoft Ltd.",
+    location: "House 01, Road No. 01, Nikunja-2, Khilkhet, Dhaka",
+    website: "echoasoft.com",
+    career: "echoasoft.com/career",
+    email: "info@echoasoft.com",
+    linkedin: "linkedin.com/company/echoasoft",
+    contact: null
+  },
+  {
+    name: "Againsoft",
+    location: "60, West Agargaon, Sher-E-Bangla Nagar, Dhaka",
+    website: "againsoft.com",
+    career: "againsoft.com/career",
+    email: "hr@againsoft.com",
+    linkedin: "linkedin.com/company/againsoft/",
+    contact: null
+  },
+  {
+    name: "Olynex LLC",
+    location: "Akota Bhaban, 1st Floor, Main road Uposhohor, Bogura",
+    website: "olynex.com",
+    career: "olynex.com/career",
+    email: "hello@olynex.com",
+    linkedin: "linkedin.com/company/olynexagency",
+    contact: null
+  },
 
 ];
 
