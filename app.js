@@ -1092,9 +1092,9 @@ const companies = [
   },
   {
     name: "MiraiLit Ltd.",
-    location: "Dhaka",
+    location: "102/B, Chowdhuripara, Malibagh, Dhaka",
     website: "mirailit.com",
-    career: "mirailit.aplicaro.com/com/careers",
+    career: "mirailit.aplicaro.com",
     email: "contact@mirailit.com",
     linkedin: "linkedin.com/company/mirailit",
     contact: null
@@ -1333,8 +1333,6 @@ const companies = [
     linkedin: "linkedin.com/company/fringecore/",
     contact: null
   },
-
-  // done
   {
     name: "RedDot Digital IT Ltd",
     location: "57 & 57/A, Uday Tower (15th Floor), Gulshan 1, Gulshan Avenue, Dhaka",
@@ -1378,6 +1376,24 @@ const companies = [
     career: "linkedin.com/company/rocketphone/jobs/",
     email: "info@rocketphone.ai",
     linkedin: "linkedin.com/company/rocketphone",
+    contact: null
+  },
+    {
+    name: "TechnoNext",
+    location: "Plot #1337–1338, Talukdar Tower, Saied Nagar, Dhaka",
+    website: "technonext.com",
+    career: "https://technonext.com/career",
+    email: "info@technonext.com",
+    linkedin: "linkedin.com/company/technonextsoftwareltd/",
+    contact: null
+  },
+      {
+    name: "Intelligent Machines",
+    location: "Moar Banani 11, Ventura Iconia, Level 3, Holding 37 Road No. 11, Block H, Dhaka",
+    website: "intelmachines.ai",
+    career: null,
+    email: "foysal@intelmachin.es",
+    linkedin: "linkedin.com/company/intelligent-machines-ltd",
     contact: null
   },
 
