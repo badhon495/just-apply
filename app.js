@@ -1396,6 +1396,69 @@ const companies = [
     linkedin: "linkedin.com/company/intelligent-machines-ltd",
     contact: null
   },
+  {
+    name: "Kite Games Studio Ltd.",
+    location: "283, Road 19/C, Mohakhali DOHS, Dhaka",
+    website: "kitegamesstudio.com",
+    career: "kitegamesstudio.com",
+    email: "career@kitegamesstudio.com",
+    linkedin: "linkedin.com/company/kite-games-studio",
+    contact: null
+  },
+  {
+    name: "Shuttle",
+    location: "Road 2, Block B, Niketon Housing Society, Gulshan 1, Dhaka",
+    website: "shuttlebd.com",
+    career: null,
+    email: "info@shuttlebd.com",
+    linkedin: "linkedin.com/company/shuttlebd",
+    contact: null
+  },
+  {
+    name: "HubXpert",
+    location: "Flat A7, H-889, Bashundhara Apollo Road, Dhaka",
+    website: "hubxpert.com",
+    career: "career.hubxpert.com/hubxpert-application-form; linkedin.com/company/hubxpert/jobs/; career.hubxpert.com/join-us",
+    email: "hr@hubxpert.com",
+    linkedin: "linkedin.com/company/hubxpert",
+    contact: null
+  },
+  {
+    name: "BRACNet Limited",
+    location: "Navana Yusuf Infinity (Level-7), 16 Mohakhali C/A, Dhaka",
+    website: "bracnet.net",
+    career: "bracnet.net/career/vacancies",
+    email: "support@bracmail.net",
+    linkedin: "linkedin.com/company/bracnet-limited",
+    contact: null
+  },
+  {
+    name: "Wegro Global",
+    location: "House 42, Road 1, Block A, Niketon, Gulshan, Dhaka",
+    website: "wegro.global",
+    career: "wegro.global/career",
+    email: "career@wegro.global",
+    linkedin: "linkedin.com/company/wegro-global",
+    contact: null
+  },
+  {
+    name: "Patricius IT",
+    location: "(2nd Floor) Hit Hasina Complex, Chanmari Road, Lalkhan Bazar, Chattogram",
+    website: "patriciusit.com",
+    career: "patriciusit.com/job-opportunities/",
+    email: "contact@patriciusit.com",
+    linkedin: "linkedin.com/company/patricius-it",
+    contact: null
+  },
+  {
+    name: "NeosCoder",
+    location: "198 Akij House, Bir Uttam Mir Showkat Sarak, Dhaka",
+    website: "neoscoder.com",
+    career: "neoscoder.com/career",
+    email: "info@neoscoder.com",
+    linkedin: "linkedin.com/company/neoscoder",
+    contact: null
+  },
 
 ];
 
