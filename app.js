@@ -1335,60 +1335,51 @@ const companies = [
   },
 
   // done
-  // {
-  //   name: "RedDot Digital IT Ltd",
-  //   location: "Plot-1, Block-6, Bangabandhu Hi-Tech City, Kaliakair, Gazipur, Dhaka",
-  //   website: "reddotdigitalit.com",
-  //   career: null,
-  //   email: "info@reddotdigitalit.com",
-  //   linkedin: "linkedin.com/company/reddot-digital-it-limited",
-  //   contact: null
-  // },
-  // {
-  //   name: "TiCON System Ltd",
-  //   location: "Seoul, South Korea; Uttara, Dhaka, Bangladesh; USA",
-  //   website: "ticonsys.com",
-  //   career: "ticonsys.com/contact-us",
-  //   email: "info@ticonsys.com",
-  //   linkedin: "linkedin.com/company/ticonsys",
-  //   contact: null
-  // },
-  // {
-  //   name: "UnidevGo",
-  //   location: null,
-  //   website: "unidevgo.com",
-  //   career: null,
-  //   email: null,
-  //   linkedin: null,
-  //   contact: null
-  // },
-  // {
-  //   name: "Augmex.io",
-  //   location: null,
-  //   website: "augmex.io",
-  //   career: null,
-  //   email: null,
-  //   linkedin: null,
-  //   contact: null
-  // },
-  // {
-  //   name: "Golden InfoSystems",
-  //   location: "Dhaka, Bangladesh",
-  //   website: "goldeninfosystems.com",
-  //   career: null,
-  //   email: "hr@goldeninfotech.com.bd",
-  //   linkedin: null,
-  //   contact: null
-  // },
-  // {
-  //   name: "RocketPhone.ai",
-  //   location: "London, UK",
-  //   website: "rocketphone.ai",
-  //   career: "rocketphone.ai/careers",
-  //   email: "info@rocketphone.ai",
-  //   linkedin: "linkedin.com/company/rocketphone-ai",
-  //   contact: null
-  // },
+  {
+    name: "RedDot Digital IT Ltd",
+    location: "57 & 57/A, Uday Tower (15th Floor), Gulshan 1, Gulshan Avenue, Dhaka",
+    website: "reddotdigitalit.com",
+    career: null,
+    email: "career@reddotdigitalit.com",
+    linkedin: "linkedin.com/company/reddotdigitalit",
+    contact: null
+  },
+  {
+    name: "TiCON System Ltd",
+    location: "8 Gareeb-e-Newaz Ave, Uttara, Dhaka",
+    website: "ticonsys.com",
+    career: "linkedin.com/company/ticonsys/jobs/",
+    email: "career@ticonsys.com",
+    linkedin: "linkedin.com/company/ticonsys",
+    contact: null
+  },
+  {
+    name: "Augmex.io",
+    location: "House: 01, Road: 12, Baridhara J Block, Dhaka",
+    website: "augmex.io",
+    career: "augmex.io/careers",
+    email: "career@augmex.io",
+    linkedin: "linkedin.com/company/scalewithaugmex",
+    contact: null
+  },
+  {
+    name: "Golden InfoSystems",
+    location: "House #13, Garib-E-Nawyaz Avenue, Uttara, Dhaka",
+    website: "goldeninfosystems.com",
+    career: "goldeninfosystems.com/career",
+    email: "hr@goldeninfotech.com.bd",
+    linkedin: "linkedin.com/company/golden-infotech-bd",
+    contact: null
+  },
+  {
+    name: "RocketPhone.ai",
+    location: "51-52, Bir Uttam AK Khandakar Rd, Dhaka",
+    website: "rocketphone.ai",
+    career: "linkedin.com/company/rocketphone/jobs/",
+    email: "info@rocketphone.ai",
+    linkedin: "linkedin.com/company/rocketphone",
+    contact: null
+  },
 
 ];
 
