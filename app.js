@@ -1532,7 +1532,7 @@ const companies = [
     contact: null
   },
   {
-    name: "PriyoShop.com Ltd.",
+    name: "PriyoShop",
     location: "31/A Dhanmondi-8, Dhaka",
     website: "priyoshopretail.com",
     career: "priyoshopretail.com/career/",
