@@ -1488,7 +1488,7 @@ const companies = [
   },
   {
     name: "BanglaMark",
-    location: "Dhaka",
+    location: "KA-6/A, Navana Sylvania Baridhara, Dhaka",
     website: "banglamark.com",
     career: null,
     email: "career@banglamark.com.bd",
@@ -1502,6 +1502,78 @@ const companies = [
     career: null,
     email: "careers@bd.adventurekk.com",
     linkedin: "linkedin.com/company/adventuredhaka",
+    contact: null
+  },
+  {
+    name: "SuperAnnotate",
+    location: "149 New Montgomery St, 4th Floor, San Francisco, CA 94105, USA",
+    website: "superannotate.com",
+    career: "superannotate.com/careers; linkedin.com/company/superannotate/jobs",
+    email: null,
+    linkedin: "linkedin.com/company/superannotate",
+    contact: null
+  },
+  {
+    name: "Miaki",
+    location: "House 11/A, Road 99, Momtaz Vision, Flat B-2, Gulshan 02, Dhaka",
+    website: "miaki.co",
+    career: "miaki.co/miaki_career",
+    email: "info@miaki.co",
+    linkedin: "linkedin.com/company/miaki",
+    contact: null
+  },
+  {
+    name: "Quantanite",
+    location: "CRP Building, Mirpur 14, Dhaka",
+    website: "quantanite.com",
+    career: "careers.quantanite.com",
+    email: null,
+    linkedin: "linkedin.com/company/quantanite",
+    contact: null
+  },
+  {
+    name: "PriyoShop.com Ltd.",
+    location: "31/A Dhanmondi-8, Dhaka",
+    website: "priyoshopretail.com",
+    career: "priyoshopretail.com/career/",
+    email: "career@priyoshop.com",
+    linkedin: "linkedin.com/company/priyoshopcom",
+    contact: null
+  },
+  {
+    name: "MedEasy Healthcare Ltd.",
+    location: "Level 3, Road 14, Block C, Abdullah Park, Banasree, Dhaka",
+    website: "medeasy.health",
+    career: "medeasy.health/careers",
+    email: "support@medeasy.health",
+    linkedin: "linkedin.com/company/medeasy-healthcare-limited",
+    contact: null
+  },
+  {
+    name: "Priyo",
+    location: "31/A Dhanmondi-8, Dhaka",
+    website: "priyo.com",
+    career: "work.priyo.com",
+    email: "career@priyoshop.com",
+    linkedin: "linkedin.com/company/priyo",
+    contact: null
+  },
+  {
+    name: "Daraz",
+    location: "Tajwar Center, House No - 34, Road No - 19/A, Block - E, Banani, Dhaka",
+    website: "daraz.com.bd",
+    career: "daraz.com.bd/careers",
+    email: "career@daraz.com.bd",
+    linkedin: "linkedin.com/company/daraz",
+    contact: null
+  },
+    {
+    name: "foodpanda",
+    location: "Level: 8, Navana pritsin, 128 Gulshan Avenue, Dhaka",
+    website: "foodpanda.com.bd",
+    career: "careers.foodpanda.com/bangladesh; linkedin.com/company/foodpanda/jobs",
+    email: null,
+    linkedin: "linkedin.com/company/foodpanda",
     contact: null
   },
 
