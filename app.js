@@ -1378,7 +1378,7 @@ const companies = [
     linkedin: "linkedin.com/company/rocketphone",
     contact: null
   },
-    {
+  {
     name: "TechnoNext",
     location: "Plot #1337–1338, Talukdar Tower, Saied Nagar, Dhaka",
     website: "technonext.com",
@@ -1387,7 +1387,7 @@ const companies = [
     linkedin: "linkedin.com/company/technonextsoftwareltd/",
     contact: null
   },
-      {
+  {
     name: "Intelligent Machines",
     location: "Moar Banani 11, Ventura Iconia, Level 3, Holding 37 Road No. 11, Block H, Dhaka",
     website: "intelmachines.ai",
@@ -1457,6 +1457,51 @@ const companies = [
     career: "neoscoder.com/career",
     email: "info@neoscoder.com",
     linkedin: "linkedin.com/company/neoscoder",
+    contact: null
+  },
+  {
+    name: "Klozer.io",
+    location: "Remote",
+    website: "klozer.io",
+    career: "klozer.io/join-us",
+    email: "hr.klozer@gmail.com",
+    linkedin: "linkedin.com/company/klozer-inc",
+    contact: null
+  },
+  {
+    name: "Bahon Limited",
+    location: "Star Center, 2nd Floor, Road-138, Block-SE(C), Plot-2, Gulshan Avenue, Gulshan-1, Dhaka",
+    website: "bahon.com",
+    career: null,
+    email: "jobs@bahon.com",
+    linkedin: "linkedin.com/company/bahon-limited",
+    contact: null
+  },
+  {
+    name: "Cartup Ltd.",
+    location: "Rahman's Regnum Center, Level-6, 191/1, Tejgaon-Gulshan Link Road, Tejgaon C/A, Dhaka",
+    website: "cartup.com",
+    career: "lnkd.in/gudvwEhR",
+    email: "customer.care@cartup.com",
+    linkedin: "linkedin.com/company/cartup-bangladesh",
+    contact: null
+  },
+  {
+    name: "BanglaMark",
+    location: "Dhaka",
+    website: "banglamark.com",
+    career: null,
+    email: "career@banglamark.com.bd",
+    linkedin: "linkedin.com/in/banglamark-group-6639bb197",
+    contact: null
+  },
+  {
+    name: "Adventure Dhaka Limited",
+    location: "Autograph Tower, 17th & 18th Floor, 67-68 Kemal Ataturk Avenue, Banani, Dhaka",
+    website: "adventurekk.com",
+    career: null,
+    email: "careers@bd.adventurekk.com",
+    linkedin: "linkedin.com/company/adventuredhaka",
     contact: null
   },
 
