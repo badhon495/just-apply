@@ -1576,6 +1576,15 @@ const companies = [
     linkedin: "linkedin.com/company/foodpanda",
     contact: null
   },
+      {
+    name: "Wafi Solutions",
+    location: "House B/109, Road 08, Mohakhali DOHS, Dhaka",
+    website: "wafisolutions.com",
+    career: "wafisolutions.com/career",
+    email: "career@wafisolutions.com",
+    linkedin: "linkedin.com/company/wafi-solutions",
+    contact: null
+  },
 
 ];
 
