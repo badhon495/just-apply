@@ -1567,7 +1567,7 @@ const companies = [
     linkedin: "linkedin.com/company/daraz",
     contact: null
   },
-    {
+  {
     name: "foodpanda",
     location: "Level: 8, Navana pritsin, 128 Gulshan Avenue, Dhaka",
     website: "foodpanda.com.bd",
@@ -1576,13 +1576,175 @@ const companies = [
     linkedin: "linkedin.com/company/foodpanda",
     contact: null
   },
-      {
+  {
     name: "Wafi Solutions",
     location: "House B/109, Road 08, Mohakhali DOHS, Dhaka",
     website: "wafisolutions.com",
     career: "wafisolutions.com/career",
     email: "career@wafisolutions.com",
     linkedin: "linkedin.com/company/wafi-solutions",
+    contact: null
+  },
+  {
+    name: "Codemen Solutions Limited",
+    location: "90/B, Uttara bank building (4th floor), Malibagh Chowdhury Para, 1219 DIT Rd, Dhaka",
+    website: "codemen.com",
+    career: null,
+    email: "info@codemen.com",
+    linkedin: "linkedin.com/company/codemen-solutions-inc",
+    contact: null
+  },
+  {
+    name: "ding",
+    location: "6 Kemal Ataturk Ave, Dhaka",
+    website: "ding.com",
+    career: "company.ding.com/careers",
+    email: "HR@ding.com",
+    linkedin: "linkedin.com/company/ding-com",
+    contact: null
+  },
+  {
+    name: "Nimble",
+    location: "House - 1, Road - 36, Gulshan - 2, Dhaka",
+    website: "nimblesl.com",
+    career: "nimblesl.com/careers",
+    email: "career@nimblesl.com",
+    linkedin: "linkedin.com/company/nimble-software-lab",
+    contact: null
+  },
+  {
+    name: "Miaki",
+    location: "House 11/A, Road 99, Momtaz Vision, Flat: B-2, Gulshan 02, Dhaka",
+    website: "miaki.co",
+    career: "miaki.co/miaki_career",
+    email: "info@miaki.co",
+    linkedin: "linkedin.com/company/miaki",
+    contact: null
+  },
+  {
+    name: "Dohatec",
+    location: "Doha House 43 Purana Paltan Line Dhaka",
+    website: "dohatec.com",
+    career: "dohatec.com/careers",
+    email: "hrd@dohatec.net",
+    linkedin: "linkedin.com/company/dohatec-new-media",
+    contact: null
+  },
+  {
+    name: "Genuine Technology & Research Ltd.",
+    location: "Chittagong & Dhaka, Bangladesh",
+    website: "gtrbd.com",
+    career: null,
+    email: "hr02@gtrbd.com",
+    linkedin: "linkedin.com/company/genuine-technology-&-research-ltd-",
+    contact: null
+  },
+  {
+    name: "Implevista",
+    location: "3/11 Humayan Road, 4th floor. Mohammadpur, Dhaka",
+    website: "implevista.com",
+    career: "implevista.com/career",
+    email: " hr@implevista.com",
+    linkedin: "linkedin.com/company/implevista",
+    contact: null
+  },
+  {
+    name: "Talent Pro",
+    location: "109 Masjid Road, Old DOHS, Banani, Dhaka",
+    website: "talentpro.global",
+    career: null,
+    email: "info@talentpro.global; hannan@talentpro.global",
+    linkedin: "linkedin.com/company/talentproglobal",
+    contact: null
+  },
+  {
+    name: "GoZayaan",
+    location: "Sheltech Ayaan, House 58, Road 6 & 11, Block C, Level 2, Banani, Dhaka",
+    website: "gozayaan.com",
+    career: "gozayaan.com/talent",
+    email: "info@gozayaan.com",
+    linkedin: "linkedin.com/company/gozayaanlimited",
+    contact: null
+  },
+  {
+    name: "ShareTrip",
+    location: "3rd Floor, House 1, Road 17, Block C, Banani, Dhaka ",
+    website: "sharetrip.net",
+    career: null,
+    email: "info@gozayaan.com",
+    linkedin: "linkedin.com/company/sharetrip",
+    contact: null
+  },
+  {
+    name: "Ray Advertising",
+    location: "Beside Kali Mandir 2nd Floor, Chondon - Baisha Road, Bogura",
+    website: "rayadvertising.com",
+    career: "rayadvertising.com/careers",
+    email: "contact@rayadvertising.com; info@rayadvertising.com",
+    linkedin: "linkedin.com/company/rayadvertising",
+    contact: null
+  },
+  {
+    name: "Appinion BD",
+    location: "OTOBI Center, 4th floor, plot 12, Block CWS(C), Gulshan South Avenue, Gulshan 1, Dhaka",
+    website: "appinionbd.com",
+    career: "appinionbd.com/career/life-at-appinion",
+    email: "career@appinionbd.com",
+    linkedin: "linkedin.com/company/appinionbd",
+    contact: null
+  },
+  {
+    name: "BlueBird Interactive",
+    location: "32/1,Road No : 3, Shamoly, Mirpur Road, Dhaka",
+    website: "blubirdinteractive.com",
+    career: null,
+    email: "career@blubirdinteractive.com",
+    linkedin: "linkedin.com/company/blubird-interactive",
+    contact: null
+  },
+  {
+    name: "QA Harbor",
+    location: "Level 3, House No. 470, Road No. 31, Mohakhali DOHS, Dhaka",
+    website: "qaharbor.com",
+    career: "qajobs.qaharbor.com",
+    email: "contact@qaharbor.com",
+    linkedin: "linkedin.com/company/qa-harbor",
+    contact: null
+  },
+  {
+    name: "Echologyx",
+    location: "Siam Tower, Plot 15, Floor 13, Dhaka",
+    website: "echologyx.com",
+    career: "echologyx.com/career",
+    email: "jobs@echologyx.com",
+    linkedin: "linkedin.com/company/echologyx",
+    contact: null
+  },
+  {
+    name: "EliteLab AI",
+    location: "143, Crescent Road, Dhanmondi, Dhaka",
+    website: "elitelab.ai",
+    career: "elitelab.ai/open-positions",
+    email: "hr@elitelab.ai",
+    linkedin: "linkedin.com/company/elite-lab-ai",
+    contact: null
+  },
+  {
+    name: "InfiniteBit",
+    location: "8th Floor, 39/A New Eskaton Road, Dhaka",
+    website: "infinitibit.com",
+    career: null,
+    email: "career@infinitibit.com",
+    linkedin: "linkedin.com/company/infinitibit",
+    contact: null
+  },
+  {
+    name: "RazinSoft",
+    location: "RMR Center 1/1 (A&B) Shamoli Ring Road, Dhaka",
+    website: "razinsoft.com",
+    career: null,
+    email: "career@razinsoft.com",
+    linkedin: "linkedin.com/company/razinsoft",
     contact: null
   },
 
