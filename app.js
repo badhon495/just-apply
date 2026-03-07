@@ -1746,6 +1746,24 @@ const companies = [
     email: "career@razinsoft.com",
     linkedin: "linkedin.com/company/razinsoft",
     contact: null
+  }, 
+  {
+    name: "BongoBD",
+    location: "Baridhara J Block, House 20 Rd No. 2/B, Dhaka",
+    website: "bongobd.com",
+    career: null,
+    email: "careers@bongobd.com",
+    linkedin: "linkedin.com/company/bongobd",
+    contact: null
+  },
+    {
+    name: "DreamOnline",
+    location: "Address #1: House #72, Road #3, Block - B, Niketan, Gulshan - 1, Dhaka",
+    website: "dreamonline.com.bd",
+    career: "dreamonline.com.bd/career",
+    email: null,
+    linkedin: "linkedin.com/company/dreamonline-limited",
+    contact: null
   },
 
 ];
