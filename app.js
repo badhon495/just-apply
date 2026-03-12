@@ -1792,7 +1792,28 @@ const companies = [
     linkedin: "linkedin.com/company/nifty-coders",
     contact: null
   },
+    {
+    name: "GAO (Global Advanced Operations) Tek Inc",
+    location: "36 Dilkusha Rd, Motijheel, Dhaka",
+    website: "bd.gaotek.com",
+    career: "bd.gaotek.com/careers/",
+    email: "Hire-Bangladesh-A@thegaogroup.com",
+    linkedin: "linkedin.com/company/gao-tek-inc-",
+    contact: null
+  },
 
+
+];
+
+const jobPortals = [
+  { name: "BDJobs", website: "bdjobs.com" },
+  { name: "ATB Jobs", website: "atb-jobs.com" },
+  { name: "LinkedIn Jobs", website: "linkedin.com/jobs" },
+  { name: "Skill Jobs", website: "skill.jobs" },
+  { name: "Shomvob", website: "app.shomvob.co"},
+  { name: "TechnTalents", website: "techntalents.com"},
+  { name: "Alljobs", website: "alljobs.teletalk.com.bd"},
+  { name: "Google Jobs", website: "google.com/search?q=jobs near me"},
 ];
 
 const list = document.getElementById('list');
@@ -1901,6 +1922,46 @@ sorted.forEach((c, i) => {
   frag.appendChild(items[i]);
 });
 list.appendChild(frag);
+
+// Job Portals section
+const portalDivider = document.createElement('div');
+portalDivider.className = 'alpha-divider';
+portalDivider.textContent = 'Job Portals';
+list.appendChild(portalDivider);
+
+const portalItems = [];
+jobPortals.forEach(p => {
+  const el = document.createElement('div');
+  el.className = 'company-item';
+  el.innerHTML = `
+    <div class="company-header" role="button" tabindex="0" aria-expanded="false">
+      <span class="company-name">${p.name}</span>
+      <svg class="chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="4 6 8 10 12 6"/>
+      </svg>
+    </div>
+    <div class="company-body">
+      <div class="info-grid">
+        <span class="info-label">Website</span>
+        <span class="info-value">${linkVal(p.website)}</span>
+      </div>
+    </div>
+  `;
+  const header = el.querySelector('.company-header');
+  function toggle() {
+    const isOpen = el.classList.toggle('open');
+    header.setAttribute('aria-expanded', isOpen);
+  }
+  header.addEventListener('click', toggle);
+  header.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }
+  });
+  el.dataset.portalName = p.name.toLowerCase();
+  el.dataset.portalWebsite = p.website.toLowerCase();
+  portalItems.push(el);
+  list.appendChild(el);
+});
+
 updateCount(companies.length, companies.length);
 
 searchInput.addEventListener('input', () => {
@@ -1919,7 +1980,17 @@ searchInput.addEventListener('input', () => {
       if (div) div.style.display = '';
     }
   });
-  noResults.style.display = visible === 0 ? '' : 'none';
+
+  // Filter portal items
+  let portalsVisible = 0;
+  portalItems.forEach(el => {
+    const match = !q || el.dataset.portalName.includes(q) || el.dataset.portalWebsite.includes(q);
+    el.style.display = match ? '' : 'none';
+    if (match) portalsVisible++;
+  });
+  portalDivider.style.display = portalsVisible > 0 ? '' : 'none';
+
+  noResults.style.display = (visible === 0 && portalsVisible === 0) ? '' : 'none';
   updateCount(visible, companies.length);
 });
 
