@@ -1746,7 +1746,7 @@ const companies = [
     email: "career@razinsoft.com",
     linkedin: "linkedin.com/company/razinsoft",
     contact: null
-  }, 
+  },
   {
     name: "BongoBD",
     location: "Baridhara J Block, House 20 Rd No. 2/B, Dhaka",
@@ -1756,13 +1756,40 @@ const companies = [
     linkedin: "linkedin.com/company/bongobd",
     contact: null
   },
-    {
+  {
     name: "DreamOnline",
     location: "Address #1: House #72, Road #3, Block - B, Niketan, Gulshan - 1, Dhaka",
     website: "dreamonline.com.bd",
     career: "dreamonline.com.bd/career",
     email: null,
     linkedin: "linkedin.com/company/dreamonline-limited",
+    contact: null
+  },
+  {
+    name: "Luminous Labs",
+    location: "House 761/A, Road 11, Avenue 6, Mirpur DOHS, Dhaka",
+    website: "luminouslabsbd.com",
+    career: "luminouslabsbd.com/career",
+    email: "hr@luminouslabsbd.com",
+    linkedin: "linkedin.com/company/luminouslabsbd",
+    contact: null
+  },
+  {
+    name: "Fiftytwo Digital",
+    location: "House building, Sonargaon Janapath Rd, Dhaka",
+    website: "fiftytwodigital.com",
+    career: "fiftytwodigital.com/careers",
+    email: "contact@fiftytwo.com",
+    linkedin: "linkedin.com/company/fiftytwo-digital",
+    contact: null
+  },
+  {
+    name: "Nifty Coders",
+    location: "House-10 (1st Floor), Road-19/A, Block-E, Banani, Dhaka",
+    website: "niftycoders.com",
+    career: "https://careers.smartrecruiters.com/NiftyCodersPvtLtd/; linkedin.com/company/nifty-coders/jobs",
+    email: "hello@niftycoders.com",
+    linkedin: "linkedin.com/company/nifty-coders",
     contact: null
   },
 
