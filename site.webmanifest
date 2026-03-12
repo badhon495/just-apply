@@ -1,7 +1,7 @@
 {
   "name": "Just Apply",
   "short_name": "Just Apply",
-  "description": "Find contact information of Bangladesh IT companies for your job search. 55+ companies with HR emails, career pages, LinkedIn and more.",
+  "description": "Find contact information of Bangladesh IT companies for your job search. 150+ companies with HR emails, career pages, LinkedIn and more.",
   "start_url": "/just-apply/",
   "scope": "/just-apply/",
   "display": "standalone",

@@ -1046,6 +1046,15 @@ const companies = [
     contact: null
   },
   {
+    name: "Exabyting",
+    location: "A#4, House# 470, Road# 31, Mohakhali DOHS, Dhaka",
+    website: "exabyting.com",
+    career: "life.exabyting.com",
+    email: "candidate.connect@exabyting.com",
+    linkedin: "linkedin.com/company/life-at-exabyting; linkedin.com/company/exabyting",
+    contact: null
+  },
+  {
     name: "FinSource Limited",
     location: "Paragon House (3rd Floor), 5 Mohakhali Commercial Area, Mohakhali, Dhaka",
     website: "finsource.net",
