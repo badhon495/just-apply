@@ -1239,7 +1239,7 @@ const companies = [
     location: "House 15, Road 4, Block G, Banasree, Dhaka",
     website: "6sensehq.com",
     career: "6sensehq.com/career",
-    email: "hello@6sensehq.com",
+    email: "hr@6sensehq.com",
     linkedin: "linkedin.com/company/6sensehq",
     contact: null
   },
