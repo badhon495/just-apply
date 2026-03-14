@@ -204,7 +204,7 @@ const companies = [
     career: null,
     email: "support@appscode.com",
     linkedin: "linkedin.com/company/appscode",
-    contact: null
+    contact: "linkedin.com/in/saliksazzad"
   },
   {
     name: "Selise Digital Platform",
@@ -258,7 +258,7 @@ const companies = [
     career: "arogga.com/jobs",
     email: "info@arogga.com",
     linkedin: "linkedin.com/company/arogga",
-    contact: null
+    contact: "linkedin.com/in/shaiq17; linkedin.com/in/emdadullah-makki"
   },
   {
     name: "Sheba.xyz",
@@ -285,7 +285,7 @@ const companies = [
     career: "ait.inc/career",
     email: "jobs@asthait.com",
     linkedin: "linkedin.com/company/asthait",
-    contact: null
+    contact: "linkedin.com/in/tanjila-akter-304b93178"
   },
   {
     name: "aamra technologies",
@@ -431,6 +431,15 @@ const companies = [
     linkedin: "linkedin.com/company/fastitsolution",
     contact: "linkedin.com/in/masud-rana19; linkedin.com/in/srahmanshafi"
   },
+    {
+    name: "Appnap Technologies Limited",
+    location: "Ranks Business Center (5th Floor), Ka-218/1, Pragati Sarani, Dhaka",
+    website: "appnap.io",
+    career: "appnap.io/career",
+    email: "hello@appnap.io",
+    linkedin: "linkedin.com/company/appnap",
+    contact: "linkedin.com/in/fbp101; linkedin.com/in/nurulaminreason"
+  },
   {
     name: "ATI Limited",
     location: "ATI Centre, House-07, Gareeb-E-Nawaz Avenue, Sector-11, Uttara",
@@ -438,7 +447,7 @@ const companies = [
     career: "atilimited.net/career",
     email: "hr@atilimited.net",
     linkedin: "linkedin.com/company/atilimited",
-    contact: null
+    contact: "linkedin.com/in/sajjad-hossain-b1a966247; linkedin.com/in/md-mizan-hossain-5b671695"
   },
   {
     name: "Augmedix Inc.",
@@ -446,8 +455,8 @@ const companies = [
     website: "augmedix.com.bd",
     career: "https://jobs.ashbyhq.com/Commure",
     email: "ax-talent-acquisition@commure.com",
-    linkedin: "linkedin.com/company/augmedixinc",
-    contact: null
+    linkedin: "linkedin.com/company/augmedixbangladesh",
+    contact: "linkedin.com/in/nomanrashed; linkedin.com/in/aflatunkaisar; linkedin.com/in/mushfiqurarman; linkedin.com/in/iqra-owhee-680488227"
   },
   {
     name: "BRAC IT Services",
@@ -1709,7 +1718,7 @@ const companies = [
     career: "appinionbd.com/career/life-at-appinion",
     email: "career@appinionbd.com",
     linkedin: "linkedin.com/company/appinionbd",
-    contact: null
+    contact: "linkedin.com/in/mumtahina-islam-nuff-b97355361"
   },
   {
     name: "BlueBird Interactive",
