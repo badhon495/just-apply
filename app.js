@@ -292,9 +292,9 @@ const companies = [
     location: "Safura Tower (9th Floor) 20 Kemal Ataturk Avenue, Banani C/A, Dhaka",
     website: "aamra.com.bd",
     career: "people.aamra.com.bd; aamratechnologies.com/career",
-    email: "hrod.aamra@aamra.com.bd",
+    email: "hrod.aamra@aamra.com.bd; recruitment@aamra.com.bd",
     linkedin: "linkedin.com/company/aamracompanies",
-    contact: null
+    contact: "linkedin.com/in/najmulnns"
   },
   {
     name: "Millennium Info Solution",
@@ -411,7 +411,16 @@ const companies = [
     career: "appifydevs.com/career",
     email: "hr@appifydevs.com",
     linkedin: "linkedin.com/company/appifydevs",
-    contact: null
+    contact: "linkedin.com/in/mdsami55"
+  },
+    {
+    name: "DevsNest",
+    location: "24/1 Mirpur Road, Level 10 - Shyamoli Square, Shyamoli, Dhaka",
+    website: "devsnest.net",
+    career: "devsnest.net/Career; linkedin.com/company/devsnest-llc/jobs",
+    email: "hello@devsnest.net",
+    linkedin: "linkedin.com/company/devsnest-llc",
+    contact: "linkedin.com/in/atikju"
   },
   {
     name: "Appifylab",
@@ -419,8 +428,8 @@ const companies = [
     website: "appifylab.com",
     career: "appifylab.com/career",
     email: "hr@appifylab.com",
-    linkedin: "linkedin.com/company/appifylab",
-    contact: null
+    linkedin: "linkedin.com/company/fastitsolution",
+    contact: "linkedin.com/in/masud-rana19; linkedin.com/in/srahmanshafi"
   },
   {
     name: "ATI Limited",
@@ -835,7 +844,7 @@ const companies = [
     career: "adndiginet.com/career",
     email: "career@adndiginet.com",
     linkedin: "linkedin.com/company/adndiginet",
-    contact: null
+    contact: "linkedin.com/in/sohael-reza-4a5b8b22; linkedin.com/in/enamul-hassan-01521/; linkedin.com/in/outstrip/; linkedin.com/in/ferose-al-mamun-rony-69a478107/"
   },
 
   {
@@ -1097,7 +1106,7 @@ const companies = [
     career: "allgentech.io/careers",
     email: "info@allgentech.io",
     linkedin: "linkedin.com/company/all-generation-tech",
-    contact: null
+    contact: "linkedin.com/in/nabil-khan-07192a34b; linkedin.com/in/k-m-iftakhar-islam-ifty-777279219"
   },
   {
     name: "MiraiLit Ltd.",
@@ -1241,7 +1250,7 @@ const companies = [
     career: "6sensehq.com/career",
     email: "hr@6sensehq.com",
     linkedin: "linkedin.com/company/6sensehq",
-    contact: null
+    contact: "linkedin.com/in/shadman-kabir-sarker-091a70203/; linkedin.com/in/nahidtasneem/; linkedin.com/in/tahmeed-ahmed-0005031ab/"
   },
   {
     name: "Digi Jadoo Broadband Ltd.",
@@ -1313,7 +1322,7 @@ const companies = [
     career: "linkedin.com/company/adplay-mobile/jobs",
     email: "hello@adplay-mobile.com",
     linkedin: "linkedin.com/company/adplay-mobile",
-    contact: null
+    contact: "linkedin.com/in/nazah-saiyara-ahmed-99b9b5184/; linkedin.com/in/ahammed-jaki-ongon-652a4422a/"
   },
   {
     name: "SM Technology",
@@ -1511,7 +1520,7 @@ const companies = [
     career: null,
     email: "careers@bd.adventurekk.com",
     linkedin: "linkedin.com/company/adventuredhaka",
-    contact: null
+    contact: "linkedin.com/in/tarinprapty/"
   },
   {
     name: "SuperAnnotate",
@@ -1884,7 +1893,7 @@ function buildItem(c) {
         <hr class="info-divider" />
 
         <span class="info-label">HR</span>
-        <span class="info-value">${textVal(c.contact)}</span>
+        <span class="info-value">${c.contact ? c.contact.split(';').map(h => linkVal(h.trim())).join('<br/>') : '<span class="na">N/A</span>'}</span>
       </div>
     </div>
   `;
