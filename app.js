@@ -413,7 +413,7 @@ const companies = [
     linkedin: "linkedin.com/company/appifydevs",
     contact: "linkedin.com/in/mdsami55"
   },
-    {
+  {
     name: "DevsNest",
     location: "24/1 Mirpur Road, Level 10 - Shyamoli Square, Shyamoli, Dhaka",
     website: "devsnest.net",
@@ -431,7 +431,7 @@ const companies = [
     linkedin: "linkedin.com/company/fastitsolution",
     contact: "linkedin.com/in/masud-rana19; linkedin.com/in/srahmanshafi"
   },
-    {
+  {
     name: "Appnap Technologies Limited",
     location: "Ranks Business Center (5th Floor), Ka-218/1, Pragati Sarani, Dhaka",
     website: "appnap.io",
@@ -456,7 +456,7 @@ const companies = [
     career: "https://jobs.ashbyhq.com/Commure",
     email: "ax-talent-acquisition@commure.com",
     linkedin: "linkedin.com/company/augmedixbangladesh",
-    contact: "linkedin.com/in/nomanrashed; linkedin.com/in/aflatunkaisar; linkedin.com/in/mushfiqurarman; linkedin.com/in/iqra-owhee-680488227"
+    contact: "linkedin.com/in/nomanrashed; linkedin.com/in/aflatunkaisar; linkedin.com/in/mushfiqurarman; linkedin.com/in/iqra-owhee-680488227; linkedin.com/in/mrpreo"
   },
   {
     name: "BRAC IT Services",
@@ -1379,12 +1379,57 @@ const companies = [
     contact: null
   },
   {
-    name: "Augmex.io",
+    name: "Stardust Telecom Limited",
+    location: "Awal Center (18th Floor), 34, Kemal Ataturk Avenue, Banani, Dhaka",
+    website: "mimebd.com",
+    career: null,
+    email: "talentdesk.celstl@cg-bd.com",
+    linkedin: "linkedin.com/company/stardust-telecom-ltd",
+    contact: null
+  },
+  {
+    name: "SAJIDA Foundation",
+    location: "OTOBI Center, Plot 12, Block CWS(C), Gulshan South Avenue, Gulshan 1, Dhaka",
+    website: "sajida.org",
+    career: "career.sajida.org",
+    email: "inquiry@sajida.org",
+    linkedin: "linkedin.com/company/sajida-foundation",
+    contact: null
+  },
+    {
+    name: "COdesign",
+    location: "Rangs Paramount Square, Level-8, Plot 11, Road 17, Banani C/A, Dhaka",
+    website: "co.design",
+    career: "co.design/careers",
+    email: "connect@co.design",
+    linkedin: "linkedin.com/company/codesigntheory",
+    contact: null
+  },
+  {
+    name: "Augmex Technologies",
     location: "House: 01, Road: 12, Baridhara J Block, Dhaka",
     website: "augmex.io",
     career: "augmex.io/careers",
     email: "career@augmex.io",
     linkedin: "linkedin.com/company/scalewithaugmex",
+    contact: "linkedin.com/in/s-m-syful-islam-bb2684b0; linkedin.com/in/sanzida-sharmin"
+  },
+  {
+    name: "Tech Cloud Ltd",
+    location: "House 379, Road 6, Baridhara DOHS, Dhaka",
+    website: "techcloudltd.com",
+    career: "techcloudltd.com/career-at-tech-cloud-ltd",
+    email: "hr@techcloudltd.com",
+    linkedin: "linkedin.com/company/tech-cloud-ltd",
+    contact: null
+  },
+    {
+    name: "Backspace",
+    location: "5th Floor, 169, Amir Tower, West Jurain, Dholairpar, Dhaka.",
+    website: "werbackspace.com",
+    career: "werbackspace.com/career",
+    email: "career@werbackspace.com",
+    linkedin: "linkedin.com/company/werbackspace",
     contact: null
   },
   {
@@ -1819,7 +1864,7 @@ const companies = [
     linkedin: "linkedin.com/company/nifty-coders",
     contact: null
   },
-    {
+  {
     name: "GAO (Global Advanced Operations) Tek Inc",
     location: "36 Dilkusha Rd, Motijheel, Dhaka",
     website: "bd.gaotek.com",
@@ -1837,10 +1882,10 @@ const jobPortals = [
   { name: "ATB Jobs", website: "atb-jobs.com" },
   { name: "LinkedIn Jobs", website: "linkedin.com/jobs" },
   { name: "Skill Jobs", website: "skill.jobs" },
-  { name: "Shomvob", website: "app.shomvob.co"},
-  { name: "TechnTalents", website: "techntalents.com"},
-  { name: "Alljobs", website: "alljobs.teletalk.com.bd"},
-  { name: "Google Jobs", website: "google.com/search?q=jobs near me"},
+  { name: "Shomvob", website: "app.shomvob.co" },
+  { name: "TechnTalents", website: "techntalents.com" },
+  { name: "Alljobs", website: "alljobs.teletalk.com.bd" },
+  { name: "Google Jobs", website: "google.com/search?q=jobs near me" },
 ];
 
 const list = document.getElementById('list');
