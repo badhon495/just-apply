@@ -1396,7 +1396,7 @@ const companies = [
     linkedin: "linkedin.com/company/sajida-foundation",
     contact: null
   },
-    {
+  {
     name: "COdesign",
     location: "Rangs Paramount Square, Level-8, Plot 11, Road 17, Banani C/A, Dhaka",
     website: "co.design",
@@ -1424,6 +1424,33 @@ const companies = [
     contact: null
   },
     {
+    name: "Suffix IT Limited",
+    location: "Cha-70,70/A, Rupayan Millennium Square (9A), Progoti Sharoni, North Badda, Gulshan, Dhaka",
+    website: "suffixit.com",
+    career: "suffixit.com/career; linkedin.com/company/suffix-it-limited/jobs",
+    email: "career@suffixit.com",
+    linkedin: "linkedin.com/company/suffix-it-limited",
+    contact: "linkedin.com/in/rafiat-rabi-596423218"
+  },
+  {
+    name: "Get Levrg Bangladesh Ltd",
+    location: "Apartment: A3, Plot No Suvastu Batayan, House 12, Road No 6, Banani, Dhaka",
+    website: "getlevrg.com",
+    career: "career.getlevrg.com",
+    email: null,
+    linkedin: "linkedin.com/company/get-levrg-bd",
+    contact: null
+  },
+    {
+    name: "Linno",
+    location: "Level 12B, 69/1 Chandrashila Suvastu Tower, Panthapath, Dhaka",
+    website: "linno.io",
+    career: "linno.io/careers",
+    email: "enquiry@linno.io",
+    linkedin: "linkedin.com/company/linnoltd",
+    contact: null
+  },
+  {
     name: "Backspace",
     location: "5th Floor, 169, Amir Tower, West Jurain, Dholairpar, Dhaka.",
     website: "werbackspace.com",
