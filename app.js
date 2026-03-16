@@ -6,7 +6,7 @@ const companies = [
     career: "brainstation-23.easy.jobs",
     email: "career@brainstation-23.com",
     linkedin: "linkedin.com/company/brainstation-23; linkedin.com/showcase/brain-station-23-careers-and-culture",
-    contact: null
+    contact: "linkedin.com/in/timuzin-islam-razit-319899212; linkedin.com/in/tanvir-titu-54254b92; linkedin.com/in/shihabul-kamal-prattay; linkedin.com/in/siyam-hossain-ador-094966157"
   },
   {
     name: "BJIT Limited",
@@ -15,7 +15,7 @@ const companies = [
     career: "bjitgroup.com/career",
     email: "career@bjitgroup.com",
     linkedin: "linkedin.com/company/bjit",
-    contact: null
+    contact: "linkedin.com/in/tasnia-nazmee-4795601a2; linkedin.com/in/faria-faiema; linkedin.com/in/htanveer23"
   },
   {
     name: "Vivasoft Limited",
@@ -177,7 +177,7 @@ const companies = [
     career: "bkash.com/career; facebook.com/bkashcareer",
     email: "support@bkash.com",
     linkedin: "linkedin.com/company/bkash-limited/",
-    contact: null
+    contact: "linkedin.com/in/mazedmakki"
   },
   {
     name: "Chaldal",
@@ -357,7 +357,7 @@ const companies = [
     career: null,
     email: "info@bondstein.com",
     linkedin: "linkedin.com/company/bondstein",
-    contact: null
+    contact: "linkedin.com/in/anikhossain18/; linkedin.com/in/nafisa-sohana/"
   },
   {
     name: "NGen IT Limited",
@@ -464,8 +464,8 @@ const companies = [
     website: "bracits.com",
     career: "bracits.com/career",
     email: "info@bracits.com",
-    linkedin: "linkedin.com/company/bracits",
-    contact: null
+    linkedin: "linkedin.com/company/bracits; linkedin.com/showcase/brac-it-stories",
+    contact: "linkedin.com/in/tajrina-khan-hr; linkedin.com/in/istishna-munawara-nijhu-6777b9231; linkedin.com/in/mahmudul-hasan-713a8713a"
   },
   {
     name: "CodersTrust",
@@ -953,7 +953,7 @@ const companies = [
     career: null,
     email: "career@caretutors.com",
     linkedin: "linkedin.com/company/care-tutors",
-    contact: null
+    contact: "linkedin.com/in/sumaiya-ahmed-58334b1ba"
   },
   {
     name: "Be Data Solutions",
@@ -1529,7 +1529,7 @@ const companies = [
     career: "bracnet.net/career/vacancies",
     email: "support@bracmail.net",
     linkedin: "linkedin.com/company/bracnet-limited",
-    contact: null
+    contact: "linkedin.com/in/afrin-kawsar; linkedin.com/in/rashidul-hasan-mahim-b82b67295"
   },
   {
     name: "Wegro Global",
@@ -1582,8 +1582,8 @@ const companies = [
     website: "cartup.com",
     career: "lnkd.in/gudvwEhR",
     email: "customer.care@cartup.com",
-    linkedin: "linkedin.com/company/cartup-bangladesh",
-    contact: null
+    linkedin: "linkedin.com/company/cartup-bangladesh; linkedin.com/company/cartup-careers",
+    contact: "linkedin.com/in/sabrina-saila8181; linkedin.com/in/hasan-mahmud-samrut-626574170; linkedin.com/in/tahamid"
   },
   {
     name: "BanglaMark",
@@ -1799,7 +1799,7 @@ const companies = [
     career: null,
     email: "career@blubirdinteractive.com",
     linkedin: "linkedin.com/company/blubird-interactive",
-    contact: null
+    contact: "linkedin.com/in/themh; linkedin.com/in/kazishahin"
   },
   {
     name: "QA Harbor",
