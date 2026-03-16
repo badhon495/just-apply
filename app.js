@@ -132,7 +132,7 @@ const companies = [
     career: "bdtask.com/career",
     email: "hr@bdtask.com",
     linkedin: "linkedin.com/company/bdtask",
-    contact: null
+    contact: "linkedin.com/in/dulal88"
   },
   {
     name: "Dynamic Solution Innovators",
@@ -917,7 +917,7 @@ const companies = [
     career: "bssoln.com/careers/",
     email: "info@bssoln.com; bssolnjobs@gmail.com",
     linkedin: "linkedin.com/company/bangladesh-software-solution",
-    contact: null
+    contact: "linkedin.com/in/asheq-mazib-95a86b34a/"
   },
   {
     name: "Searchlite Communications Ltd.",
@@ -962,7 +962,7 @@ const companies = [
     career: null,
     email: "recruitment@bedatasolutions.com",
     linkedin: "linkedin.com/company/be-data-solutions",
-    contact: null
+    contact: "linkedin.com/in/shofiulalom; linkedin.com/in/rifat-sultana-2b1478339"
   },
   {
     name: "NerdDevs",
@@ -1457,7 +1457,7 @@ const companies = [
     career: "werbackspace.com/career",
     email: "career@werbackspace.com",
     linkedin: "linkedin.com/company/werbackspace",
-    contact: null
+    contact: "linkedin.com/in/aminahmedmisal07; linkedin.com/in/snmorshed"
   },
   {
     name: "Golden InfoSystems",
@@ -1574,7 +1574,7 @@ const companies = [
     career: null,
     email: "jobs@bahon.com",
     linkedin: "linkedin.com/company/bahon-limited",
-    contact: null
+    contact: "linkedin.com/in/zannatulferdousi; linkedin.com/in/sifat-binta-alam-b883361bb"
   },
   {
     name: "Cartup Ltd.",
@@ -1973,7 +1973,7 @@ function buildItem(c) {
 
         <hr class="info-divider" />
 
-        <span class="info-label">HR</span>
+        <span class="info-label">Recruiter</span>
         <span class="info-value">${c.contact ? c.contact.split(';').map(h => linkVal(h.trim())).join('<br/>') : '<span class="na">N/A</span>'}</span>
       </div>
     </div>
