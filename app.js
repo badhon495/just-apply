@@ -33,7 +33,7 @@ const companies = [
     career: "enosisbd.pinpointhq.com",
     email: "info@enosisbd.com",
     linkedin: "linkedin.com/company/enosis-solutions",
-    contact: null
+    contact: "linkedin.com/in/md-mushfiqul-haque-8726ba216; linkedin.com/in/moshiur-rahman-mishu"
   },
   {
     name: "Kaz Software Limited",
@@ -69,7 +69,7 @@ const companies = [
     career: "cefalo.com/en/career",
     email: "mail@cefalo.com",
     linkedin: "linkedin.com/company/cefalo-as; linkedin.com/showcase/cefalobangladesh",
-    contact: null
+    contact: "linkedin.com/in/saiful-haque-pranta-b63210165; linkedin.com/in/jawwad-rabbi-23995789"
   },
   {
     name: "Therap (BD) Ltd.",
@@ -141,7 +141,7 @@ const companies = [
     career: "app.hrythmic.com/recruit/openings/company/dsinnovators/",
     email: "info@dsinnovators.com",
     linkedin: "linkedin.com/company/dsinnovators",
-    contact: null
+    contact: "linkedin.com/in/farzana-shathi-547247198; linkedin.com/in/salma-fariha-masuda; linkedin.com/in/asif-ahmed-rohan-01bbb0190; linkedin.com/in/nafisha-tafannum-346967200"
   },
   {
     name: "Kona Software Lab",
@@ -186,7 +186,7 @@ const companies = [
     career: "chaldal.tech",
     email: 'support@chaldal.com',
     linkedin: "linkedin.com/company/chaldalcom",
-    contact: null
+    contact: "linkedin.com/in/tanjil-tasin"
   },
   {
     name: "Samsung R&D (SRBD)",
@@ -474,7 +474,7 @@ const companies = [
     career: "coderstrust.global/join-us",
     email: "hello@coderstrustbd.com",
     linkedin: "linkedin.com/company/coderstrust-bangladesh",
-    contact: null
+    contact: "linkedin.com/in/mahzabin-akter"
   },
   {
     name: "Dhrubok Infotech Services",
@@ -483,7 +483,7 @@ const companies = [
     career: "dhrubokinfotech.com/career",
     email: "hr@dhrubokinfotech.com",
     linkedin: "linkedin.com/company/dhrubokinfotech",
-    contact: null
+    contact: "linkedin.com/in/md-abdul-wadud-7447ab148; linkedin.com/in/ayon115"
   },
   {
     name: "Divine IT Limited",
@@ -699,7 +699,7 @@ const companies = [
     career: "https://talent.talent-troop.com/job-list/companies/era",
     email: "marketing@erainfotechbd.com",
     linkedin: "linkedin.com/company/era-infotech-ltd",
-    contact: null
+    contact: "linkedin.com/in/ashik-hr; linkedin.com/in/naila-hossain-740a61160"
   },
   {
     name: "Gain Solutions",
@@ -717,7 +717,7 @@ const companies = [
     career: "fiberathome.net/career",
     email: "jobs@fiberathome.net",
     linkedin: "linkedin.com/company/FiberAtHomeLimited",
-    contact: null
+    contact: "linkedin.com/in/sayma-delower-2049877b; linkedin.com/in/mustaquim-rahman-chowdhury-4049181a5; linkedin.com/in/himi-maria-csca™-60a64b1a6; linkedin.com/in/rakibul-hasan-hr"
   },
   {
     name: "Nagad",
@@ -989,7 +989,7 @@ const companies = [
     career: "doin.tech/career",
     email: "hello@doin.tech",
     linkedin: "linkedin.com/company/dointechltd",
-    contact: null
+    contact: "linkedin.com/in/tahrin-ahmed-103a0214a; linkedin.com/in/shohanur-rahman-340275102; linkedin.com/in/asmunna9"
   },
   {
     name: "DoTech",
@@ -1034,7 +1034,7 @@ const companies = [
     career: "echoasoft.com/career",
     email: "info@echoasoft.com",
     linkedin: "linkedin.com/company/echoasoft",
-    contact: null
+    contact: "linkedin.com/in/afsana-rifat"
   },
   {
     name: "Againsoft",
@@ -1133,7 +1133,7 @@ const companies = [
     career: "efoli.com/career",
     email: "info@efoli.com",
     linkedin: "linkedin.com/company/efoli",
-    contact: null
+    contact: "linkedin.com/in/jahangir83"
   },
   {
     name: "Luminar Technology",
@@ -1169,7 +1169,7 @@ const companies = [
     career: "inside.coderex.co/jobs",
     email: "enquiry@coderex.co",
     linkedin: "linkedin.com/company/coderex-ltd",
-    contact: null
+    contact: "linkedin.com/in/tarequl-islam-khan-254b64151"
   },
   {
     name: "WPXPO",
@@ -1619,7 +1619,7 @@ const companies = [
     career: "miaki.co/miaki_career",
     email: "info@miaki.co",
     linkedin: "linkedin.com/company/miaki",
-    contact: null
+    contact: "linkedin.com/in/md-israt-shamim; "
   },
   {
     name: "Quantanite",
@@ -1664,7 +1664,7 @@ const companies = [
     career: "daraz.com.bd/careers",
     email: "career@daraz.com.bd",
     linkedin: "linkedin.com/company/daraz",
-    contact: null
+    contact: "linkedin.com/in/arif-ridhoy-8b3426141; linkedin.com/in/mamunur-rahman1; linkedin.com/in/tanjum-tisha; linkedin.com/in/md-deluar-hossain-robin-92b785247; linkedin.com/in/md-shahriar-hossain777; linkedin.com/in/saiful-islam-3625331b9; linkedin.com/in/a-s-m-saifullah-saif-996b343a; linkedin.com/in/md-jubeare-asif-rushod-230a8a213"
   },
   {
     name: "foodpanda",
@@ -1690,8 +1690,8 @@ const companies = [
     website: "codemen.com",
     career: null,
     email: "info@codemen.com",
-    linkedin: "linkedin.com/company/codemen-solutions-inc",
-    contact: null
+    linkedin: "linkedin.com/company/codemen-solutions-inc-",
+    contact: "linkedin.com/in/golammurshed"
   },
   {
     name: "ding",
@@ -1817,7 +1817,7 @@ const companies = [
     career: "echologyx.com/career",
     email: "jobs@echologyx.com",
     linkedin: "linkedin.com/company/echologyx",
-    contact: null
+    contact: "linkedin.com/in/shirajum-monira-muna-53b9b91a5; linkedin.com/in/tahleela-hasan-44ba46146; linkedin.com/in/md-shams-zad-al-islam-3b655966; linkedin.com/in/zannatun-nayeem-58431261"
   },
   {
     name: "EliteLab AI",
