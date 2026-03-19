@@ -1448,7 +1448,7 @@ const companies = [
     career: "linno.io/careers",
     email: "enquiry@linno.io",
     linkedin: "linkedin.com/company/linnoltd",
-    contact: null
+    contact: "linkedin.com/in/tarequl-islam-khan-254b64151"
   },
   {
     name: "Backspace",
