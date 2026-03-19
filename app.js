@@ -168,7 +168,7 @@ const companies = [
     career: "careers.pathao.com",
     email: "support@pathao.com",
     linkedin: "linkedin.com/company/pathao",
-    contact: null
+    contact: "linkedin.com/in/sadman-ibne-anwar-ba8140161; linkedin.com/in/sumaiya-noor-mumu-632988114; linkedin.com/in/sheikh-shariful-hasan; linkedin.com/in/shaif-rezoan-69a9981bb; linkedin.com/in/md-yeasin-mahmud-51b907248; linkedin.com/in/ghulamsadmanydonny; linkedin.com/in/anamika-zaman-annesha-388238203"
   },
   {
     name: "bKash Limited",
@@ -330,7 +330,7 @@ const companies = [
     career: "pridesys.com/careers",
     email: "career@pridesys.com",
     linkedin: "linkedin.com/company/pridesys-it-ltd",
-    contact: null
+    contact: "linkedin.com/in/omar-faruk-52174233; linkedin.com/in/monuwar"
   },
   {
     name: "Ollyo",
@@ -339,7 +339,7 @@ const companies = [
     career: "ollyo.com/careers",
     email: "hello@ollyo.com",
     linkedin: "linkedin.com/company/ollyo",
-    contact: null
+    contact: "linkedin.com/in/saima-nusrat-shorna-1290a37a"
   },
   {
     name: "Inument Solution",
@@ -573,7 +573,7 @@ const companies = [
     career: "optimizely.com/careers",
     email: "careers@optimizely.com",
     linkedin: "linkedin.com/company/optimizely",
-    contact: null
+    contact: "linkedin.com/in/sanadina; linkedin.com/in/ariba-ayesha-sattar-60544191; linkedin.com/in/sinthiya-salsabil; linkedin.com/in/kazi-pushpa-ahmed; linkedin.com/in/ashef-zawad"
   },
   {
     name: "Orange Toolz",
@@ -582,7 +582,7 @@ const companies = [
     career: "career.orangetoolz.com",
     email: "career@orangetoolz.com",
     linkedin: "linkedin.com/company/orangetoolz.com",
-    contact: null
+    contact: "linkedin.com/in/sabiha-afrin-6329b0391"
   },
   {
     name: "Portonics Limited",
@@ -591,7 +591,7 @@ const companies = [
     career: "portonics.com/career",
     email: "hr@portonics.com",
     linkedin: "linkedin.com/company/portonics",
-    contact: null
+    contact: "linkedin.com/in/nabila-tahsin-rimi-4615222ba; linkedin.com/in/ssrahmansadi"
   },
   {
     name: "ReliSource",
@@ -863,7 +863,7 @@ const companies = [
     career: "onnorokomprojukti.com/Career",
     email: "info@onnorokomprojukti.com",
     linkedin: "linkedin.com/company/onnorokom-projukti-limited",
-    contact: null
+    contact: "linkedin.com/in/momenul-islam-hrd"
   },
   {
     name: "WPP Production",
@@ -1160,7 +1160,7 @@ const companies = [
     career: "ontiktechnology.com/career",
     email: "info@ontiktechnology.com",
     linkedin: "linkedin.com/company/ontiktechnology",
-    contact: null
+    contact: "linkedin.com/in/hmsarwar; linkedin.com/in/ishrat-jahan-sara-06730a1b8"
   },
   {
     name: "Coderex",
@@ -1547,7 +1547,7 @@ const companies = [
     career: "patriciusit.com/job-opportunities/",
     email: "contact@patriciusit.com",
     linkedin: "linkedin.com/company/patricius-it",
-    contact: null
+    contact: "linkedin.com/in/naeema-alam; "
   },
   {
     name: "NeosCoder",
@@ -1626,9 +1626,9 @@ const companies = [
     location: "CRP Building, Mirpur 14, Dhaka",
     website: "quantanite.com",
     career: "careers.quantanite.com",
-    email: null,
+    email: "recruitmentaquantanite.com",
     linkedin: "linkedin.com/company/quantanite",
-    contact: null
+    contact: "linkedin.com/in/koushik-azim; linkedin.com/in/mirfat-uz-z-4369a579; linkedin.com/in/kazi-mujtoba-shahria-b4054b1a7"
   },
   {
     name: "PriyoShop",
@@ -1637,7 +1637,7 @@ const companies = [
     career: "priyoshopretail.com/career/",
     email: "career@priyoshop.com",
     linkedin: "linkedin.com/company/priyoshopcom",
-    contact: null
+    contact: "linkedin.com/in/ree-riha-666b83301; linkedin.com/in/sanjida-akter-faiza-74449026b; "
   },
   {
     name: "MedEasy Healthcare Ltd.",
