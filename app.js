@@ -555,7 +555,7 @@ const companies = [
     career: "magnito.agency/join-the-cult",
     email: "career@magnito.agency",
     linkedin: "linkedin.com/company/magnito",
-    contact: null
+    contact: "linkedin.com/in/ishrat-jahan-yoshe"
   },
   {
     name: "MonstarLab Bangladesh",
@@ -762,7 +762,7 @@ const companies = [
     career: "mediusware.com/career",
     email: "hr@mediusware.com",
     linkedin: "linkedin.com/company/mediusware",
-    contact: null
+    contact: "linkedin.com/in/faysal97"
   },
   {
     name: "TallyKhata",
@@ -1061,7 +1061,7 @@ const companies = [
     career: "metlifecareers.com/en_US/ml; linkedin.com/company/metlife/jobs/",
     email: null,
     linkedin: "linkedin.com/company/metlife",
-    contact: null
+    contact: "linkedin.com/in/fatin-ishraq-59031a14b"
   },
   {
     name: "Exabyting",
@@ -1619,7 +1619,7 @@ const companies = [
     career: "miaki.co/miaki_career",
     email: "info@miaki.co",
     linkedin: "linkedin.com/company/miaki",
-    contact: "linkedin.com/in/md-israt-shamim; "
+    contact: "linkedin.com/in/md-israt-shamim; linkedin.com/in/munnujan-aktar-pranty-3904701b0; linkedin.com/in/mi-anik"
   },
   {
     name: "Quantanite",
@@ -1709,15 +1709,6 @@ const companies = [
     career: "nimblesl.com/careers",
     email: "career@nimblesl.com",
     linkedin: "linkedin.com/company/nimble-software-lab",
-    contact: null
-  },
-  {
-    name: "Miaki",
-    location: "House 11/A, Road 99, Momtaz Vision, Flat: B-2, Gulshan 02, Dhaka",
-    website: "miaki.co",
-    career: "miaki.co/miaki_career",
-    email: "info@miaki.co",
-    linkedin: "linkedin.com/company/miaki",
     contact: null
   },
   {
