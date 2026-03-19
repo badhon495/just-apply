@@ -87,7 +87,7 @@ const companies = [
     career: "revesoft.com/career",
     email: "info@revesoft.com",
     linkedin: "linkedin.com/company/reve-systems",
-    contact: null
+    contact: "linkedin.com/in/mamunur-rouf"
   },
   {
     name: "LeadSoft Bangladesh",
@@ -123,7 +123,7 @@ const companies = [
     career: "riseuplabs.com/career",
     email: "contact@riseuplabs.com",
     linkedin: "linkedin.com/company/riseuplabs; linkedin.com/showcase/career-at-riseuplabs/",
-    contact: null
+    contact: "linkedin.com/in/s-m-wasi-sozen-12a8b911a; linkedin.com/in/md-rahat-hayder-chawdhary-emraan-pgdhrm-193243b0; linkedin.com/in/sadia-tasnim1405; linkedin.com/in/shaila-sharmin-0b50ba152; linkedin.com/in/hasibur-rashid-saad; linkedin.com/in/mr-mithu; linkedin.com/in/md-mangur-hossain; "
   },
   {
     name: "Bdtask Limited",
@@ -600,7 +600,7 @@ const companies = [
     career: "relisource.com/careers; new.relisource.com/careers/",
     email: "career@relisource.com",
     linkedin: "linkedin.com/company/relisource",
-    contact: null
+    contact: "linkedin.com/in/ashiqur-rahman-ba1b26197; linkedin.com/in/pranab-saha-63669b41; linkedin.com/in/masumkamal"
   },
   {
     name: "ShellBeeHaken",
@@ -843,7 +843,7 @@ const companies = [
     career: "reckitt.com/careers; linkedin.com/company/reckitt/jobs; careers.reckitt.com/job",
     email: null,
     linkedin: "linkedin.com/company/reckitt",
-    contact: null
+    contact: "linkedin.com/in/salman22"
   },
 
   {
@@ -1006,8 +1006,8 @@ const companies = [
     website: "rokomari.com",
     career: "rokomari.com/career/job",
     email: "careers@rokomari.com",
-    linkedin: "linkedin.com/company/rokomari.com",
-    contact: null
+    linkedin: "linkedin.com/company/rokomari-com",
+    contact: "linkedin.com/in/sajia-jahan-sinha; linkedin.com/in/tanzim-ahmed-4b8770109"
   },
   {
     name: "Design Monks",
@@ -1151,7 +1151,7 @@ const companies = [
     career: "radiantds.com/careers",
     email: "info@radiantds.com",
     linkedin: "linkedin.com/company/radiant-data-systems-ltd",
-    contact: null
+    contact: "linkedin.com/in/rafia-hafiz-837811158; linkedin.com/in/syedhasan88"
   },
   {
     name: "Ontik Technology",
@@ -1313,7 +1313,7 @@ const companies = [
     career: null,
     email: "hr@righttracksit.com",
     linkedin: "linkedin.com/company/right-tracks-it-limited",
-    contact: null
+    contact: "linkedin.com/in/fazle-rabbi-ador"
   },
   {
     name: "JustGo Technologies",
@@ -1772,7 +1772,7 @@ const companies = [
     career: "rayadvertising.com/careers",
     email: "contact@rayadvertising.com; info@rayadvertising.com",
     linkedin: "linkedin.com/company/rayadvertising",
-    contact: null
+    contact: "linkedin.com/in/nuzhat-lamisa-a-901530171; linkedin.com/in/tahmid-bin-monowar; linkedin.com/in/shakila-parvin-tripty-67411ab9; linkedin.com/in/saqlain-siddiqui-332bb2218; linkedin.com/in/salman-mahmud-doha; linkedin.com/in/syed-aqm-aktaruzzaman-shrm-pgdhrm-hrmc-pmd-pro-slii-hay-48945434"
   },
   {
     name: "Appinion BD",
