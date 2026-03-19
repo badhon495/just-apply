@@ -96,7 +96,7 @@ const companies = [
     career: "leads.com.bd/current-vacancies",
     email: "info@leads-bd.com",
     linkedin: "linkedin.com/company/leads-corporation-limited",
-    contact: null
+    contact: "linkedin.com/in/synthia-islam-9872ab204; linkedin.com/in/mahtab-hasan-b6543a77"
   },
   {
     name: "Mediasoft Data Systems Limited",
@@ -150,7 +150,7 @@ const companies = [
     career: "konasl.com/careers",
     email: null,
     linkedin: "linkedin.com/company/konasl",
-    contact: null
+    contact: "linkedin.com/in/suraiya-akhter-labony; linkedin.com/in/maruf-bin-amjad-9a724920b; linkedin.com/in/md-nafiul-hoque-903a60153"
   },
   {
     name: "ShopUp",
@@ -240,7 +240,7 @@ const companies = [
     career: "ifarmer.asia/careers",
     email: 'info@ifarmer.asia',
     linkedin: "linkedin.com/company/ifarmerasia/",
-    contact: null
+    contact: "linkedin.com/in/aleyapervinleena; linkedin.com/in/tahia25; linkedin.com/in/tasmin-sultana-chaity-6a94b4223"
   },
   {
     name: "Shikho",
@@ -348,7 +348,7 @@ const companies = [
     career: "inument.com/careers/",
     email: "jobs@inument.com",
     linkedin: "linkedin.com/company/inument",
-    contact: null
+    contact: "linkedin.com/in/fatema-zaman-16274b277; "
   },
   {
     name: "Bondstein Tech",
@@ -510,16 +510,16 @@ const companies = [
     career: "geekssort.com/career",
     email: "careers@geekssort.com",
     linkedin: "linkedin.com/company/geekssort",
-    contact: null
+    contact: "inkedin.com/in/beingebrahim"
   },
   {
     name: "Genex Infosys Limited",
     location: "Nitol Niloy Tower (Level 6-12), Nikunja C/A, Airport Road, Dhaka",
     website: "genexinfosys.com",
     career: "genexinfosys.com/career.php",
-    email: "info@genexinfosys.com",
+    email: "jobs@genexinfosys.com",
     linkedin: "linkedin.com/company/genex-infosys-limited",
-    contact: null
+    contact: "linkedin.com/in/mkhira; linkedin.com/in/mahi-uddin-0b6145155"
   },
   {
     name: "IBOS Limited",
@@ -528,7 +528,7 @@ const companies = [
     career: "ibos.io/career",
     email: "hr@ibos.io",
     linkedin: "linkedin.com/company/iboslimited",
-    contact: null
+    contact: "linkedin.com/in/mahmud-hasan-abir; linkedin.com/in/sk-moinur-rahman-07"
   },
   {
     name: "IQVIA",
@@ -537,7 +537,7 @@ const companies = [
     career: "jobs.iqvia.com",
     email: "careers@iqvia.com",
     linkedin: "linkedin.com/company/iqvia",
-    contact: null
+    contact: "linkedin.com/in/jubaerferdous"
   },
   {
     name: "Jatri Services Limited",
@@ -545,8 +545,8 @@ const companies = [
     website: "jatri.co",
     career: "jatri.co/career",
     email: "career@jatri.co",
-    linkedin: "linkedin.com/company/jatri-app",
-    contact: null
+    linkedin: "linkedin.com/company/jatri-app; linkedin.com/showcase/jatri-career",
+    contact: "linkedin.com/in/shabiha-yeasmin-chrbp; linkedin.com/in/md-mahamudul-hasan-607b3a228 "
   },
   {
     name: "Magnito",
@@ -708,7 +708,7 @@ const companies = [
     career: "career.gainhq.com",
     email: "hello@gainhq.com",
     linkedin: "linkedin.com/company/gainhq-com",
-    contact: null
+    contact: "linkedin.com/in/shamil-khan-079a6915b; "
   },
   {
     name: "Fiber@Home Ltd",
@@ -816,7 +816,7 @@ const companies = [
     career: "career.grameenphone.com/job",
     email: "info@grameenphone.com",
     linkedin: "linkedin.com/company/grameenphone-ltd",
-    contact: null
+    contact: ".linkedin.com/in/fakriamostafiz"
   },
   {
     name: "Banglalink",
@@ -1223,7 +1223,7 @@ const companies = [
     career: "intertek.com/bangladesh/careers/",
     email: null,
     linkedin: "linkedin.com/company/bangladesh-intertek",
-    contact: null
+    contact: "linkedin.com/in/musabbirul-alam"
   },
   {
     name: "Link3 Technologies Ltd.",
@@ -1232,7 +1232,7 @@ const companies = [
     career: "link3.net/career",
     email: "jobs@link3.net; info@link3.net",
     linkedin: "linkedin.com/company/link3-technologies",
-    contact: null
+    contact: "linkedin.com/in/toufiqul-islam-630247119; linkedin.com/in/rafeya-sharmin-05777318b; linkedin.com/in/jarin-anjum-chowdhury-8a3a3414b"
   },
   {
     name: "W3 Engineers Ltd.",
@@ -1277,7 +1277,7 @@ const companies = [
     career: "fieldnation.com/careers",
     email: "support@fieldnation.com; info@fieldnation.com",
     linkedin: "linkedin.com/company/field-nation-bd",
-    contact: null
+    contact: "linkedin.com/in/biyas-roy-halder-7376841b2; linkedin.com/in/nahian-akib-7a468a137"
   },
   {
     name: "TechBrigades LTD",
@@ -1295,7 +1295,7 @@ const companies = [
     career: "linkedin.com/company/inovace-technologies/jobs",
     email: "hr@inovacetech.com",
     linkedin: "linkedin.com/company/inovace-technologies",
-    contact: null
+    contact: "linkedin.com/in/tuhinrakib; linkedin.com/in/sakib-hr; linkedin.com/in/sadia-momtaz-b1b795247"
   },
   {
     name: "Spectrum Software & Consulting Ltd (SSCL)",
@@ -1322,7 +1322,7 @@ const companies = [
     career: "justgo.com/careers",
     email: "support@justgo.com",
     linkedin: "linkedin.com/company/JustGoTechnologies",
-    contact: null
+    contact: "linkedin.com/in/humayankabirrr; linkedin.com/in/kazi-ayesha-rahman-21606a13a; "
   },
   {
     name: "AdPlay Technology",
@@ -1493,7 +1493,7 @@ const companies = [
     career: null,
     email: "foysal@intelmachin.es",
     linkedin: "linkedin.com/company/intelligent-machines-ltd",
-    contact: null
+    contact: "linkedin.com/in/foysal-hosen"
   },
   {
     name: "Kite Games Studio Ltd.",
@@ -1502,7 +1502,7 @@ const companies = [
     career: "kitegamesstudio.com",
     email: "career@kitegamesstudio.com",
     linkedin: "linkedin.com/company/kite-games-studio",
-    contact: null
+    contact: "linkedin.com/in/jharna-rahman-69ab95155"
   },
   {
     name: "Shuttle",
@@ -1520,7 +1520,7 @@ const companies = [
     career: "career.hubxpert.com/hubxpert-application-form; linkedin.com/company/hubxpert/jobs/; career.hubxpert.com/join-us",
     email: "hr@hubxpert.com",
     linkedin: "linkedin.com/company/hubxpert",
-    contact: null
+    contact: "linkedin.com/in/mdtonmoy"
   },
   {
     name: "BRACNet Limited",
@@ -1565,7 +1565,7 @@ const companies = [
     career: "klozer.io/join-us",
     email: "hr.klozer@gmail.com",
     linkedin: "linkedin.com/company/klozer-inc",
-    contact: null
+    contact: "linkedin.com/in/mohammad-yamin-949055339"
   },
   {
     name: "Bahon Limited",
@@ -1673,7 +1673,7 @@ const companies = [
     career: "careers.foodpanda.com/bangladesh; linkedin.com/company/foodpanda/jobs",
     email: null,
     linkedin: "linkedin.com/company/foodpanda",
-    contact: null
+    contact: "linkedin.com/in/s-m-shohidul-islam-b2378377"
   },
   {
     name: "Wafi Solutions",
@@ -1736,7 +1736,7 @@ const companies = [
     career: null,
     email: "hr02@gtrbd.com",
     linkedin: "linkedin.com/company/genuine-technology-&-research-ltd-",
-    contact: null
+    contact: "linkedin.com/in/engrabuhena"
   },
   {
     name: "Implevista",
@@ -1763,7 +1763,7 @@ const companies = [
     career: "gozayaan.com/talent",
     email: "info@gozayaan.com",
     linkedin: "linkedin.com/company/gozayaanlimited",
-    contact: null
+    contact: "linkedin.com/in/nafisa-anjoom; linkedin.com/in/maria-nazifa"
   },
   {
     name: "ShareTrip",
@@ -1834,8 +1834,8 @@ const companies = [
     website: "infinitibit.com",
     career: null,
     email: "career@infinitibit.com",
-    linkedin: "linkedin.com/company/infinitibit",
-    contact: null
+    linkedin: "linkedin.com/company/infinitibit; linkedin.com/showcase/infinitibit-talent-culture",
+    contact: "linkedin.com/in/aparajita-barua; linkedin.com/in/md-tanzir-hossain"
   },
   {
     name: "RazinSoft",
@@ -1898,7 +1898,7 @@ const companies = [
     career: "bd.gaotek.com/careers/",
     email: "Hire-Bangladesh-A@thegaogroup.com",
     linkedin: "linkedin.com/company/gao-tek-inc-",
-    contact: null
+    contact: "linkedin.com/in/ahida-sultana; linkedin.com/in/tamanna-tashin-379a972a1; linkedin.com/in/maisha-subah-promi-3b14a9305"
   },
 
 
