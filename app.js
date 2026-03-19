@@ -222,7 +222,7 @@ const companies = [
     career: "nagorik.tech/career",
     email: null,
     linkedin: "linkedin.com/company/nagorik-technologies-ltd/",
-    contact: null
+    contact: "linkedin.com/in/jahan-ara-tasnin"
   },
   {
     name: "Craftsmen Software",
@@ -321,7 +321,7 @@ const companies = [
     career: "mysoftheaven.com/career",
     email: "hr@mysoftheaven.com",
     linkedin: "linkedin.com/company/mysoftheaven",
-    contact: null
+    contact: "linkedin.com/in/jharna-roy-4b7a3527a"
   },
   {
     name: "Pridesys IT",
@@ -366,7 +366,7 @@ const companies = [
     career: "ngenitltd.com/jobs",
     email: "sales@ngenitltd.com",
     linkedin: "linkedin.com/company/ngenitltd/",
-    contact: null
+    contact: "linkedin.com/in/rmehedi"
   },
   {
     name: "Creative IT Soft",
@@ -725,8 +725,8 @@ const companies = [
     website: "nagad.com.bd",
     career: "nagad.com.bd/career",
     email: "recruitment@nagad.com.bd",
-    linkedin: "linkedin.com/company/mynagad",
-    contact: null
+    linkedin: "linkedin.com/company/mynagad; linkedin.com/company/nagad-people-culture",
+    contact: "linkedin.com/in/smitaaparna; linkedin.com/in/toma3599; linkedin.com/in/sohanur-rahman-du"
   },
   {
     name: "Upay",
@@ -834,7 +834,7 @@ const companies = [
     career: "career.nymphsolutions.com",
     email: "hr@nymphsolutions.com",
     linkedin: "linkedin.com/company/nymphsolutions",
-    contact: null
+    contact: "linkedin.com/in/proma-saha07; linkedin.com/in/kazi-safaet-mahmud-auvi; inkedin.com/in/mosammad-khadija-68087859"
   },
   {
     name: "Reckitt Benckiser PLC",
@@ -935,7 +935,7 @@ const companies = [
     career: "nybsys.com/career",
     email: "hrd@nybsys.com",
     linkedin: "linkedin.com/company/nybsys",
-    contact: null
+    contact: "linkedin.com/in/rashidul-hasan-hr"
   },
   {
     name: "Synesis IT",
@@ -1124,7 +1124,7 @@ const companies = [
     career: "mirailit.aplicaro.com",
     email: "contact@mirailit.com",
     linkedin: "linkedin.com/company/mirailit",
-    contact: null
+    contact: "linkedin.com/in/shajidhassan"
   },
   {
     name: "Efoli",
@@ -1349,7 +1349,7 @@ const companies = [
     career: "nextventures.io/career",
     email: "hello@nextventures.io",
     linkedin: "linkedin.com/company/nextventuresofficial",
-    contact: null
+    contact: "linkedin.com/in/saim-ur-rahman; linkedin.com/in/ashraful-goni-35aba4201; linkedin.com/in/ahnaf-shamit-ulab; linkedin.com/in/nadia-islam-aksha-182a751b1"
   },
   {
     name: "FringeCore",
@@ -1707,9 +1707,9 @@ const companies = [
     location: "House - 1, Road - 36, Gulshan - 2, Dhaka",
     website: "nimblesl.com",
     career: "nimblesl.com/careers",
-    email: "career@nimblesl.com",
+    email: "career@nimblesl.com; hr@nimblesl.com",
     linkedin: "linkedin.com/company/nimble-software-lab",
-    contact: null
+    contact: "linkedin.com/in/aniklavida"
   },
   {
     name: "Dohatec",
@@ -1880,7 +1880,7 @@ const companies = [
     career: "https://careers.smartrecruiters.com/NiftyCodersPvtLtd/; linkedin.com/company/nifty-coders/jobs",
     email: "hello@niftycoders.com",
     linkedin: "linkedin.com/company/nifty-coders",
-    contact: null
+    contact: "linkedin.com/in/amatur-lushan-46043518b"
   },
   {
     name: "GAO (Global Advanced Operations) Tek Inc",
