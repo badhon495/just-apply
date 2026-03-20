@@ -618,7 +618,7 @@ const companies = [
     career: "siliconorchard.com/career",
     email: "careers@siliconorchard.com",
     linkedin: "linkedin.com/company/silicon-orchard-ltd",
-    contact: null
+    contact: "linkedin.com/in/mdsiddiqhasan"
   },
   {
     name: "Spring Rain IT",
@@ -636,7 +636,7 @@ const companies = [
     career: "sslwireless.com/career",
     email: "query@sslwireless.com",
     linkedin: "linkedin.com/company/ssl-wireless",
-    contact: null
+    contact: "linkedin.com/in/gazy-yasir-arafat-73069a175; linkedin.com/in/selvester-rozario; linkedin.com/in/sadia-hafeza-jaman-33ab73a5"
   },
   {
     name: "Strativ BD Ltd.",
@@ -1186,7 +1186,7 @@ const companies = [
     website: "startise.com",
     career: "startise.com/careers",
     email: "info@startise.com",
-    linkedin: "linkedin.com/company/startise",
+    linkedin: "linkedin.com/company/startisetech",
     contact: null
   },
   {
@@ -1511,7 +1511,7 @@ const companies = [
     career: null,
     email: "info@shuttlebd.com",
     linkedin: "linkedin.com/company/shuttlebd",
-    contact: null
+    contact: "linkedin.com/in/jawwad-jahangir-73339a87"
   },
   {
     name: "HubXpert",
