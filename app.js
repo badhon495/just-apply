@@ -645,7 +645,7 @@ const companies = [
     career: "strativ.se/en/karriar",
     email: null,
     linkedin: "linkedin.com/company/strativ-ab",
-    contact: null
+    contact: "linkedin.com/in/nahid-hasan-s9487; linkedin.com/in/romana-naznin28; inkedin.com/in/mim-akter-dola-b68131229"
   },
   {
     name: "TechnoVista Limited",
@@ -944,7 +944,7 @@ const companies = [
     career: null,
     email: "info@synesisit.com.bd",
     linkedin: "linkedin.com/company/synesis-it-limited",
-    contact: null
+    contact: "linkedin.com/in/abdullah-galib"
   },
   {
     name: "Caretutors Technologies Ltd.",
@@ -1610,7 +1610,7 @@ const companies = [
     career: "superannotate.com/careers; linkedin.com/company/superannotate/jobs",
     email: null,
     linkedin: "linkedin.com/company/superannotate",
-    contact: null
+    contact: "linkedin.com/in/iamazaz; linkedin.com/in/fatima-zohora"
   },
   {
     name: "Miaki",
