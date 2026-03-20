@@ -24,7 +24,7 @@ const companies = [
     career: "vivasoftltd.com/career",
     email: "contact@vivasoftltd.com",
     linkedin: "linkedin.com/company/vivasoftltd",
-    contact: null
+    contact: "linkedin.com/in/habiba-momtaz-shathi-"
   },
   {
     name: "Enosis Solutions",
@@ -660,9 +660,9 @@ const companies = [
     name: "Vantage Labs",
     location: "House: 4, Road: 9/B, Nikunja – 1, Dhaka",
     website: "vantage.com",
-    career: "vantage.com/careers",
+    career: "vantage.com/careers; linkedin.com/company/vantage-labs-llc/jobs",
     email: "info@technovista.com.bd",
-    linkedin: "linkedin.com/company/vantage-labs-dhaka",
+    linkedin: "linkedin.com/company/vantage-labs-llc",
     contact: null
   },
   {
@@ -672,7 +672,7 @@ const companies = [
     career: "welldev.io/careers",
     email: "recruitment@welldev.io",
     linkedin: "linkedin.com/company/welldevintl",
-    contact: null
+    contact: "linkedin.com/in/towfiqbd; linkedin.com/in/tasmia-marufa"
   },
   {
     name: "weDevs Ltd",
@@ -681,7 +681,7 @@ const companies = [
     career: "wedevs.com/career",
     email: "hello@wedevs.com",
     linkedin: "linkedin.com/company/wedevs",
-    contact: null
+    contact: "linkedin.com/in/shakibquraishy; linkedin.com/in/rrajuan"
   },
   {
     name: "Workspace InfoTech Limited",
@@ -690,7 +690,7 @@ const companies = [
     career: "workspaceit.com/career",
     email: "hr@workspaceit.com",
     linkedin: "linkedin.com/company/workspace-infotech-limited",
-    contact: null
+    contact: "linkedin.com/in/aktaruzzamananik"
   },
   {
     name: "ERA-InfoTech Limited",
@@ -735,7 +735,7 @@ const companies = [
     career: null,
     email: "info@upaybd.com",
     linkedin: "linkedin.com/company/upay-ucbfintech",
-    contact: null
+    contact: "linkedin.com/in/arpon-saha-635b27146; linkedin.com/in/adnan1813"
   },
   {
     name: "Cloudly Infotech Limited",
@@ -753,7 +753,7 @@ const companies = [
     career: "zeuz.ai/career",
     email: "info@zeuz.ai",
     linkedin: "linkedin.com/company/zeuzai/",
-    contact: null
+    contact: "linkedin.com/in/thisissufian"
   },
   {
     name: "Mediusware",
@@ -798,7 +798,7 @@ const companies = [
     career: null,
     email: "info@vitalgap.com",
     linkedin: "linkedin.com/company/vitalgap",
-    contact: null
+    contact: "linkedin.com/in/tauhid-ahmed-5407a221a; linkedin.com/in/saquib-ali-k-271589a5"
   },
   {
     name: "Robi",
@@ -872,7 +872,7 @@ const companies = [
     career: "wpp.com/careers",
     email: "careers@wppproduction.com",
     linkedin: "linkedin.com/company/wppproductiondhaka",
-    contact: null
+    contact: "linkedin.com/in/faaria-tabassum-aniqa; linkedin.com/in/bushra-muquith"
   },
   {
     name: "Qtec Solution Limited",
@@ -890,7 +890,7 @@ const companies = [
     career: "zmctechnologies.com/careers",
     email: "contact@zmctechnologies.com",
     linkedin: "linkedin.com/company/zmctech",
-    contact: null
+    contact: "linkedin.com/in/md-mashrur-rahman-hr"
   },
   {
     name: "CodeCrafters International Ltd.",
@@ -1025,7 +1025,7 @@ const companies = [
     career: "tygrlabs.co/career",
     email: "career@tygrlabs.co",
     linkedin: "linkedin.com/company/tygrlabs",
-    contact: null
+    contact: "linkedin.com/in/ahasanulhoque; linkedin.com/in/mahjabeen-syed-b80817156; linkedin.com/in/anik-istiaque-01b433174"
   },
   {
     name: "EchoaSoft Ltd.",
@@ -1097,7 +1097,7 @@ const companies = [
     career: "trucklagbe.com/career",
     email: "career@trucklagbe.com",
     linkedin: "linkedin.com/company/trucklagbe",
-    contact: null
+    contact: "linkedin.com/in/kaisar-ahmed-majumder; linkedin.com/in/dedarul-islam-rana"
   },
   {
     name: "CONNEKT Studio",
@@ -1178,7 +1178,7 @@ const companies = [
     career: "www.wpxpo.com/career",
     email: "career@wpxpo.com",
     linkedin: "linkedin.com/company/wpxpohq",
-    contact: null
+    contact: "linkedin.com/in/mohshin-imam-pranto-982343247"
   },
   {
     name: "Startise",
@@ -1241,7 +1241,7 @@ const companies = [
     career: "w3engineers.com/career",
     email: "jobs@w3engineers.com",
     linkedin: "linkedin.com/company/w3engineers",
-    contact: null
+    contact: "linkedin.com/in/jannatulferdousjui"
   },
   {
     name: "FigLab",
@@ -1538,7 +1538,7 @@ const companies = [
     career: "wegro.global/career",
     email: "career@wegro.global",
     linkedin: "linkedin.com/company/wegro-global",
-    contact: null
+    contact: "linkedin.com/in/mdmoniruzzamanrobin"
   },
   {
     name: "Patricius IT",
