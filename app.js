@@ -159,7 +159,7 @@ const companies = [
     career: "shopup.org/career",
     email: "hello@shopup.org",
     linkedin: "linkedin.com/company/shopfront-limited",
-    contact: null
+    contact: "linkedin.com/in/ishtiak-bhuiyan-mehdi; linkedin.com/in/mosaraf-hossain; linkedin.com/in/sadia-sefat-067861202; linkedin.com/in/md-jahidur-rashid-shibly-32721b93; linkedin.com/in/shahriar-alam-864b19150; linkedin.com/in/jayedul-islam-9423721ba"
   },
   {
     name: "Pathao",
@@ -211,9 +211,9 @@ const companies = [
     location: "Secure Link Services BD Ltd. Midas Center, H-05, R-16 (New) Dhanmondi,",
     website: "selisegroup.com",
     career: "selisegroup.com/about-us/#selise-career",
-    email: "support@selisegroup.com",
-    linkedin: "linkedin.com/company/selise",
-    contact: null
+    email: "job@selisegroup.com",
+    linkedin: "linkedin.com/company/selise; linkedin.com/showcase/selise-careers",
+    contact: "linkedin.com/in/nijhum-ghosh; linkedin.com/in/fariza-raida-212a0516b; linkedin.com/in/sumaya-rahman-shimu-285117198; linkedin.com/in/redwan-ahmed-828a49192"
   },
   {
     name: "Nagorik Technologies",
@@ -249,7 +249,7 @@ const companies = [
     career: 'shikho.freshteam.com/jobs',
     email: "team@shikho.com",
     linkedin: "linkedin.com/company/shikho",
-    contact: null
+    contact: "linkedin.com/in/piashpaul; linkedin.com/in/shahrin-ahammad-a12850239; linkedin.com/in/ishmamchowdhury; linkedin.com/in/sabiha-afrin-dristy-6638441b3"
   },
   {
     name: "Arogga",
@@ -384,7 +384,7 @@ const companies = [
     career: "shohozsoftware.com/career",
     email: "hr@shohozsoftware.com",
     linkedin: "linkedin.com/company/shohozsoftware",
-    contact: null
+    contact: "linkedin.com/in/sirajul-munir-shanto"
   },
   {
     name: "Shohoz",
@@ -780,7 +780,7 @@ const companies = [
     career: "shadhinlab.com/career",
     email: "career@shadhinlab.com",
     linkedin: "linkedin.com/company/shadhin-lab-llc",
-    contact: null
+    contact: "linkedin.com/in/md-ashikul-islam22; linkedin.com/in/hasanur"
   },
   {
     name: "DevotrixInc",
@@ -908,7 +908,7 @@ const companies = [
     career: "shantaholdings.com/career",
     email: "hr@shantaholdings.com",
     linkedin: "linkedin.com/company/shantaholdings",
-    contact: null
+    contact: "linkedin.com/in/tania-islam-b26635157"
   },
   {
     name: "Bangladesh Software Solution",
@@ -1088,7 +1088,7 @@ const companies = [
     career: "sazim.io/careers",
     email: "talent@sazim.io",
     linkedin: "linkedin.com/company/sazim",
-    contact: null
+    contact: "linkedin.com/in/esnrrahman"
   },
   {
     name: "Truck Lagbe",
@@ -1394,7 +1394,7 @@ const companies = [
     career: "career.sajida.org",
     email: "inquiry@sajida.org",
     linkedin: "linkedin.com/company/sajida-foundation",
-    contact: null
+    contact: "linkedin.com/in/mahmudulmohsin; linkedin.com/in/mdnomanuzzaman; "
   },
   {
     name: "COdesign",
@@ -1423,7 +1423,7 @@ const companies = [
     linkedin: "linkedin.com/company/tech-cloud-ltd",
     contact: null
   },
-    {
+  {
     name: "Suffix IT Limited",
     location: "Cha-70,70/A, Rupayan Millennium Square (9A), Progoti Sharoni, North Badda, Gulshan, Dhaka",
     website: "suffixit.com",
@@ -1441,7 +1441,7 @@ const companies = [
     linkedin: "linkedin.com/company/get-levrg-bd",
     contact: null
   },
-    {
+  {
     name: "Linno",
     location: "Level 12B, 69/1 Chandrashila Suvastu Tower, Panthapath, Dhaka",
     website: "linno.io",
