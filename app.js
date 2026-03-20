@@ -771,7 +771,7 @@ const companies = [
     career: null,
     email: "careers@tallykhata.com",
     linkedin: "linkedin.com/company/tallykhata",
-    contact: null
+    contact: "linkedin.com/in/hasan-rinku; linkedin.com/in/antora-hayat-khan-938a18399"
   },
   {
     name: "Shadhin Lab",
@@ -1376,7 +1376,7 @@ const companies = [
     career: "linkedin.com/company/ticonsys/jobs/",
     email: "career@ticonsys.com",
     linkedin: "linkedin.com/company/ticonsys",
-    contact: null
+    contact: "linkedin.com/in/samia-rahman-24660517b"
   },
   {
     name: "Stardust Telecom Limited",
@@ -1421,7 +1421,7 @@ const companies = [
     career: "techcloudltd.com/career-at-tech-cloud-ltd",
     email: "hr@techcloudltd.com",
     linkedin: "linkedin.com/company/tech-cloud-ltd",
-    contact: null
+    contact: "linkedin.com/in/kazihasanmahmud"
   },
   {
     name: "Suffix IT Limited",
@@ -1484,7 +1484,7 @@ const companies = [
     career: "https://technonext.com/career",
     email: "info@technonext.com",
     linkedin: "linkedin.com/company/technonextsoftwareltd/",
-    contact: null
+    contact: "linkedin.com/in/zahiidul-islam; linkedin.com/in/akmfaisalhaque; linkedin.com/in/barna960; linkedin.com/in/maimuna-suchona"
   },
   {
     name: "Intelligent Machines",
@@ -1745,7 +1745,7 @@ const companies = [
     career: null,
     email: "info@talentpro.global; hannan@talentpro.global",
     linkedin: "linkedin.com/company/talentproglobal",
-    contact: null
+    contact: "linkedin.com/in/mdhannanhossain"
   },
   {
     name: "GoZayaan",
