@@ -1199,6 +1199,42 @@ const companies = [
     contact: null
   },
   {
+    name: "foodi",
+    location: "191/B Bir Uttam Mir Shawkat Sarak, Dhaka",
+    website: "foodibd.com",
+    career: "foodibd.com/careerss",
+    email: "hr@foodibd.com",
+    linkedin: "linkedin.com/company/foodibd",
+    contact: "linkedin.com/in/samia-rahman-28820717a; linkedin.com/in/tahamid; linkedin.com/in/evon-islam-8681b8350"
+  },
+  {
+    name: "RANCON",
+    location: "RANGS Bhaban. Bijoy Sarani, Dhaka",
+    website: "rancon.com.bd",
+    career: "rancon.com.bd/career",
+    email: null,
+    linkedin: "linkedin.com/company/ranconhl",
+    contact: "linkedin.com/in/asadullah-mohammad-galib-04a7a2114"
+  },
+  {
+    name: "Barikoi",
+    location: "Dr Mohsin Plaza, House 2/7, Begum Rokeya Sarani, Pallabi, Mirpur, Dhaka",
+    website: "barikoi.com",
+    career: null,
+    email: "career@barikoi.com",
+    linkedin: "linkedin.com/company/barikoi",
+    contact: "linkedin.com/in/maliha-tisha-9149351b2"
+  },
+  {
+    name: "Advanced Chemical Industries (ACI) PLC",
+    location: "ACI Centre 245, Tejgaon Industrial Area, Dhaka",
+    website: "aci-bd.com",
+    career: "career.aci-bd.com",
+    email: null,
+    linkedin: "linkedin.com/company/acibdhr; linkedin.com/company/aci-limited/",
+    contact: "linkedin.com/in/md-iffat-hossain-52b839140"
+  },
+  {
     name: "CarryBee",
     location: "97, Sohrawardy Ave, Baridhara Diplomatic Zone, Dhaka",
     website: "carrybee.com",
