@@ -1216,6 +1216,24 @@ const companies = [
     linkedin: "linkedin.com/company/ranconhl",
     contact: "linkedin.com/in/asadullah-mohammad-galib-04a7a2114"
   },
+    {
+    name: "Roxnor",
+    location: "754/1, 4th Floor, West Shewrapara, Rokeya Avenue, Mirpur, Dhaka",
+    website: "roxnor.com",
+    career: "roxnor.com/career",
+    email: null,
+    linkedin: "linkedin.com/company/roxnorhq",
+    contact: "linkedin.com/in/xpeed"
+  },
+      {
+    name: "fleekminds",
+    location: "754/1, 4th Floor, West Shewrapara, Rokeya Avenue, Mirpur, Dhaka",
+    website: "fleekminds.com",
+    career: "fleekminds.com/career",
+    email: "hr@fleekminds.com",
+    linkedin: "linkedin.com/company/fleekminds",
+    contact: "linkedin.com/in/aadibturky"
+  },
   {
     name: "Barikoi",
     location: "Dr Mohsin Plaza, House 2/7, Begum Rokeya Sarani, Pallabi, Mirpur, Dhaka",
