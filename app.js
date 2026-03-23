@@ -1172,6 +1172,51 @@ const companies = [
     contact: "linkedin.com/in/tarequl-islam-khan-254b64151"
   },
   {
+    name: "Traideas",
+    location: "6/2, S. S Alam Khandaker Road, Masdair, Narayanganj",
+    website: "traideas.com",
+    career: null,
+    email: "info@traideas.com",
+    linkedin: "linkedin.com/company/traideas",
+    contact: "linkedin.com/in/limonsafayet; linkedin.com/in/istiak227"
+  },
+  {
+    name: "NextLab",
+    location: "Level 9, Chandrashila Suvastu Tower, 69/1 Panthapath, Dhaka",
+    website: "wenextlab.com",
+    career: "wenextlab.com/careers",
+    email: "hello@wenextlab.com",
+    linkedin: "linkedin.com/company/wenextlab",
+    contact: "linkedin.com/in/asaduzzaman-sohan-927241287; linkedin.com/in/tania-tuli-22b242299"
+  },
+  {
+    name: "CSM Bangladesh Limited",
+    location: "House#13 (1st to 7th floor), Road#05, Sector#16/A, Uttara, Dhaka",
+    website: "csmbangladesh.com",
+    career: "linkedin.com/company/csm-bangladesh/jobs",
+    email: "hr@csmbangladesh.com",
+    linkedin: "linkedin.com/company/csm-bangladesh",
+    contact: null
+  },
+  {
+    name: "CarryBee",
+    location: "97, Sohrawardy Ave, Baridhara Diplomatic Zone, Dhaka",
+    website: "carrybee.com",
+    career: "carrybee.com/careers-listing",
+    email: "info@carrybee.com",
+    linkedin: "linkedin.com/company/carrybee",
+    contact: "linkedin.com/in/fairuzislamrazin; linkedin.com/in/mahedihassanbup; linkedin.com/in/fahim-rahman-6b67b0368; linkedin.com/in/ahmed-tajbid-momtaz; linkedin.com/in/shaheenkim"
+  },
+  {
+    name: "Chardike",
+    location: "Floor 11 (Lift 10), 163-164, Sonargaon Road, Hatirpool, Dhaka",
+    website: "chardike.com",
+    career: null,
+    email: "career@chardike.com",
+    linkedin: "linkedin.com/company/chardike",
+    contact: "linkedin.com/in/tanvirul-haque-58a2a51a3; linkedin.com/in/md-emran-hossain-12844b1a9"
+  },
+  {
     name: "WPXPO",
     location: "House No. 1/C, Road No. 1, Shyamoli, Dhaka",
     website: "wpxpo.com",
