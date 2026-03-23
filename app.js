@@ -1253,13 +1253,13 @@ const companies = [
     contact: null
   },
   {
-    name: "Omera",
+    name: "Omera Petroleum Limited",
     location: "Mobil House, CWS (A) 13/A, Gulshan Avenue, Bir Uttam Mir Shawkat Sarak, Dhaka",
     website: "omeralpg.com",
     career: null,
     email: "career@omeralpg.com",
     linkedin: "linkedin.com/company/omera-petroleum-limited",
-    contact: null
+    contact: "linkedin.com/in/ashraful97"
   },
   {
     name: "fleekminds",
