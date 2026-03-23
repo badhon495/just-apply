@@ -1216,7 +1216,7 @@ const companies = [
     linkedin: "linkedin.com/company/ranconhl",
     contact: "linkedin.com/in/asadullah-mohammad-galib-04a7a2114"
   },
-    {
+  {
     name: "Roxnor",
     location: "754/1, 4th Floor, West Shewrapara, Rokeya Avenue, Mirpur, Dhaka",
     website: "roxnor.com",
@@ -1225,7 +1225,43 @@ const companies = [
     linkedin: "linkedin.com/company/roxnorhq",
     contact: "linkedin.com/in/xpeed"
   },
-      {
+  {
+    name: "Walton",
+    location: "Plot-1088, Block-I, Sabrina Sobhan Road, P.O-Khilkhet, P.S-Vatara, Bashundhara R/A, Dhaka",
+    website: "waltonbd.com",
+    career: "jobs.waltonbd.com",
+    email: "career@waltonbd.com",
+    linkedin: "linkedin.com/company/walon-group",
+    contact: "linkedin.com/in/mahfuzur-rahman-528075125; linkedin.com/in/sharif-md-saddam; linkedin.com/in/sudeb-das-ckpis-4632a6141; linkedin.com/in/foysalwahid"
+  },
+  {
+    name: "Brotecs Technologies, Inc.",
+    location: "20 Shahjalal Avenue, Level-8 & 10, Sector-4, Uttara, Dhaka",
+    website: "brotecs.com",
+    career: "brotecs.com/career; linkedin.com/company/brotecs-technologies/jobs",
+    email: "hr@brotecs.com",
+    linkedin: "linkedin.com/company/brotecs-technologies",
+    contact: null
+  },
+  {
+    name: "Zenorin",
+    location: "House No-380 (4th Floor), Road No-28, Mohakhali DOHS, Dhaka",
+    website: "zenorin.com",
+    career: "zenorin.com/career",
+    email: "info@zenorin.com",
+    linkedin: "linkedin.com/company/zenorin",
+    contact: null
+  },
+  {
+    name: "Omera",
+    location: "Mobil House, CWS (A) 13/A, Gulshan Avenue, Bir Uttam Mir Shawkat Sarak, Dhaka",
+    website: "omeralpg.com",
+    career: null,
+    email: "career@omeralpg.com",
+    linkedin: "linkedin.com/company/omera-petroleum-limited",
+    contact: null
+  },
+  {
     name: "fleekminds",
     location: "754/1, 4th Floor, West Shewrapara, Rokeya Avenue, Mirpur, Dhaka",
     website: "fleekminds.com",
