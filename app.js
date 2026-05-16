@@ -2036,6 +2036,16 @@ const companies = [
     contact: null
   },
 
+   {
+    name: "MGH Group",
+    location: "BSCIC Electronics Complex, Level-8, Plot-1/1 Road-3, Section-7, Mirpur-11, Dhaka",
+    website: "mghgroup.com",
+    career: "mghgroup.com/careers; facebook.com/MGHcareers",
+    email: "contact@mghgroup.com",
+    linkedin: "linkedin.com/company/mghgroup",
+    contact: "linkedin.com/in/annisa-islam-nidhi"
+  },
+
 
 ];
 
