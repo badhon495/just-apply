@@ -2026,6 +2026,15 @@ const companies = [
     linkedin: "linkedin.com/company/gao-tek-inc-",
     contact: "linkedin.com/in/ahida-sultana; linkedin.com/in/tamanna-tashin-379a972a1; linkedin.com/in/maisha-subah-promi-3b14a9305"
   },
+    {
+    name: "HawarIT",
+    location: "BSCIC Electronics Complex, Level-8, Plot-1/1 Road-3, Section-7, Mirpur-11, Dhaka",
+    website: "hawarit.com",
+    career: "hawarit.com/career-at-hawarit",
+    email: "career@hawarit.com",
+    linkedin: "linkedin.com/company/hawarit",
+    contact: null
+  },
 
 
 ];
